@@ -18,8 +18,8 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 - [ ] 🟡 **A4. AggregateRating / Review on products** — `snippets/section-main-product.liquid:73`
       uses Shopify's `structured_data` filter (Product + Offer) but no ratings. Judge.me
       is installed — configure it to inject `AggregateRating`, or add manually.
-- [ ] 🟡 **A5. ItemList on collection pages** — `snippets/section-main-collection.liquid:97`
-      emits thin `CollectionPage`. Add `ItemList` enumerating products.
+- [x] ✅ **A5. ItemList on collection pages** — DONE. CollectionPage schema now
+      includes an `ItemList` enumerating products on the current page (url + name).
 - [x] ✅ **A6. Article publisher logo fix** — DONE. Now uses `settings.logo`
       (shop logo); falls back to `page_image` only if no logo set.
 - [ ] ⚪ **A7. VideoObject** — `featured-video`/`hero-video`/`promo-video` sections emit
