@@ -1,0 +1,63 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "context": {
+    "market": "united-kingdom"
+  },
+  "parent": "index.json",
+  "sections": {
+    "slideshow_split_Eb9EQT": {
+      "settings": {},
+      "blocks": {
+        "slide_AtynXi": {
+          "settings": {
+            "top_subheading": "510 DL -500mAh",
+            "title": "Pulsar Scribe Vape Pen",
+            "subheading": "Hide your sesh in plain sight. This ultra-discreet 510-thread vaporizer is cleverly disguised as a classic ribbed pen—and yes, it actually has real ink so you can jot down your high thoughts.",
+            "image": "shopify://shop_images/imgi_52_491468309_1009423877490363_1725721225627763250_n.webp"
+          }
+        }
+      },
+      "block_order": [
+        "slide_AtynXi"
+      ]
+    },
+    "advanced_content_94NtGq": {
+      "settings": {},
+      "blocks": {
+        "liquid_rY6j99": {
+          "settings": {
+            "code": "<div class=\"home-brand lazyload\">\n\t<div class=\"home-brand-text\">\n        <h1>The #1 Most Trusted Online Headshop in the UK</h1>\n        Created and curated by smokers, for smokers, Headshop.com is the UK's top choice for the best online headshop and smoke shop. Our mission at Headshop.com is to deliver to your door the latest and greatest in: <a href=\"https://www.headshop.com/collections/dab-rigs\">dab rigs</a>, <a href=\"https://www.headshop.com/collections/smoking-pipes\">pipes</a>, <a href=\"https://www.headshop.com/collections/bongs\">bongs</a>, <a href=\"https://www.headshop.com/collections/vaporizers\">vaporisers</a>, <a href=\"https://www.headshop.com/collections/rolling-papers\">rolling papers</a>, popular <a href=\"https://www.headshop.com/collections/smoking-accessories\">smoking accessories</a>, and more. Thousands of loyal customers enjoy Headshop.com’s fast, discreet delivery of amazing smoke shop products at competitive prices. Make sure to sign up for our mailing list to get huge savings on your favourite Headshop.com products and to find out about <a href=\"https://www.headshop.com/collections/on-sale\">our flash sales</a>. \n\t</div>\n</div>"
+          }
+        }
+      }
+    },
+    "advanced_content_ULBCa3": {
+      "settings": {},
+      "blocks": {
+        "liquid_MMUCG9": {
+          "settings": {
+            "code": "<div class=\"homecat-row\">\n\t<div class=\"homecat2\">\n <div class=\"homecat-image\"><a href=\"/collections/vaporizers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Vaporizers.webp?v=1746720615\" loading=\"lazy\" class=\"homecat-img lazyload\" alt=\"Vaporizers\"></a></div>\n    <div class=\"homecat-des\"><a href=\"/collections/vaporizers\" style=\"text-decoration: none;\" >\n      <h3>Vaporizers</h3>\n      Vapes for Dry Herb, Wax &amp; Oils</a></div>\n  </div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/bongs\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Bongs.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"Bongs\"></a></div>\n    <div class=\"homecat-des\" > <a href=\"/collections/bongs\" style=\"text-decoration: none;\">\n      <h3>Bongs</h3>\n      Beakers, Straight & Gravity</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/dab-rigs\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Dab_Rigs.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"Dab Rigs\"></a></div>\n    <div class=\"homecat-des\"><a href=\"/collections/dab-rigs\" style=\"text-decoration: none;\" >\n      <h3>Dab Rigs</h3>\n       Dab Rigs for Concentrates</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/electric-dab-rigs\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/E-Rigs.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Stash Gear\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/electric-dab-rigs\" style=\"text-decoration: none;\" >\n    <h3>E-Rigs</h3>\n    Electric Dab Rigs</a></div>\n</div></div>\n<div class=\"homecat-row\">\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/smoking-pipes\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Pipes_-_Vessel.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"Pipes\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/smoking-pipes\" style=\"text-decoration: none;\" >\n    <h3>Pipes</h3>\n    Spoon, Hand Pipes &amp; More</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/grinders\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Grinders.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"Grinders\"></a></div>\n  <div class=\"homecat-des\"> <a href=\"/collections/grinders\" style=\"text-decoration: none;\" >\n    <h3>Grinders</h3>\n    4 Piece, Metal, &amp; Aerospace</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/rolling-papers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Rolling_Papers.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Rolling Papers\"></a></div> \n  <div class=\"homecat-des\"><a href=\"/collections/rolling-papers\"  style=\"text-decoration: none;\">\n    <h3>Rolling Papers</h3>\n    Flavored, Pre Rolls, &amp; Blunts</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/dab-rig-accessories\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Dab_Accessories.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Bangers\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/dab-rig-accessories\"  style=\"text-decoration: none;\">\n    <h3>Dab Rig Accessories</h3>\n    Bangers, Terp Slupers &amp; Pearls</a></div>\n</div></div>"
+          }
+        }
+      }
+    },
+    "1655080590c5f3de7c": {
+      "settings": {},
+      "blocks": {
+        "16550805904cdbfad9-1": {
+          "settings": {
+            "code": "<style>\n\t\t\n#homepromo-wrapper {\n    max-width: 1300px;\n    margin: auto;\n    margin-top:15px;\n\tpadding:0px 10px 0px 10px;\n}\n.homepromo-icon {\n\tpadding: 0px;\n\tmargin: 0px;\n\t\t\n}\n.homepromo-icon a {margin: 0px; padding: 0px;} \n.homepromo-img {\nwidth: 100%;\n\t\tpadding: 0px;\n\t\tmargin: 0px;\n\t\t\n}\n.homepromo-icon1 {\n\tfloat: left;\n\twidth: 25%;\n}\n.homepromo-icon2 {\nfloat: left;\n\twidth: 25%;\n}\n.homepromo-icon3 {\nfloat: left;\n\twidth: 25%;\n}\n\t\t.homepromo-icon4 {\nfloat: left;\n\twidth: 25%;\n}\n\t\n\t\n\t</style>\n<div id=\"homepromo-wrapper\">\n\t\t\t<div class=\"homepromo-icon1\"><a href=\"/collections/ongrok\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Headshop-Smoke-Shop_01.jpg?v=1772565568\" alt=\"Headshop Online Smoke Shop \"  class=\"homepromo-img\" style=\"border-radius: 8px 0px 0px 8px;\"></a></strong></div>\n\t\t\t<div class=\"homepromo-icon2\"><a href=\"/collections/puffco\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Headshop-Smoke-Shop_02.jpg?v=1772565568\" alt=\"Dab Rigs Bongs Pipes Vaporizers Dab Rigs Grinders Promotion\" class=\"homepromo-img\" ></a></div>\n</div>\n\t<div id=\"homepromo-wrapper\">\n\t    \t\t<div class=\"homepromo-icon3\"><a href=\"/collections/puffco\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Headshop-Smoke-Shop_03.jpg?v=1772565568\" alt=\"Smoking Pipes Promotion\" class=\"homepromo-img\" style=\"border-radius: 0px 0px 0px 0px;\"></a></div>\n    \t\t<div class=\"homepromo-icon4\"><a href=\"/collections/storz-bickel\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Headshop-Smoke-Shop_04.jpg?v=1772565568\" alt=\"Vaporizer Promotion\" class=\"homepromo-img\" style=\"border-radius: 0px 8px 8px 0px;\" ></a></div>\n\t</div>"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,279 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "judgeme_preview_badge_product_page_666b033e": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "package",
+            "text": "Free shipping on orders over $150"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "text": "Secure checkout"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "52c511bf-6905-4d1c-89c8-c2d40f19307e": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "price",
+        "judgeme_preview_badge_product_page_666b033e",
+        "sales_point",
+        "sales_point3",
+        "inventory_status",
+        "buy_buttons",
+        "52c511bf-6905-4d1c-89c8-c2d40f19307e"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "03ed2e2e-3ef6-440c-a554-afc868c4c065": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/black_lo_0006____Disassembled_07626ddf-c7c3-4e95-a7ad-05348a7f700e.png",
+        "image_mask": "none",
+        "image2": "shopify://shop_images/collage_copy.png",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Features",
+        "heading_size": "h2",
+        "text": "<p>Utilizing premium materials, our airpath is free from fibers, glues, or coils. Immerse yourself in clean vapor, rich with flavor — and absolutely nothing else.<br/><br/><strong>The Dart  </strong><br/>Nestled inside the Plus mouthpiece, effortlessly links to the chamber, ensuring easy and mess-free loading. With a glazed and reshaped design, it enhances airflow for optimal vaporization.  <br/><br/><strong>The Chamber  </strong> <br/>This integrated silicone grip helps ensure your fingers remain cool even as the ceramic chamber heats up.<br/><br/><strong>510 Battery  </strong><br/>Choose from Low, Medium, and High heat settings. Experience the convenience of standard hold-to-heat or kick it up a notch with Sesh Mode — double-click for a 12-second heat cycle, eliminating the need to keep the button pressed.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "5b5bccd5-4ded-4b49-9fd1-ee60c2d3ef2c": {
+      "type": "advanced-content",
+      "blocks": {
+        "1d2e48fc-a9f5-4500-a295-d278ff70e5b9": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Full Features</h2>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "template--17241942491375__5b5bccd5-4ded-4b49-9fd1-ee60c2d3ef2c-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "- Coil-less ceramic bowl\n<br>- Built in extendable loading tool\n<br>- Built in carb cap\n<br>- 3 heat settings",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "56175a2b-1ece-4d67-a8c3-1a5c24b38437": {
+          "type": "liquid",
+          "settings": {
+            "code": "- Sesh-mode functionality<br>\n- Fast charging and long battery life\n<br>- Precision machined alloy housing<br>\n- Fingerprint resistant coatin",
+            "width": "33%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1d2e48fc-a9f5-4500-a295-d278ff70e5b9",
+        "template--17241942491375__5b5bccd5-4ded-4b49-9fd1-ee60c2d3ef2c-liquid-1",
+        "56175a2b-1ece-4d67-a8c3-1a5c24b38437"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "53848a86-0cb8-4f83-8663-a54aa549288c": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "Sneaking in a Dab",
+        "title_size": 70,
+        "subheading": "With New Puffco Plus",
+        "link_text": "",
+        "link": "",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://www.youtube.com/watch?v=qrKy8aBEm5Q",
+        "overlay_opacity": 0,
+        "height": 680,
+        "height_mobile": 300
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "contact"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "judgeme_section_review_widget_bd8a": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f5ab4f77": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f5ab4f77"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Recommendations For You",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {
+        "products_per_row": 3,
+        "max_products": 5
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "settings": {
+        "products_per_row": 3,
+        "max_products": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+        "color_scheme": "2"
+      }
+    },
+    "advanced_content_CbLGjQ": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_nqwmQM": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!-- DataDojo: Pixel -->\n<script>\n  (function (p, i, x, e, l) {\n    if (typeof window !== undefined) {\n      window._dojoPixel = {};\n      window._dojoPixel.events_queue =  window._dojoPixel.events_queue || [];\n      window._ddq = function () {\n        window._dojoPixel.events_queue.push(arguments);\n      };\n      var f = p.getElementsByTagName(i)[0],\n        k = p.createElement(i);\n      k.async = 1;\n      k.src = \"https://pixel.datadojocdp.com/load.js?id=65b8228b4d95e0301a6e7dcc\";\n      f.parentNode.insertBefore(k, f);\n    }\n  })(document, \"script\");\n  _ddq(\"PIXEL_INIT\", {\n    // you can add your own custom data here...\n  });\n  _ddq(\"PAGE_VIEW\");\n</script>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_nqwmQM"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "03ed2e2e-3ef6-440c-a554-afc868c4c065",
+    "5b5bccd5-4ded-4b49-9fd1-ee60c2d3ef2c",
+    "53848a86-0cb8-4f83-8663-a54aa549288c",
+    "sub",
+    "judgeme_section_review_widget_bd8a",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return",
+    "advanced_content_CbLGjQ"
+  ]
+}

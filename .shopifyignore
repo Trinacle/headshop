@@ -1,0 +1,3 @@
+# Atomic-save temp files — the "`.tmp.*` contains illegal characters" upload race
+*.tmp.*
+*.tmp

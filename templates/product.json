@@ -1,0 +1,283 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title_Ur37VN": {
+          "type": "title",
+          "settings": {
+            "vendor_enable": false,
+            "sku_enable": false
+          }
+        },
+        "judgeme_preview_badge_product_page_666b033e": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "appstle_subscription_appstle_subscription_product_page_widget_iagWJn": {
+          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {}
+        },
+        "fbp_fast_bundle_volume_position_C9iCkV": {
+          "type": "shopify://apps/fbp-fast-bundle/blocks/volume_position/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "package",
+            "text": "Free Shipping Over $100"
+          }
+        },
+        "sales_point_njETMR": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "heart",
+            "text": "Over 100,000 Happy Customers"
+          }
+        },
+        "sales_point_RTrrhr": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "gift",
+            "text": "Discreet Packaging"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "text": "Secure Checkout"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "fbp_fast_bundle_add_on_position_xVdkxn": {
+          "type": "shopify://apps/fbp-fast-bundle/blocks/addOn_position/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {}
+        },
+        "52c511bf-6905-4d1c-89c8-c2d40f19307e": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "title_Ur37VN",
+        "judgeme_preview_badge_product_page_666b033e",
+        "variant_picker",
+        "price",
+        "appstle_subscription_appstle_subscription_product_page_widget_iagWJn",
+        "fbp_fast_bundle_volume_position_C9iCkV",
+        "buy_buttons",
+        "sales_point",
+        "sales_point_njETMR",
+        "sales_point_RTrrhr",
+        "sales_point3",
+        "inventory_status",
+        "fbp_fast_bundle_add_on_position_xVdkxn",
+        "52c511bf-6905-4d1c-89c8-c2d40f19307e"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "description"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "judgeme_section_review_widget_bd8a": {
+      "type": "apps",
+      "blocks": {
+        "fbp_fast_bundle_fbt_position_8EEYXK": {
+          "type": "shopify://apps/fbp-fast-bundle/blocks/fbt_position/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {}
+        },
+        "judgeme_review_widget_f5ab4f77": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "fbp_fast_bundle_fbt_position_8EEYXK",
+        "judgeme_review_widget_f5ab4f77"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1726255295da044d68": {
+      "type": "apps",
+      "blocks": {
+        "kobu_menu_highlight_app_block_xGHi48": {
+          "type": "shopify://apps/kobu-menu-highlight/blocks/app-block/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 1000",
+            "group_title": "center_14px",
+            "menu_shape": "circle",
+            "menu_margin_top": 8,
+            "menu_margin_bottom": 8,
+            "menu_gap": 20,
+            "menu_width": 100,
+            "menu_height": 100,
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 14,
+            "menu_title_font_weight": 6,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_mode": "slider_carousel",
+            "menu_position": "center",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "badge_font_size": 14,
+            "custom_css": "",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "kobu_menu_highlight_app_block_xGHi48"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Recommendations For You",
+        "related_count": 5,
+        "products_per_row": 5
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {
+        "products_per_row": 3,
+        "max_products": 5
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "settings": {
+        "products_per_row": 3,
+        "max_products": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {}
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+        "color_scheme": "none"
+      }
+    },
+    "176954178861afed89": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1782253026c689d3c3": {
+      "type": "apps",
+      "blocks": {
+        "aftersell_pdp_upsells_LeA94h": {
+          "type": "shopify://apps/aftersell/blocks/pdp-upsells/509ec35d-0632-4dfc-a105-fa799cd9d149",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "aftersell_pdp_upsells_LeA94h"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "judgeme_section_review_widget_bd8a",
+    "1726255295da044d68",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return",
+    "176954178861afed89",
+    "1782253026c689d3c3"
+  ]
+}

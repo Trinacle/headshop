@@ -1,0 +1,90 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "baa097ff-b1f8-4c4a-a34e-89ac3d0b2801": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "baa097ff-b1f8-4c4a-a34e-89ac3d0b2801"
+      ],
+      "settings": {
+        "title_enable": false,
+        "display_type": "all",
+        "sort": "products_high"
+      }
+    },
+    "logo-list": {
+      "type": "logo-list",
+      "blocks": {
+        "logo1": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo2": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo3": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo4": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo5": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo6": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo1",
+        "logo2",
+        "logo3",
+        "logo4",
+        "logo5",
+        "logo6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Our brands",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "logo-list"
+  ]
+}

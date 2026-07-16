@@ -1,0 +1,185 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "165508738969c97c56": {
+      "type": "rich-text",
+      "blocks": {
+        "16550873898000e2e0-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Start Selling on Headshop.com"
+          }
+        },
+        "16550873898000e2e0-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Be a part of the fastest growing marketplace of smoking gear. Start selling your products right away.  </p>"
+          }
+        },
+        "088eac07-fa49-4e91-ae58-ebf07fd7a0de": {
+          "type": "button",
+          "settings": {
+            "link": "/pages/supplier",
+            "link_text": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "16550873898000e2e0-0",
+        "16550873898000e2e0-1",
+        "088eac07-fa49-4e91-ae58-ebf07fd7a0de"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1655087507835d2f39": {
+      "type": "advanced-content",
+      "blocks": {
+        "165508750717e025cc-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"suppliercat-row\">\n<div class=\"suppliercat\">\n<div class=\"suppliercat-image\"><a href=\"/pages/supplier\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/icon-money.png?v=1647885306\" class=\"suppliercat-img\" alt=\"Pricing\"></a></div>\n<div class=\"suppliercat-des\"><a href=\"/pages/supplier\" style=\"text-decoration: none;\"><h3>Straight Forward Pricing</h3> \nStart selling easy, as Headshop will take over all the details including transaction fees, customer support, postage and more.</a></div>\n</div>\n<div class=\"suppliercat\">\n<div class=\"suppliercat-image\"><a href=\"/pages/supplier\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/icon-payment.png?v=1647885661\" class=\"suppliercat-img\" alt=\"Revenue\"></a></div>\n<div class=\"suppliercat-des\"><a href=\"/pages/supplier\" style=\"text-decoration: none;\">\n    <h3>Consistent Revenue</h3> \n    Selling on Headshop.com provides brands and suppliers with a steady stream of orders from a niche customer base built over over 5+ years, and still growing. </a></div>\n</div>\n\t<div class=\"suppliercat\">\n<div class=\"suppliercat-image\"><a href=\"/collections/smoking-pipes\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/icon-sales.png?v=1647886056\" class=\"suppliercat-img\" alt=\"Sales\"></a></div>\n<div class=\"suppliercat-des\"><a href=\"/collections/smoking-pipes\" style=\"text-decoration: none;\">\n    <h3>Increase Product Sales</h3> \n    When you start selling on Headshop you not only will get more brand exposure from our marketing efforts but also direct sales of your products to our diverse customer base.</a></div>\n</div>\n</div>\n\n<div class=\"suppliercat-row\">\n\n\t\t<div class=\"suppliercat\">\n<div class=\"suppliercat-image\"><a href=\"/pages/supplier\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/icon-24_540x.png?v=1647886341\" class=\"suppliercat-img\" alt=\"USA\"></a></div>\n<div class=\"suppliercat-des\"><a href=\"/pages/supplier\" style=\"text-decoration: none;\">\n    <h3>Sell 24/7 All Over USA</h3> \nStop wasting time trying to sell your products in store. Headshop.com allows you to sell your products all day and night all over the United States.</a></div>\n</div>\n\t\n\t\t\t<div class=\"suppliercat\">\n<div class=\"suppliercat-image\"><a href=\"/pages/supplier\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/icon-cs_540x.png?v=1647886341\" class=\"suppliercat-img\" alt=\"Customer Service\"></a></div>\n<div class=\"suppliercat-des\"><a href=\"/pages/supplier\" style=\"text-decoration: none;\">\n    <h3> Customer Service</h3> \nOur staff of highly trained customer service reps will answer pre-sale customer questions as well as follow up after purchase with any issues that might arise.</a></div>\n</div>\n\n\t\t<div class=\"suppliercat\">\n<div class=\"suppliercat-image\"><a href=\"/pages/supplier\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/icon-secure_540x.png?v=1647886341\" class=\"suppliercat-img\" alt=\"Payment Processing\"></a></div>\n<div class=\"suppliercat-des\"><a href=\"/pages/supplier\" style=\"text-decoration: none;\">\n    <h3> Payment Processing</h3> \n    Selling your smoking products online can be hard to do, Headshop takes care of all the payment processing so you dont have to.</a></div>\n\t</div>\t\n</div>\n</div>\n\n\t<div class=\"supplier-brand\">\n\t\t<div class=\"supplier-brand-text\">\n  <h1>Start Selling On Headshop.com</h1>\nPosting your products on Headshop.com is convenient and fast to do.  Our technology and staff will make the process as easy as possible.<a href=\"https://www.headshop.com/pages/about-us\"></a> Headshop lets you set the prices and shipping costs for your products, so you are sure to make ROI your business needs. Want even more marketing?  Contact us and we can help collaborate together on campaigns that are directly relevant to your brand and products. Our team of professional marketers and vast network of partnerships with large publications results in your products and brands getting more exposure along with more product sales to hundreds of thousands of visitors.</div>\n<div class=\"supplier-button\" align=\"center\">\n<a class=\"btn\" href=\"/pages/supplier\">Get Started</a><p></p>\n</div>\n\t\t\n\t</div>\n\t\n\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165508750717e025cc-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "1655088484bbd58b7f": {
+      "type": "text-columns",
+      "blocks": {
+        "1655088484fe7cbfa7-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Step 1",
+            "text": "<p>Add your products as a supplier You can integrate your e-commerce software with ours or you can send your product list manually in excel sheet, and we will take care of the rest.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1655088484fe7cbfa7-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Step 2",
+            "text": "<p>Setup Shipping & Prices Before you can go Live and start selling you will need to set the shipping prices for all your products and retail prices you want to collect on orders.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1655088484fe7cbfa7-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Step 3",
+            "text": "<p>Process Your Orders Once an order is placed add the shipping tracking code to your Supplier order dashboard. We already included the shipping costs, so you don't need to worry about collecting any money.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "ce43fa63-b527-4165-9583-ce13f6734545": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Step 4",
+            "text": "<p>Add Your Inventory Count We have made it easy to add your product inventory to our Supplier dashboard. Upload the latest inventory count or directly integrate your ecommerce store to our App.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655088484fe7cbfa7-0",
+        "1655088484fe7cbfa7-1",
+        "1655088484fe7cbfa7-2",
+        "ce43fa63-b527-4165-9583-ce13f6734545"
+      ],
+      "settings": {
+        "title": "How to Get Started",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "2"
+      }
+    },
+    "1655088230f0b7c651": {
+      "type": "text-with-icons",
+      "blocks": {
+        "165508823057b2f6d8-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "sales-tag",
+            "title": "Supplier Dashboard",
+            "text": "<p>Manage all your products, inventory, and orders in a simple interface.</p>"
+          }
+        },
+        "165508823057b2f6d8-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "store",
+            "title": "Sync With Shopify Store",
+            "text": "<p>Keep products, orders and inventory synced to your Shopify store.</p>"
+          }
+        },
+        "165508823057b2f6d8-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "stopwatch",
+            "title": "Import From Spreadsheet",
+            "text": "<p>Import your products from spreadsheet, or use online dashboard</p>"
+          }
+        }
+      },
+      "block_order": [
+        "165508823057b2f6d8-0",
+        "165508823057b2f6d8-1",
+        "165508823057b2f6d8-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165508738969c97c56",
+    "1655087507835d2f39",
+    "1655088484bbd58b7f",
+    "1655088230f0b7c651"
+  ]
+}

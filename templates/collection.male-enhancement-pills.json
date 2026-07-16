@@ -1,0 +1,234 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_g3LDbQ": {
+      "type": "slideshow",
+      "blocks": {
+        "hero_Bpnza8": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Male-Enhancement-pills.jpg",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "hero_Bpnza8"
+      ],
+      "name": "t:labels.hero_optional_slides",
+      "settings": {
+        "full_width": false,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapse_filters": true,
+        "enable_color_swatches": true,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {}
+    },
+    "1721924411a58fc466": {
+      "type": "apps",
+      "blocks": {
+        "kobu_menu_highlight_collection_conditional_block_4RBjCB": {
+          "type": "shopify://apps/kobu-menu-highlight/blocks/collection-conditional-block/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 1",
+            "collection_list": [
+              "acrylic-pipes",
+              "ceramic-pipes",
+              "chillums",
+              "coffee-mug-pipes",
+              "dugout-pipes",
+              "dry-pipe",
+              "genius-pipe",
+              "glass-hand-pipes",
+              "glass-pipes",
+              "glow-in-the-dark-pipes",
+              "ice-cream-pipes-and-bongs",
+              "journey-pipe",
+              "krave",
+              "la-pipes",
+              "mug-pipes",
+              "novelty-pipes",
+              "sherlock-pipes",
+              "silicone-weed-pipes",
+              "silicone-pipes",
+              "smoking-pipes",
+              "solopipe",
+              "stealth-pipes",
+              "metal-weed-pipe"
+            ],
+            "menu_shape": "circle",
+            "menu_margin_top": 8,
+            "menu_margin_bottom": 8,
+            "menu_gap": 20,
+            "menu_width": 100,
+            "menu_height": 100,
+            "menu_mode": "slider_carousel",
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 14,
+            "menu_title_font_weight": 6,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_position": "center",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "badge_font_size": 14,
+            "custom_css": "",
+            "custom_js": ""
+          }
+        },
+        "kobu_menu_highlight_collection_conditional_block_gXczEY": {
+          "type": "shopify://apps/kobu-menu-highlight/blocks/collection-conditional-block/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 3",
+            "collection_list": [
+              "cheap-dab-rigs-for-sale",
+              "dab-mats",
+              "dab-collectors",
+              "dab-wax-pens",
+              "dab-rig-accessories",
+              "dab-pads",
+              "dab-nails",
+              "dab-rig-accessories-1",
+              "dab-rigs",
+              "dab-rigs-under-100",
+              "dab-straws",
+              "dab-tools",
+              "torches",
+              "dablabz",
+              "dablamp",
+              "dabpadz",
+              "dabtized",
+              "dishes-dabber-sets",
+              "dr-dabber",
+              "electric-dab-rigs",
+              "east-coasters",
+              "enails",
+              "glass-dab-rigs",
+              "flux",
+              "glass-dab-rigs-1",
+              "honey-dabber",
+              "human-sucks",
+              "hybrid-dab-rigs",
+              "mini-dab-rigs",
+              "mininail",
+              "quartz-dab-rigs",
+              "portable-dab-rigs",
+              "oil-dab-accessories",
+              "recycler-bongs-dab-rigs",
+              "silicone-dab-rigs",
+              "terp-pearl",
+              "terp-balls",
+              "terp-pearls",
+              "terp-pen",
+              "terp-pillar",
+              "terp-pills",
+              "terp-screws",
+              "terp-slurper",
+              "terp-tools",
+              "titanium-nail"
+            ],
+            "menu_shape": "circle",
+            "menu_margin_top": 8,
+            "menu_margin_bottom": 8,
+            "menu_gap": 20,
+            "menu_width": 100,
+            "menu_height": 100,
+            "menu_mode": "slider_carousel",
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 14,
+            "menu_title_font_weight": 6,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_position": "center",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "badge_font_size": 14,
+            "custom_css": "",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "kobu_menu_highlight_collection_conditional_block_4RBjCB",
+        "kobu_menu_highlight_collection_conditional_block_gXczEY"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_g3LDbQ",
+    "collection-header",
+    "main-collection",
+    "recently-viewed",
+    "1721924411a58fc466"
+  ]
+}

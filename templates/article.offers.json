@@ -1,0 +1,162 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "settings": {
+        "blog_capitalize_first": true,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": true
+      }
+    },
+    "17219243038602be74": {
+      "type": "apps",
+      "blocks": {
+        "pro_blogger_pb_post_related_products_YfpC9j": {
+          "type": "shopify://apps/lfs-pro-blogger/blocks/pb_post_related_products/edf01a04-3374-4cc5-afca-2e583da0c869",
+          "settings": {
+            "pb_related_products_title": "",
+            "pb_related_products_title_style": "H1",
+            "pb_related_product_items": 3,
+            "pb_related_product_item_display": 3,
+            "slider_autoplay": "2",
+            "custom_class": "proarticle",
+            "pb_mid_display": true,
+            "pb_mid_display_para": 3,
+            "pb_item_style": "3",
+            "pb_color_image_bg": "",
+            "pb_color_text_bg": "",
+            "pb_color_line": "",
+            "pb_out_of_stock": false,
+            "pb_related_products_matching": "3",
+            "pb_related_products_tag_match": "1",
+            "pb_related_products_title_match": "0",
+            "pb_related_products_adv_match": "3",
+            "pb_show_product": "vendor, reviews, price",
+            "pb_product_reviews": "JudgeMe",
+            "pb_product_sale": false,
+            "pb_product_sale_color": "#ea0606",
+            "pb_product_buy_button": "0",
+            "pb_product_buy_action": "1",
+            "pb_product_buy_button_text": "Buy Now",
+            "related_metafield": []
+          }
+        }
+      },
+      "block_order": [
+        "pro_blogger_pb_post_related_products_YfpC9j"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "248a1465-c1f7-4fb0-86eb-399bcd9b1e0e": {
+          "type": "product",
+          "settings": {
+            "featured_product": "compass-rise-obsidian"
+          }
+        },
+        "product_jnjfbp": {
+          "type": "product",
+          "settings": {
+            "featured_product": "pipe-gunmetal"
+          }
+        }
+      },
+      "block_order": [
+        "share",
+        "248a1465-c1f7-4fb0-86eb-399bcd9b1e0e",
+        "product_jnjfbp"
+      ],
+      "settings": {}
+    },
+    "1721929689062f2ffd": {
+      "type": "apps",
+      "blocks": {
+        "pro_blogger_pb_post_related_products_CHN4fN": {
+          "type": "shopify://apps/lfs-pro-blogger/blocks/pb_post_related_products/edf01a04-3374-4cc5-afca-2e583da0c869",
+          "settings": {
+            "pb_related_products_title": "",
+            "pb_related_products_title_style": "H3",
+            "pb_related_product_items": 6,
+            "pb_related_product_item_display": 4,
+            "slider_autoplay": "2",
+            "custom_class": "",
+            "pb_mid_display": false,
+            "pb_mid_display_para": 4,
+            "pb_item_style": "1",
+            "pb_color_image_bg": "",
+            "pb_color_text_bg": "",
+            "pb_color_line": "",
+            "pb_out_of_stock": false,
+            "pb_related_products_matching": "2",
+            "pb_related_products_tag_match": "1",
+            "pb_related_products_title_match": "1",
+            "pb_related_products_adv_match": "3",
+            "pb_show_product": "vendor, reviews, price",
+            "pb_product_reviews": "None",
+            "pb_product_sale": true,
+            "pb_product_sale_color": "#ea0606",
+            "pb_product_buy_button": "0",
+            "pb_product_buy_action": "0",
+            "pb_product_buy_button_text": "Buy Now",
+            "related_metafield": []
+          }
+        }
+      },
+      "block_order": [
+        "pro_blogger_pb_post_related_products_CHN4fN"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "advanced_content_BCcKg8": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_4wnKzz": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"home-slider\"><strong><a href=\"https://www.headshop.com/collections/on-sale\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/420_Sale_Banner.webp?v=1744236273\" alt=\"420 Sale\" class=\"collectionimg\"></a></strong></div>\n<div class=\"home-slider-mobile\"><a href=\"https://www.headshop.com/collections/on-sale\"><img class=\"collectionimg\" src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/420-SALE-M.webp?v=1744237203\"  alt=\"420 Sale\" style=\"border:0;margin: 10px 0px 20px 0px; border-radius: 8px; width: 100%; max-width: 450px;\" ></a></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_4wnKzz"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17219243038602be74",
+    "sidebar",
+    "1721929689062f2ffd",
+    "advanced_content_BCcKg8"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

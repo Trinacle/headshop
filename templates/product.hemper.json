@@ -1,0 +1,194 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "judgeme_preview_badge_product_page_666b033e": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "package",
+            "text": "Free shipping on orders over $75"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "text": "Secure checkout"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "c44f9b12-3bdc-4997-b619-1a7fd2294d55": {
+          "type": "text",
+          "settings": {
+            "text": "*Hemper will be closed from 3/20 - 4/3 Shipments will resume 4/4/2023. Please expect delays on these prodcuts"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "52c511bf-6905-4d1c-89c8-c2d40f19307e": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "price",
+        "judgeme_preview_badge_product_page_666b033e",
+        "sales_point",
+        "sales_point3",
+        "inventory_status",
+        "c44f9b12-3bdc-4997-b619-1a7fd2294d55",
+        "buy_buttons",
+        "52c511bf-6905-4d1c-89c8-c2d40f19307e"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "contact"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "judgeme_section_review_widget_bd8a": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f5ab4f77": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f5ab4f77"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Recommendations For You"
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {}
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "settings": {}
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+        "color_scheme": "2"
+      }
+    },
+    "165508571863e64424": {
+      "type": "rich-text",
+      "blocks": {
+        "16550857186f8d9820-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Product Reviews"
+          }
+        }
+      },
+      "block_order": [
+        "16550857186f8d9820-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "none",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "judgeme_section_review_widget_bd8a",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return",
+    "165508571863e64424"
+  ]
+}

@@ -1,0 +1,168 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": true,
+        "blog_image_size": "wide"
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "product_NUBXEe": {
+          "type": "product",
+          "settings": {
+            "featured_product": "compass-rise-obsidian"
+          }
+        },
+        "product_DAf7Nr": {
+          "type": "product",
+          "settings": {
+            "featured_product": "helix-gunmetal"
+          }
+        },
+        "product_HhKzyX": {
+          "type": "product",
+          "settings": {
+            "featured_product": "pipe-emerald-1"
+          }
+        },
+        "product_8B7nEm": {
+          "type": "product",
+          "settings": {
+            "featured_product": "ash-black"
+          }
+        }
+      },
+      "block_order": [
+        "product_NUBXEe",
+        "product_DAf7Nr",
+        "product_HhKzyX",
+        "product_8B7nEm"
+      ],
+      "settings": {}
+    },
+    "blog_posts_LHY4TJ": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "The Joint Journal - Tips, Tricks, and Techniques for Connoisseurs",
+        "heading_size": "h2",
+        "heading_position": "center",
+        "blog": "smoking-joints",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "blog_posts_A9AVY7": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "The Latest In Vape Culture. Trends, Communities, and Lifestyle",
+        "heading_size": "h2",
+        "heading_position": "center",
+        "blog": "vapes",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "blog_posts_RXVrzy": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Master The Etiquette & Best Practices of Using a Bong",
+        "heading_size": "h2",
+        "heading_position": "center",
+        "blog": "bongs",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "blog_posts_qHGKHH": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Dabbing Decoded -How to Enhance Your Sessions",
+        "heading_size": "h2",
+        "heading_position": "center",
+        "blog": "dabbing",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "blog_posts_GRKzxq": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "The Rituals & Culture of Pipe Smoking",
+        "heading_size": "h1",
+        "heading_position": "center",
+        "blog": "pipes",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": true
+      }
+    },
+    "blog_posts_agBihy": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Blunt Enthusiast's Corner: Reviews, Recommendations, and Rituals",
+        "heading_size": "h1",
+        "heading_position": "center",
+        "blog": "smoking-blunts",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sidebar",
+    "blog_posts_LHY4TJ",
+    "blog_posts_A9AVY7",
+    "blog_posts_RXVrzy",
+    "blog_posts_qHGKHH",
+    "blog_posts_GRKzxq",
+    "blog_posts_agBihy"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

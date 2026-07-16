@@ -1,0 +1,147 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": false,
+        "collection_image_enable": false,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "1655083190746b77e6": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_AKXhV8": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "16550831907f6246cf-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"collection-des\">\n<h1 style=\"text-align: center;\">Buy Bongs &amp; Water Pipes Online</h1>\nWe’ve curated an amazing selection of bongs, from <a href=\"https://www.headshop.com/collections/beaker-bongs\">beaker bongs</a> that filter fine particles to <a href=\"https://www.headshop.com/collections/precolator-bongs\">percolators</a> that offer the best diffusion and cooling smoke including <a href=\"https://www.headshop.com/collections/glass-bongs\">water pipes of glass</a>, <a href=\"https://www.headshop.com/collections/mini-bongs\">mini</a>, <a href=\"https://www.headshop.com/collections/straight-tube-bongs\">straight tube</a>, and<a href=\"https://www.headshop.com/collections/metal-bongs\"> metal bongs</a> </div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_AKXhV8",
+        "16550831907f6246cf-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "17262629929b685eee": {
+      "type": "apps",
+      "blocks": {
+        "kobu_menu_highlight_app_block_rR4jmn": {
+          "type": "shopify://apps/kobu-menu-highlight/blocks/app-block/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 4",
+            "group_title": "",
+            "menu_shape": "circle",
+            "menu_margin_top": 8,
+            "menu_margin_bottom": 8,
+            "menu_gap": 20,
+            "menu_width": 100,
+            "menu_height": 100,
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 12,
+            "menu_title_font_weight": 6,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_mode": "slider_carousel",
+            "menu_position": "center",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "badge_font_size": 14,
+            "custom_css": "",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "kobu_menu_highlight_app_block_rR4jmn"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_grid",
+        "subcollections"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapse_filters": true,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    },
+    "advanced_content_tBd8Wc": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_mcyhQ7": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>Finding the right bong shouldn't take hours of research. At Headshop.com, we carry over 1,000 bongs and water pipes from 450+ top brands — <a href=\"https://www.headshop.com/collections/beaker-bongs\">beaker bongs</a>, <a href=\"https://www.headshop.com/collections/precolator-bongs\">percolator bongs</a>, <a href=\"https://www.headshop.com/collections/silicone-bongs\">silicone bongs</a>, and everything in between — all in one place with fast, discreet shipping. Whether you're picking up your first piece or upgrading to something with serious filtration, this guide covers what you actually need to know.</p>\n\n<p>From budget-friendly glass under $30 to premium scientific rigs from <a href=\"https://www.headshop.com/collections/grav\">GRAV</a>, <a href=\"https://www.headshop.com/collections/freeze-pipe\">Freeze Pipe</a>, and <a href=\"https://www.headshop.com/collections/chill\">Chill</a>, there's a bong here for every style and budget. Here's how to find yours.</p>\n\n<!-- split -->\n\n<h2>What to Consider Before Buying a Bong</h2>\n<p>The best bong is the one that fits how you actually smoke. Three things narrow it down quickly: the type of bong that suits your style, the material that holds up to your habits, and the size that works for where you'll use it most. Our <a href=\"https://www.headshop.com/blogs/news/the-ultimate-bong-buyer-s-guide-for-beginners\">ultimate bong buyer's guide</a> goes even deeper if you want the full breakdown.</p>\n\n<h3>Type</h3>\n<p><a href=\"https://www.headshop.com/collections/beaker-bongs\">Beaker bongs</a> are the most popular choice for a reason — their wide base holds more water, prevents tipping, and produces smooth, well-filtered hits. <a href=\"https://www.headshop.com/collections/straight-tube-bongs\">Straight tube bongs</a> deliver fast, clean pulls with minimal drag, perfect for beginners and anyone who prefers a direct, full-flavored hit. <a href=\"https://www.headshop.com/collections/precolator-bongs\">Percolator bongs</a> run smoke through additional filtration chambers that cool it dramatically before it reaches your lungs. <a href=\"https://www.headshop.com/collections/silicone-bongs\">Silicone bongs</a> are virtually indestructible and ideal for travel. <a href=\"https://www.headshop.com/collections/mini-bongs\">Mini bongs</a> keep things compact without giving up performance.</p>\n\n<h3>Material</h3>\n<p>Borosilicate glass is the gold standard. It handles heat without warping, doesn't affect flavor, and is easy to inspect and clean. For something that survives drops, food-grade silicone is the smart alternative — flexible, BPA-free, and built to take abuse. Acrylic is the most affordable entry point but can mute flavor over time. For most smokers, borosilicate glass hits the right balance. Not sure which is right for you? Read our full breakdown: <a href=\"https://www.headshop.com/blogs/news/glass-vs-metal-vs-silicone-which-bong-is-the-best-for-you\">Glass vs. Metal vs. Silicone: Which Bong is Best for You?</a></p>\n\n<h3>Size and Portability</h3>\n<p>Taller bongs (10\"–18\"+) give smoke more room to cool, producing noticeably smoother hits — great for home use. <a href=\"https://www.headshop.com/collections/mini-bongs\">Mini bongs</a> (4\"–8\") are easy to store and travel with. If you want the smoothness of a big piece in a compact format, look for a smaller bong with a built-in percolator or ice pinch. You get both portability and cooling without going large.</p>\n\n<h2>Types of Bongs Explained</h2>\n\n<h3>Beaker Bongs</h3>\n<p><a href=\"https://www.headshop.com/collections/beaker-bongs\">Beaker bongs</a> are the most widely used style. The flared base holds more water than straight tubes, which means better filtration, more stability, and a bong that won't tip mid-session. They work with almost every accessory on the market, and most include a removable downstem so you can upgrade the diffusion later. Great for beginners and daily smokers alike. Many beaker bongs include an ice pinch — check out our <a href=\"https://www.headshop.com/collections/ice-bongs\">ice bongs collection</a> if that feature matters to you.</p>\n\n<h3>Straight Tube Bongs</h3>\n<p><a href=\"https://www.headshop.com/collections/straight-tube-bongs\">Straight tube bongs</a> pull air directly through the water with minimal resistance. You clear the chamber fast and get a clean, full-flavored hit. The simple design means fewer parts to clean and nothing complex to break. Pair one with a diffused downstem and you'll get surprisingly smooth pulls for such a straightforward setup — a reliable choice that never goes out of style.</p>\n\n<h3>Percolator Bongs</h3>\n<p><a href=\"https://www.headshop.com/collections/precolator-bongs\">Percolator bongs</a> are built for the smoothest possible hit. The percolator — whether a honeycomb, tree, showerhead, or turbine — forces smoke through dozens of tiny holes, breaking it into fine bubbles that cool and filter far more effectively than a standard downstem alone. If smoke harshness is an issue, a percolator bong solves it. <a href=\"https://www.headshop.com/collections/freeze-pipe\">Freeze Pipe</a> takes this even further with frozen glycerin coils built into the neck, dropping smoke temperature dramatically for an exceptionally smooth inhale.</p>\n\n<h3>Silicone Bongs</h3>\n<p><a href=\"https://www.headshop.com/collections/silicone-bongs\">Silicone bongs</a> are virtually indestructible. Made from food-grade, BPA-free silicone, they flex instead of shatter — drop one on concrete and pick it straight back up. <a href=\"https://www.headshop.com/collections/eyce\">Eyce</a> leads the category with designs that combine silicone bodies with glass bowls and hidden storage compartments built right into the base. Many silicone bongs are dishwasher safe, making cleanup effortless. They're the go-to for travel, outdoor use, or anyone tired of replacing broken glass.</p>\n\n<h3>Mini Bongs</h3>\n<p><a href=\"https://www.headshop.com/collections/mini-bongs\">Mini bongs</a> prove you don't need a large piece to get a great hit. Compact enough to store in a drawer and discreet enough for small spaces, they're perfect for solo sessions or as a travel piece. Look for thick borosilicate glass if you're going small — a well-built mini bong will outlast a cheap full-size piece every time. Also worth exploring: <a href=\"https://www.headshop.com/collections/bubblers\">bubblers</a>, which split the difference between a hand pipe and a bong in a pocketable form factor.</p>\n\n<h3>Gravity Bongs</h3>\n<p><a href=\"https://www.headshop.com/collections/gravity-bongs\">Gravity bongs</a> use water pressure and suction to fill a chamber with dense, concentrated smoke before you inhale — the result is a hit that's significantly more potent than a standard bong. The <a href=\"https://www.headshop.com/collections/grav\">GRAV</a> Gravitron is the most recognized gravity bong on the market, and the <a href=\"https://www.headshop.com/collections/stundenglass\">Stundenglass</a> Gravity Hookah takes the concept to a premium level. Want to understand the mechanics first? Check out <a href=\"https://www.headshop.com/blogs/news/how-to-make-a-homemade-gravity-bong-in-5-minutes\">how gravity bongs work</a>.</p>\n\n<h2>Key Features That Make a Real Difference</h2>\n\n<h3>Percolators</h3>\n<p>A percolator is any filtration device that forces smoke through water a second (or third) time. Common styles: honeycomb (flat discs with dozens of holes), tree (multiple arms that branch downward), showerhead (flared disc with slits), and turbine (spins water for extra diffusion). More percolation means smoother hits but also more drag and more surface area to clean. For daily use, a single honeycomb or showerhead perc is the sweet spot.</p>\n\n<h3>Ice Pinches</h3>\n<p>Ice pinches are notches in the neck of the bong that hold ice above the water chamber. As smoke passes over the ice, it cools significantly before reaching your lungs — reducing harshness without affecting flavor. It's one of the best built-in features for the price since it costs nothing extra. Browse our full <a href=\"https://www.headshop.com/collections/ice-bongs\">ice bongs collection</a> to find pieces with this feature.</p>\n\n<h3>Downstems</h3>\n<p>The downstem carries smoke from the bowl into the water. A standard fixed downstem works, but a diffused downstem — one with slits or holes at the end — breaks smoke into smaller bubbles for better filtration. Most 14mm and 18mm bongs accept removable downstems, making cleaning easier and upgrades simple. Check joint size (10mm, 14mm, or 18mm) before buying accessories to ensure compatibility with your <a href=\"https://www.headshop.com/collections/bong-accessories\">bong accessories</a>.</p>\n\n<h3>Ash Catchers</h3>\n<p>Ash catchers attach between the bowl and joint, catching debris before it enters your bong's water chamber. They keep your main piece cleaner for longer and add an extra layer of filtration. It's one of the most practical upgrades you can make — your weekly cleaning routine gets much simpler when you're maintaining a small attachment instead of a gunked-up chamber. Browse <a href=\"https://www.headshop.com/collections/ash\">ash catchers</a> to find one that fits your joint size and angle.</p>\n\n<h2>How to Use Your Bong</h2>\n<p>For a full visual walkthrough, check out our guide on <a href=\"https://www.headshop.com/blogs/bongs/how-do-you-smoke-out-of-a-bong-a-step-by-step-guide\">how to smoke out of a bong</a>. Here's the quick version:</p>\n<ol>\n  <li><strong>Add water</strong> — Fill until the downstem is submerged about half an inch. Too little and you lose filtration; too much and water splashes back.</li>\n  <li><strong>Pack the bowl</strong> — Grind your herb and pack firmly enough to hold together but loosely enough for airflow. Overpacking kills the draw.</li>\n  <li><strong>Seal the mouthpiece</strong> — Lips go inside the opening, not around the outside, for a proper airtight seal.</li>\n  <li><strong>Apply flame and inhale slowly</strong> — Hold the lighter to the edge of the bowl (not the center) while drawing steadily. Cornering the bowl preserves it and lets multiple people share.</li>\n  <li><strong>Clear the chamber</strong> — Once it fills with smoke, pull the bowl out or lift the carb and inhale the rest in one smooth breath.</li>\n  <li><strong>Rinse immediately after</strong> — A 30-second hot water rinse after each use prevents resin hardening and keeps every hit tasting clean.</li>\n</ol>\n\n<h2>How to Clean Your Bong</h2>\n<p>A clean bong hits smoother, tastes better, and lasts longer. Here's a full routine — our detailed guide covers <a href=\"https://www.headshop.com/blogs/news/how-to-clean-your-bongs-and-dab-rigs\">how to clean your bong and dab rig</a> step by step, including tips for hard-to-reach percolators.</p>\n<ol>\n  <li><strong>Rinse after every use</strong> — Hot water right after smoking stops resin from building up. Takes 30 seconds and makes a big difference.</li>\n  <li><strong>Deep clean weekly</strong> — Fill with 91%+ isopropyl alcohol and coarse salt. Cover all openings and shake for 2–3 minutes. The salt acts as a natural abrasive.</li>\n  <li><strong>Soak stubborn buildup</strong> — Let the alcohol solution sit 30–60 minutes for heavy resin, then shake and rinse.</li>\n  <li><strong>Clean the downstem and bowl separately</strong> — Drop them in a sealed bag with alcohol and salt and shake. These get dirtiest fastest.</li>\n  <li><strong>Rinse completely</strong> — Run warm water through every opening until no alcohol smell remains.</li>\n  <li><strong>Use an ash catcher</strong> — Adding one dramatically reduces how often the main piece needs deep cleaning. Browse <a href=\"https://www.headshop.com/collections/bong-cleaners\">bong cleaning supplies</a> for everything you need.</li>\n</ol>\n\n<h2>Top Bong Brands at Headshop.com</h2>\n<p>We carry bongs from 450+ brands across every price point. These are some of the most popular names in our collection and what sets each one apart. See our full <a href=\"https://www.headshop.com/blogs/news/top-5-bong-brands-quality-bongs-for-a-smooth-ride\">top bong brands guide</a> for a deeper comparison.</p>\n\n<h3>GRAV</h3>\n<p><a href=\"https://www.headshop.com/collections/grav\">GRAV</a> is the benchmark for American glass. Every piece is made from thick borosilicate with precise engineering built for daily use. Their lineup spans $20 tasters to elaborate scientific water pipes, and their Gravitron gravity bong is a category classic. If you want reliable, well-crafted glass from a brand with over 20 years in the game, GRAV is the standard.</p>\n\n<h3>Freeze Pipe</h3>\n<p><a href=\"https://www.headshop.com/collections/freeze-pipe\">Freeze Pipe</a> is built around one goal: the coldest, smoothest hit possible. Their signature glycerin coil freezes solid, and when smoke passes through, it drops in temperature dramatically — far more than ice alone achieves. If harshness is an issue or you just want a genuinely premium experience, Freeze Pipe delivers. Their <a href=\"https://www.headshop.com/blogs/news/best-bongs-under-100-a-smooth-ride-at-an-affordable-price\">bongs under $100</a> are some of the best value in their lineup.</p>\n\n<h3>Eyce</h3>\n<p><a href=\"https://www.headshop.com/collections/eyce\">Eyce</a> makes the best silicone bongs on the market. Food-grade silicone bodies, glass bowls, and built-in storage compartments designed to survive real use. They bounce instead of shatter, clean up in the dishwasher, and come in creative designs at reasonable prices. The go-to for anyone who wants a durable daily driver without babying their piece.</p>\n\n<h3>Chill</h3>\n<p><a href=\"https://www.headshop.com/collections/chill\">Chill</a> specializes in glycerin-cooled glassware with detachable frozen chambers. Unlike ice, frozen glycerin doesn't melt and dilute your bong water — it just cools your smoke cleanly, every time. The detachable design means you can swap the chamber in and out without disassembling the whole piece. A smart, practical solution to hot smoke.</p>\n\n<h3>Hemper</h3>\n<p><a href=\"https://www.headshop.com/collections/hemper\">Hemper</a> brings creative design to functional glass. Their bongs are known for unique shapes, thick borosilicate construction, and eye-catching aesthetics without sacrificing performance. If you want a piece that starts a conversation as much as it delivers a smooth hit, Hemper consistently delivers.</p>\n\n<h3>Cheech &amp; Chong Glass</h3>\n<p><a href=\"https://www.headshop.com/collections/cheech-chong-glass\">Cheech &amp; Chong Glass</a> brings decades of cannabis culture into every piece. Their bongs combine genuine character with solid borosilicate glass construction — pieces that look as good on a shelf as they perform in a session.</p>\n\n<h2>Essential Bong Accessories</h2>\n<p>The right accessories extend the life of your bong and improve every hit. These are the ones worth having. Browse the full <a href=\"https://www.headshop.com/collections/bong-accessories\">bong accessories collection</a> for everything.</p>\n<ul>\n  <li><strong><a href=\"https://www.headshop.com/collections/ash\">Ash catchers</a></strong> — Keep resin out of your main piece. Available in 45° and 90° angles to match your joint.</li>\n  <li><strong><a href=\"https://www.headshop.com/collections/bong-bowls\">Glass bowls</a></strong> — Available in 10mm, 14mm, and 18mm to fit any joint. Deeper bowls for larger loads; smaller bowls for solo sessions.</li>\n  <li><strong><a href=\"https://www.headshop.com/collections/bong-cleaners\">Cleaning supplies</a></strong> — Isopropyl alcohol, coarse salt, and pipe brushes keep glass performing like new.</li>\n  <li><strong><a href=\"https://www.headshop.com/collections/bong-screens\">Screens and filters</a></strong> — Prevent herb from pulling through the downstem and into the water.</li>\n  <li><strong><a href=\"https://www.headshop.com/collections/carb-caps\">Carb caps</a></strong> — Essential for low-temp dabbing on bangers; restrict airflow to maximize vapor production.</li>\n  <li><strong><a href=\"https://www.headshop.com/collections/dab-bangers\">Dab bangers</a></strong> — Upgrade your bong for concentrate use. Available in 10mm, 14mm, and 18mm male and female joints.</li>\n</ul>\n\n<h2>Frequently Asked Questions About Bongs</h2>\n\n<h3>What size bong is best for beginners?</h3>\n<p>An 8\"–12\" beaker bong is the best starting point. Large enough to filter and cool smoke well, easy enough to handle and clean, and forgiving if you overfill. Look for a 14mm joint — it's the industry standard and gives you the widest selection of compatible bowls and accessories down the road.</p>\n\n<h3>What's the difference between glass and silicone bongs?</h3>\n<p>Glass (borosilicate) preserves flavor better than any other material and is easy to inspect for cleanliness. Silicone is virtually indestructible, lighter, and great for travel, but requires thorough cleaning to prevent flavor transfer over time. Most serious smokers keep one of each. For a full breakdown, read our guide on <a href=\"https://www.headshop.com/blogs/news/glass-vs-metal-vs-silicone-which-bong-is-the-best-for-you\">glass vs. silicone vs. metal bongs</a>.</p>\n\n<h3>How often should I clean my bong?</h3>\n<p>Rinse with hot water after every use. Do a full isopropyl alcohol and salt clean at least once a week if you smoke daily. Dirty bong water harbors bacteria and mold, and resin buildup deadens flavor quickly. Our complete <a href=\"https://www.headshop.com/blogs/news/tips-tricks-for-keeping-your-bongs-and-dab-rigs-clean\">bong cleaning tips and tricks guide</a> covers everything from daily maintenance to deep cleaning percolators.</p>\n\n<h3>What is a percolator bong and do I need one?</h3>\n<p>A percolator is a filtration device inside the bong that breaks smoke into smaller bubbles, increasing water contact and producing a cooler, smoother hit. If harshness is a problem or you take large hits, yes — a percolator bong is worth it. If you prefer a direct, full-flavored pull without drag, a basic beaker or straight tube is probably the better choice. Browse <a href=\"https://www.headshop.com/collections/precolator-bongs\">percolator bongs</a> to see what's available at every price point.</p>\n\n<h3>Can I use my bong for concentrates?</h3>\n<p>Yes — most bongs can be converted for dab use by swapping the bowl for a <a href=\"https://www.headshop.com/collections/dab-bangers\">dab banger</a>. Just match the joint size (10mm, 14mm, or 18mm) and angle (45° or 90°) to your bong. Smaller, more compact bongs work better for concentrates since they preserve flavor more effectively than large chambers. For dedicated concentrate use, a <a href=\"https://www.headshop.com/collections/dab-rigs\">dab rig</a> is optimized for the job, but converting an existing bong is a solid and affordable way to start.</p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_mcyhQ7"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "1655083190746b77e6",
+    "17262629929b685eee",
+    "main-collection",
+    "recently-viewed",
+    "advanced_content_tBd8Wc"
+  ]
+}

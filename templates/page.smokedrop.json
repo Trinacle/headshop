@@ -1,0 +1,91 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "advanced_content_6HfYgU": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_cqPrre": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 style=\"text-align: center;\" data-mce-style=\"text-align: center;\">Dropship & Wholesale Headshop.com Products <br>on Your Website Using SmokeDrop</h2>\n<p><a href=\"https://thesmokedrop.com/\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/main-home_480x480.jpg?v=1728851921\" alt=\"\" data-mce-style=\"display: block; margin-left: auto; margin-right: auto;\"></a></p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_cqPrre"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "rich_text_fDL77D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gcNnJR": {
+          "type": "heading",
+          "settings": {
+            "title": "Get Started With SmokeDrop"
+          }
+        },
+        "text_C6E7bj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Sell Headshop.com products including from biggest brands including water pipes, vapes, CBD flower, & so much more from all in one place.  <a href=\"https://thesmokedrop.com/\" title=\"https://thesmokedrop.com/\">Learn More</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gcNnJR",
+        "text_C6E7bj"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "advanced_content_jeNPnV": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_ag6xVL": {
+          "type": "liquid",
+          "settings": {
+            "code": "<script async type=\"text/javascript\" src=\"https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=L42BzK\"></script>\n<div style=\"max-width:800px; margin:auto; \"  align=center><div class=\"klaviyo-form-TVG4R6\" </div></div",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_ag6xVL"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_content_6HfYgU",
+    "rich_text_fDL77D",
+    "advanced_content_jeNPnV"
+  ]
+}

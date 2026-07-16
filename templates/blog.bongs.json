@@ -1,0 +1,126 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "blog_show_excerpt": true,
+        "blog_image_size": "wide"
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "tags": {
+          "type": "tags",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_tJ88fy": {
+          "type": "product",
+          "settings": {
+            "featured_product": "capsule-water-pipe"
+          }
+        },
+        "product_t9QNWa": {
+          "type": "product",
+          "settings": {
+            "featured_product": "spherical-pocket-bubbler-assorted-colors"
+          }
+        },
+        "product_XXfGKn": {
+          "type": "product",
+          "settings": {
+            "featured_product": "chill-mix-match-series-gloss-blue"
+          }
+        },
+        "product_B6UB4C": {
+          "type": "product",
+          "settings": {
+            "featured_product": "vessel-mill-beechwood"
+          }
+        }
+      },
+      "block_order": [
+        "tags",
+        "product_tJ88fy",
+        "product_t9QNWa",
+        "product_XXfGKn",
+        "product_B6UB4C"
+      ],
+      "settings": {}
+    },
+    "featured_collection_Gp9ewq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Top Trending Bongs",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "bongs",
+        "count": 5,
+        "products_per_row": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "blog_posts_RXVrzy": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Water Pipes & Bong Blogs",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "blog": "bongs",
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "advanced_content_qcFNCa": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_zyqj3P": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"home-slider\"><strong><a href=\"https://www.headshop.com/collections/on-sale\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/420_Sale_Banner.webp?v=1744236273\" alt=\"420 Sale\" class=\"collectionimg\"></a></strong></div>\n<div class=\"home-slider-mobile\"><a href=\"https://www.headshop.com/collections/on-sale\"><img class=\"collectionimg\" src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/420-SALE-M.webp?v=1744237203\"  alt=\"420 Sale\" style=\"border:0;margin: 10px 0px 20px 0px; border-radius: 8px; width: 100%; max-width: 450px;\" ></a></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_zyqj3P"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sidebar",
+    "featured_collection_Gp9ewq",
+    "blog_posts_RXVrzy",
+    "advanced_content_qcFNCa"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

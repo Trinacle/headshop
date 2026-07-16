@@ -1,0 +1,159 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "settings": {
+        "blog_capitalize_first": true,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": true
+      }
+    },
+    "17219243038602be74": {
+      "type": "apps",
+      "blocks": {
+        "pro_blogger_pb_post_related_products_YfpC9j": {
+          "type": "shopify://apps/lfs-pro-blogger/blocks/pb_post_related_products/edf01a04-3374-4cc5-afca-2e583da0c869",
+          "settings": {
+            "pb_related_products_title": "",
+            "pb_related_products_title_style": "H1",
+            "pb_related_product_items": 6,
+            "pb_related_product_item_display": 3,
+            "slider_autoplay": "2",
+            "custom_class": "proarticle",
+            "pb_mid_display": true,
+            "pb_mid_display_para": 4,
+            "pb_item_style": "3",
+            "pb_color_image_bg": "",
+            "pb_color_text_bg": "",
+            "pb_color_line": "",
+            "pb_out_of_stock": false,
+            "pb_related_products_matching": "0",
+            "pb_related_products_tag_match": "0",
+            "pb_related_products_title_match": "0",
+            "pb_related_products_adv_match": "0",
+            "pb_show_product": "vendor, reviews, price",
+            "pb_product_reviews": "JudgeMe",
+            "pb_product_sale": true,
+            "pb_product_sale_color": "#ea0606",
+            "pb_product_buy_button": "0",
+            "pb_product_buy_action": "1",
+            "pb_product_buy_button_text": "Buy Now",
+            "related_metafield": [
+              "helix-gunmetal",
+              "broad-spectrum-cbd-gummies-thc-free",
+              "pipe-rose-gold",
+              "o-pen-2-0-variable-voltage-510-thread-battery",
+              "vessel-air-jade",
+              "vessel-cone-onyx",
+              "vessel-mill-beechwood"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "pro_blogger_pb_post_related_products_YfpC9j"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "product_jnjfbp": {
+          "type": "product",
+          "settings": {
+            "featured_product": "pipe-black-1"
+          }
+        },
+        "product_FDnXRt": {
+          "type": "product",
+          "settings": {
+            "featured_product": "dr-dabber-switch-2"
+          }
+        },
+        "product_ixLp3a": {
+          "type": "product",
+          "settings": {
+            "featured_product": "capsule-water-pipe"
+          }
+        }
+      },
+      "block_order": [
+        "product_jnjfbp",
+        "product_FDnXRt",
+        "product_ixLp3a"
+      ],
+      "settings": {}
+    },
+    "1727120174c7dc8f65": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "1721929689062f2ffd": {
+      "type": "apps",
+      "blocks": {
+        "pro_blogger_pb_post_related_products_CHN4fN": {
+          "type": "shopify://apps/lfs-pro-blogger/blocks/pb_post_related_products/edf01a04-3374-4cc5-afca-2e583da0c869",
+          "settings": {
+            "pb_related_products_title": "",
+            "pb_related_products_title_style": "H3",
+            "pb_related_product_items": 6,
+            "pb_related_product_item_display": 5,
+            "slider_autoplay": "2",
+            "custom_class": "",
+            "pb_mid_display": false,
+            "pb_mid_display_para": 4,
+            "pb_item_style": "1",
+            "pb_color_image_bg": "",
+            "pb_color_text_bg": "",
+            "pb_color_line": "",
+            "pb_out_of_stock": false,
+            "pb_related_products_matching": "0",
+            "pb_related_products_tag_match": "10",
+            "pb_related_products_title_match": "5",
+            "pb_related_products_adv_match": "3",
+            "pb_show_product": "vendor, reviews, price",
+            "pb_product_reviews": "None",
+            "pb_product_sale": true,
+            "pb_product_sale_color": "#ea0606",
+            "pb_product_buy_button": "0",
+            "pb_product_buy_action": "0",
+            "pb_product_buy_button_text": "Buy Now",
+            "related_metafield": []
+          }
+        }
+      },
+      "block_order": [
+        "pro_blogger_pb_post_related_products_CHN4fN"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17219243038602be74",
+    "sidebar",
+    "1727120174c7dc8f65",
+    "1721929689062f2ffd"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

@@ -1,0 +1,259 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:labels.footer_group",
+  "sections": {
+    "17538170359fe0d564": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_verified_badge_Fwb9px": {
+          "type": "shopify://apps/judge-me-reviews/blocks/verified_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "judge_me_reviews_featured_carousel_pWnbpe": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_verified_badge_Fwb9px",
+        "judge_me_reviews_featured_carousel_pWnbpe"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "home_promo_kLcEwa": {
+      "type": "home-promo",
+      "blocks": {
+        "panel_Xtain9": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/Hand_pipe_on_beach_towel_202607041816_b345n.jpg",
+            "image_alt": "Pulsar Melting Uncle Sam Glass Hand Pipe - 4.5\"",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/products/pulsar-melting-uncle-sam-glass-hand-pipe-4-5?utm_source=trinacle&utm_medium=banner&utm_campaign=ai_featured_campaign",
+            "logo_url": ""
+          }
+        },
+        "panel_FgN7Uz": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/33b2b722c77713b2eb00822b03cfde78_1_1783202371_6739_pgqPF.png",
+            "image_alt": "Pulsar Uncle Eagle Sam Beaker Glass Water Pipe - 9.75\" / 14mm F",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/products/pulsar-uncle-eagle-sam-beaker-glass-water-pipe-9-75-14mm-f?utm_source=trinacle&utm_medium=banner&utm_campaign=ai_featured_campaign",
+            "logo_url": ""
+          }
+        },
+        "panel_pCemLc": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/1167ed319b85dcc64c8a02b87e64cf5a_1_1783202312_7771_ZJUTx.png",
+            "image_alt": "Pulsar Melting Uncle Sam Beaker Glass Water Pipe - 9.75\" / 14mm F",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/products/pulsar-melting-uncle-sam-beaker-glass-water-pipe-9-75-14mm-f?utm_source=trinacle&utm_medium=banner&utm_campaign=ai_featured_campaign",
+            "logo_url": ""
+          }
+        },
+        "panel_QYkYKQ": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/01f509332453d1db4adfd92321ecfde5_1_1783202314_6842_YF_X2_ab7cb9eb-d31e-48d8-80cb-d2c9ac092dad.png",
+            "image_alt": "Pulsar American Flag Celebration Bubble Base Glass Water Pipe ",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/products/pulsar-american-flag-celebration-bubble-base-glass-water-pipe-13-14mm-f?utm_source=trinacle&utm_medium=banner&utm_campaign=ai_featured_campaign",
+            "logo_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "panel_Xtain9",
+        "panel_FgN7Uz",
+        "panel_pCemLc",
+        "panel_QYkYKQ"
+      ],
+      "disabled": true,
+      "name": "Home Promo Panel",
+      "settings": {
+        "show_overlay": true,
+        "line1": "Red, White & Baked",
+        "line1_size": 42,
+        "line1_spacing": 0,
+        "line2": "Save 10%",
+        "line2_size": 58,
+        "line2_spacing": -6,
+        "line3": "Use Code",
+        "coupon_code": "USA",
+        "line3_size": 28,
+        "line3_spacing": -6,
+        "column_gap": 6,
+        "image_radius": 10,
+        "image_ratio": "9/16",
+        "overlay_radius": 10,
+        "text_pad_x": 16,
+        "section_top": 20,
+        "section_bottom": 20,
+        "logo_size": 42,
+        "logo_bottom": 4,
+        "logo_radius": 8,
+        "bg_color": "#fdf6f4",
+        "overlay_bg": "#000000",
+        "overlay_text_color": "#ffffff",
+        "overlay_accent_color": "#e0522b",
+        "logo_bg": "#000000",
+        "line1_size_m": 26,
+        "line1_spacing_m": 0,
+        "line2_size_m": 26,
+        "line2_spacing_m": -2,
+        "line3_size_m": 13,
+        "line3_spacing_m": -2,
+        "text_pad_x_m": 8,
+        "column_gap_m": 4,
+        "image_radius_m": 8,
+        "image_ratio_m": "4/5",
+        "overlay_radius_m": 5,
+        "logo_size_m": 40,
+        "logo_bottom_m": 4,
+        "logo_radius_m": 5,
+        "section_top_m": 12,
+        "section_bottom_m": 12
+      }
+    },
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions-0": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
+            "button_label": "Optional button",
+            "button_link": "",
+            "color_scheme": "2"
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
+            "button_label": "Optional button",
+            "button_link": "",
+            "color_scheme": "2"
+          }
+        },
+        "footer-promotions-2": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
+            "button_label": "Optional button",
+            "button_link": "",
+            "color_scheme": "2"
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-0",
+        "footer-promotions-1",
+        "footer-promotions-2"
+      ],
+      "settings": {
+        "hide_homepage": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "menu",
+          "settings": {
+            "title": "Quick Links",
+            "menu": "footer",
+            "enable_account_link": false
+          }
+        },
+        "21bbf3d2-6293-4f07-983a-6dfd3ad25e68": {
+          "type": "menu",
+          "settings": {
+            "title": "Products",
+            "menu": "footer-collections",
+            "enable_account_link": false
+          }
+        },
+        "f2d373b7-3600-4f38-988d-089d07c14715": {
+          "type": "menu",
+          "settings": {
+            "title": "Customer Support",
+            "menu": "customer-support",
+            "enable_account_link": true
+          }
+        },
+        "fe6a67a0-686e-435b-a946-f28802053c97": {
+          "type": "contact",
+          "settings": {
+            "phone": "",
+            "contact": "contact-us",
+            "chat": "",
+            "enable_social": true
+          }
+        },
+        "c296bc3e-1d7f-4750-b993-050176521596": {
+          "type": "payment",
+          "settings": {
+            "show_payment_icons": true,
+            "show_locale_selector": false,
+            "show_currency_selector": false,
+            "show_currency_flags": true
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "21bbf3d2-6293-4f07-983a-6dfd3ad25e68",
+        "f2d373b7-3600-4f38-988d-089d07c14715",
+        "fe6a67a0-686e-435b-a946-f28802053c97",
+        "c296bc3e-1d7f-4750-b993-050176521596"
+      ],
+      "settings": {
+        "show_newsletter": true,
+        "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase</p>",
+        "footer_main_menu": false,
+        "show_copyright": true,
+        "copyright_text": "",
+        "policies_menu": "copyright-menu"
+      }
+    }
+  },
+  "order": [
+    "17538170359fe0d564",
+    "home_promo_kLcEwa",
+    "footer-promotions",
+    "footer"
+  ]
+}

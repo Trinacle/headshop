@@ -1,0 +1,115 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Your trusted <a href=\"/\" title=\"/\">online headshop</a> for all the best quality glass.  Our mission is to build the <a href=\"/\" title=\"/\">best smoke shop </a>with  amazing customer experiences.  We only work with the most trusted vendors & have over 250+ <a href=\"https://headshop-etm.myshopify.com/pages/brands-list\" title=\"https://headshop-etm.myshopify.com/pages/brands-list\">brands </a>in our catalog. That’s because Headshop.com has everything under the sun for smoking, dabbing, and vaping. Want to keep your stash odor-free? Check out our popular <a href=\"https://www.headshop.com/collections/stash-gear\"><span style=\"text-decoration:underline\">stash gear</span></a>. Want a forever piece that doubles as decorative art? Take a peek at our beautiful <a href=\"https://www.headshop.com/collections/glass-bongs\"><span style=\"text-decoration:underline\">glass bongs</span></a>. You can also <a href=\"https://www.headshop.com/pages/brands-list\"><span style=\"text-decoration:underline\">shop by brand</span></a> to upgrade your smoking experience with your favorite Headshop.com suppliers. Whatever your price range and preference, Headshop.com is the #1 trusted online headshop and smoke shop that showcases the highest quality for smokers, dabbers, and vapers. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "text-columns": {
+      "type": "text-columns",
+      "blocks": {
+        "column1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/top_shelf_headshop_products_540x_75fbb278-3138-41ea-8970-b160be211ae5.webp",
+            "image_width": 650,
+            "title": "Top Shelf Smoking Products",
+            "text": "<p>Find your favorite <a href=\"https://www.headshop.com/collections/bongs\" title=\"https://www.headshop.com/collections/bongs\">bongs</a>, <a href=\"https://www.headshop.com/collections/dab-rigs\" title=\"https://www.headshop.com/collections/dab-rigs\">dab rigs</a>, <a href=\"https://www.headshop.com/collections/vaporizers\" title=\"https://www.headshop.com/collections/vaporizers\">vaporizers </a>and innovating <a href=\"https://www.headshop.com/collections/smoking-accessories\" title=\"https://www.headshop.com/collections/smoking-accessories\">smoking accessories</a>.  Find thousands of <a href=\"/\" title=\"/\">smoke shop</a> products including the best <a href=\"https://www.headshop.com/collections/stash-gear\" title=\"https://www.headshop.com/collections/stash-gear\">stash gear</a> and <a href=\"https://www.headshop.com/collections/cbd\" title=\"https://www.headshop.com/collections/cbd\">CBD</a> products.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/About_Headshop_540x_55cd2639-bd9b-4c42-9d20-740b1dfd37aa.webp",
+            "image_width": 650,
+            "title": "Our Customers Come First",
+            "text": "<p>We are always taking our customers feedback to heart & are very proud of our thousands of satisfied customers.  Checkout the link below to read some of the <a href=\"https://www.trustpilot.com/review/headshop.com\" title=\"https://www.trustpilot.com/review/headshop.com\">latest customer reviews</a>.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/USA-Based-Headshop-CA_540x_1061aa33-81d9-4763-af68-3dd4f398d462.webp",
+            "image_width": 650,
+            "title": "Based in the USA",
+            "text": "<p>We are located in beautiful southern California in the city of Encinitas.  We do ship our products to our customers from across the globe.    Visit our <a href=\"https://www.headshop.com/pages/contact-us\" title=\"https://www.headshop.com/pages/contact-us\">contact page</a> to send us a message.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "map": {
+      "type": "map",
+      "settings": {
+        "map_title": "Headshop.com",
+        "address": "<p>315 South Coast Highway 101 #528<br/>Encinitas, CA 92024<br/><br/>Mon - Fri, 9:00am - 5:00pm PST<br/>Closed During Federal Holidays</p>",
+        "map_address": "315 South Coast Highway 101 #528 Encinitas, CA 92024",
+        "api_key": "",
+        "show_button": true,
+        "background_image": "shopify://shop_images/encinitas-business_a47b8bf9-055c-43ac-8b75-b07120d17da9.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "text-columns",
+    "map"
+  ]
+}

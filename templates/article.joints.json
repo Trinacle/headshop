@@ -1,0 +1,164 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "settings": {
+        "blog_capitalize_first": true,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": true
+      }
+    },
+    "1721931699500b19d9": {
+      "type": "apps",
+      "blocks": {
+        "pro_blogger_pb_post_related_products_XzXcR6": {
+          "type": "shopify://apps/lfs-pro-blogger/blocks/pb_post_related_products/edf01a04-3374-4cc5-afca-2e583da0c869",
+          "settings": {
+            "pb_related_products_title": "",
+            "pb_related_products_title_style": "H3",
+            "pb_related_product_items": 6,
+            "pb_related_product_item_display": 4,
+            "slider_autoplay": "2",
+            "custom_class": "proarticle",
+            "pb_mid_display": true,
+            "pb_mid_display_para": 4,
+            "pb_item_style": "1",
+            "pb_color_image_bg": "",
+            "pb_color_text_bg": "",
+            "pb_color_line": "",
+            "pb_out_of_stock": false,
+            "pb_related_products_matching": "1",
+            "pb_related_products_tag_match": "5",
+            "pb_related_products_title_match": "5",
+            "pb_related_products_adv_match": "0",
+            "pb_show_product": "vendor, reviews, price",
+            "pb_product_reviews": "None",
+            "pb_product_sale": false,
+            "pb_product_sale_color": "#ea0606",
+            "pb_product_buy_button": "0",
+            "pb_product_buy_action": "0",
+            "pb_product_buy_button_text": "Buy Now",
+            "related_metafield": [
+              "g2-small-cannamold",
+              "elements-red-slow-burn-hemp-rolling-papers",
+              "raw-classic-lean-cones",
+              "job-1-5-gold-rolling-papers",
+              "wild-hemp-hemp-wraps",
+              "blunt-wrap-hemp-wraps-natural-box-display",
+              "cheech-chong-x-pulsar-metal-rolling-tray-w-lid-love-machine-11-x-7",
+              "blazy-susan-pink-paper-cones",
+              "elements-ultra-thin-rice-rolling-papers",
+              "raw-classic-rolling-papers",
+              "hempire-hemp-rolling-papers",
+              "grav®-fill-your-own-glass-joints-7-pack",
+              "king-palm-slim-size-leaf-rolls",
+              "endo-pre-rolled-hemp-pre-rolled-blunt-wraps",
+              "raw-organic-hemp-rolling-papers",
+              "high-times-x-pulsar-magnetic-rolling-tray-lid-covers-collage-11x7",
+              "pre-rolled-cones-classic-32-count",
+              "futurola-x-tyson-2-0-cone-roller-kingsize-colors-vary",
+              "raw-rolling-machine"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "pro_blogger_pb_post_related_products_XzXcR6"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "product_jdwMhj": {
+          "type": "product",
+          "settings": {
+            "featured_product": "ash-black"
+          }
+        },
+        "product_EwhgF9": {
+          "type": "product",
+          "settings": {
+            "featured_product": "blazy-susan-unbleached-paper-cones"
+          }
+        },
+        "product_hYdif6": {
+          "type": "product",
+          "settings": {
+            "featured_product": "vessel-mill-beechwood"
+          }
+        },
+        "248a1465-c1f7-4fb0-86eb-399bcd9b1e0e": {
+          "type": "product",
+          "settings": {
+            "featured_product": "vessel-ember-concrete"
+          }
+        },
+        "product_3wpQLH": {
+          "type": "product",
+          "settings": {
+            "featured_product": "pre-rolled-cones-classic-32-count"
+          }
+        }
+      },
+      "block_order": [
+        "product_jdwMhj",
+        "product_EwhgF9",
+        "product_hYdif6",
+        "248a1465-c1f7-4fb0-86eb-399bcd9b1e0e",
+        "product_3wpQLH"
+      ],
+      "settings": {}
+    },
+    "featured_collection_GNKGyw": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Joint Rolling Papers",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "flavored-papers",
+        "count": 5,
+        "products_per_row": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured_collection_rAaBjN": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Weed Grinders",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "herb-grinders",
+        "count": 5,
+        "products_per_row": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1721931699500b19d9",
+    "sidebar",
+    "featured_collection_GNKGyw",
+    "featured_collection_rAaBjN"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

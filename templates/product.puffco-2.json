@@ -1,0 +1,221 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title_DMmXMi": {
+          "type": "title",
+          "settings": {
+            "vendor_enable": false,
+            "sku_enable": false
+          }
+        },
+        "judgeme_preview_badge_product_page_666b033e": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "package",
+            "text": "Free shipping over $50"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "text": "Secure checkout"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "52c511bf-6905-4d1c-89c8-c2d40f19307e": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "title_DMmXMi",
+        "judgeme_preview_badge_product_page_666b033e",
+        "variant_picker",
+        "price",
+        "sales_point",
+        "sales_point3",
+        "inventory_status",
+        "buy_buttons",
+        "52c511bf-6905-4d1c-89c8-c2d40f19307e"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "contact"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "11782197-781b-4d07-8040-eb80ff432f25": {
+      "type": "rich-text",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "judgeme_section_review_widget_bd8a": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f5ab4f77": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f5ab4f77"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Recommendations For You",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {
+        "products_per_row": 3,
+        "max_products": 5
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "settings": {
+        "products_per_row": 3,
+        "max_products": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+        "color_scheme": "2"
+      }
+    },
+    "advanced_content_TXKnLM": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_tihLnQ": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!-- DataDojo: Pixel --> \n<script>\n  (function (p, i, x, e, l) {\n    if (typeof window !== undefined) {\n      window._dojoPixel = {};\n      window._dojoPixel.events_queue =  window._dojoPixel.events_queue || [];\n      window._ddq = function () {\n        window._dojoPixel.events_queue.push(arguments);\n      };\n      var f = p.getElementsByTagName(i)[0],\n        k = p.createElement(i);\n      k.async = 1;\n      k.src = \"https://pixel.datadojocdp.com/load.js?id=65b8228b4d95e0301a6e7dcc\";\n      f.parentNode.insertBefore(k, f);\n    }\n  })(document, \"script\");\n  _ddq(\"PIXEL_INIT\", {\n    // you can add your own custom data here...\n  });\n  _ddq(\"PAGE_VIEW\");\n</script>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_tihLnQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "11782197-781b-4d07-8040-eb80ff432f25",
+    "judgeme_section_review_widget_bd8a",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return",
+    "advanced_content_TXKnLM"
+  ]
+}

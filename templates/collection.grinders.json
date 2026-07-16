@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": false,
+        "collection_image_enable": true,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "16550824857fca6100": {
+      "type": "advanced-content",
+      "blocks": {
+        "165508248547cb69a9-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div align=center style=\"margin-top: 30px\"><h2>The Best Weed Grinders</h2></div>\nWhether you’re rolling a joint, packing a <a href=\"/collections/bong-bowl-pieces\">bong bowl</a>, or loading up your <a href=\"https://www.headshop.com/collections/spoon-pipes\">spoon pipe</a>, a weed grinder is a must-have for any cannabis enthusiast. At Headshop.com, the best online smoke shop, we offer a huge selection of weed grinders that help you achieve a smooth, consistent grind every time, enhancing the quality of your smoke.",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165508248547cb69a9-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "17262495103914a8ef": {
+      "type": "apps",
+      "blocks": {
+        "kobu_menu_highlight_app_block_YkYid8": {
+          "type": "shopify://apps/kobu-menu-highlight/blocks/app-block/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 2",
+            "group_title": "",
+            "menu_shape": "circle",
+            "menu_margin_top": 8,
+            "menu_margin_bottom": 8,
+            "menu_gap": 20,
+            "menu_width": 100,
+            "menu_height": 100,
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 14,
+            "menu_title_font_weight": 4,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_mode": "slider_autoscroll",
+            "menu_position": "center",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "badge_font_size": 14,
+            "custom_css": "",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "kobu_menu_highlight_app_block_YkYid8"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        },
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "product_grid",
+        "collection_description"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapse_filters": true,
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "collection-header",
+    "16550824857fca6100",
+    "17262495103914a8ef",
+    "main-collection",
+    "recently-viewed"
+  ]
+}

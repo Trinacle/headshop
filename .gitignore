@@ -1,0 +1,15 @@
+# Shopify CLI / theme dev
+*.tmp.*
+*.tmp
+
+# Theme check output
+theme-check-output.*
+out.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Local-only raw theme dumps
+hs_themes_raw.json

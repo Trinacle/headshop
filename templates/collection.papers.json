@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": false,
+        "collection_image_enable": false,
+        "parallax": false
+      }
+    },
+    "1655082786c41f3e98": {
+      "type": "advanced-content",
+      "blocks": {
+        "165508278605ce7cb5-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"cat-hero\">\n<div class=\"cat-breadcrumb\">\n<a href=\"/\" style=\"text-decoration: none;\">Products</a> > <a href=\"/collections/rolling-papers\" style=\"text-decoration: none;\">Accessories</a>\n</div>\n<div class=\"cat-title\">Rolling Papers</div>\n<div class=\"cat-des\">Whether you're just getting started or an OG at rolling joints, we have got you covered, At Headshop.com you’ll find our rolling papers are top quality which makes them easier to roll and less likely to break. Get all the gear you need to roll the perfect joint every time.  </div>\n</div>\n<div class=\"subcat-main\">\n<div class=\"subcat-inner\" align=\"center\">\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/flavored-papers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Flavored-Rolling-Papers.png?v=1632497078\" alt=\"Flavored Rolling Papers\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/flavored-papers\" style=\"text-decoration: none;\">Flavored Papers</a></div>\n</div>\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/hemp-papers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Hemp-Rolling-Papers.png?v=1632497078\" alt=\"Hemp Rolling Papers\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/hemp-papers\" style=\"text-decoration: none;\">Hemp Papers</a></div>\n</div>\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/paper-cones\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Rolling-Paper-Cones.png?v=1632497078\" alt=\"Rolling Paper Cones\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/paper-cones\" style=\"text-decoration: none;\">Paper Cones</a></div>\n</div>\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/filters-tips\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Tips-Rolling-Papers.png?v=1632497078\" alt=\"Rolling Filters Tips\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/filters-tips\" style=\"text-decoration: none;\">Filters & Tips</a></div>\n</div>\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/paper-roller\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Rolling-Paper-Roller.png?v=1632497078\" alt=\"Paper Roller\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/paper-roller\" style=\"text-decoration: none;\">Paper Roller</a></div>\n</div>\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/rolling-tray\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Rolling-Paper-Tray.png?v=1632497078\" alt=\"Rolling Paper Tray\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/rolling-tray\" style=\"text-decoration: none;\">Rolling Tray</a></div>\n</div>\n</div>\n</div>\n<div class=\"subcat-bottom\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165508278605ce7cb5-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        },
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "product_grid",
+        "collection_description"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapse_filters": false,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "collection-header",
+    "1655082786c41f3e98",
+    "main-collection",
+    "recently-viewed"
+  ]
+}

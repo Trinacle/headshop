@@ -1,0 +1,102 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advanced_content_GjiztF": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_FULMpC": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>#Weed Stash Boxes Blogs</h2>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_FULMpC"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": true,
+        "blog_image_size": "wide"
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "product_8XCD7m": {
+          "type": "product",
+          "settings": {
+            "featured_product": "ash-black"
+          }
+        },
+        "product_6AwJEB": {
+          "type": "product",
+          "settings": {
+            "featured_product": "discovery-2-0-storage-stash-box-with-fingerprint-lock"
+          }
+        },
+        "product_tHJqpX": {
+          "type": "product",
+          "settings": {
+            "featured_product": "art-deco-racer-yellow-humboldt-humidor"
+          }
+        },
+        "product_PNrMiy": {
+          "type": "product",
+          "settings": {
+            "featured_product": "ash"
+          }
+        }
+      },
+      "block_order": [
+        "product_8XCD7m",
+        "product_6AwJEB",
+        "product_tHJqpX",
+        "product_PNrMiy"
+      ],
+      "settings": {}
+    },
+    "featured_collection_Gp9ewq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending Rolling Trays",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "rolling-trays",
+        "count": 5,
+        "products_per_row": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "advanced_content_GjiztF",
+    "main",
+    "sidebar",
+    "featured_collection_Gp9ewq"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

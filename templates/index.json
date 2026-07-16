@@ -1,0 +1,568 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "home_promo_qjjjhh": {
+      "type": "home-promo",
+      "blocks": {
+        "panel_edmmTW": {
+          "type": "panel",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/remove_dope_usual_off_the_202607031313.jpg",
+            "image_alt": "",
+            "logo": "shopify://shop_images/Cipher_logo.png",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "shopify://products/cipher-nova-water-hookah-kit",
+            "logo_url": ""
+          }
+        },
+        "panel_e33ip7": {
+          "type": "panel",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/imgi_46_588648705_18087112394054900_5505111708119400604_n.jpg",
+            "image_alt": "",
+            "logo": "shopify://shop_images/dab-rite-logo.png",
+            "logo_alt": "Rab Rite",
+            "product": "",
+            "custom_url": "shopify://products/dab-rite-pro",
+            "logo_url": ""
+          }
+        },
+        "panel_6Qe9tD": {
+          "type": "panel",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/4th_july.png",
+            "image_alt": "",
+            "logo": "shopify://shop_images/pulsar_logo.png",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/collections/independence-day",
+            "logo_url": "https://www.headshop.com/collections/pulsar?sort_by=created-descending"
+          }
+        },
+        "panel_UxtdAT": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/seshgear_mushroom_pipe_bubbler.png",
+            "image_alt": "",
+            "logo": "shopify://shop_images/sesh-gear.png",
+            "logo_alt": "Sesh Gear",
+            "product": "seshgear-electroplated-mushroom-glass-bubbler-4-75-14mm-f",
+            "custom_url": "",
+            "logo_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "panel_edmmTW",
+        "panel_e33ip7",
+        "panel_6Qe9tD",
+        "panel_UxtdAT"
+      ],
+      "disabled": true,
+      "name": "Home Promo Panel",
+      "settings": {
+        "show_overlay": true,
+        "line1": "4th of July Sale",
+        "line1_size": 74,
+        "line1_spacing": 0,
+        "line2": "Save 10% Off",
+        "line2_size": 68,
+        "line2_spacing": -6,
+        "line3": "Use Code",
+        "coupon_code": "USA",
+        "line3_size": 53,
+        "line3_spacing": -6,
+        "column_gap": 10,
+        "image_radius": 0,
+        "image_ratio": "9/16",
+        "overlay_radius": 14,
+        "text_pad_x": 16,
+        "section_top": 40,
+        "section_bottom": 40,
+        "logo_size": 45,
+        "logo_bottom": 2,
+        "logo_radius": 8,
+        "bg_color": "#fdf6f4",
+        "overlay_bg": "#000000",
+        "overlay_text_color": "#ffffff",
+        "overlay_accent_color": "#e0522b",
+        "logo_bg": "#000000",
+        "line1_size_m": 34,
+        "line1_spacing_m": 0,
+        "line2_size_m": 26,
+        "line2_spacing_m": -4,
+        "line3_size_m": 20,
+        "line3_spacing_m": 0,
+        "text_pad_x_m": 8,
+        "column_gap_m": 3,
+        "image_radius_m": 6,
+        "image_ratio_m": "9/16",
+        "overlay_radius_m": 5,
+        "logo_size_m": 71,
+        "logo_bottom_m": 4,
+        "logo_radius_m": 5,
+        "section_top_m": 12,
+        "section_bottom_m": 12
+      }
+    },
+    "1655080590c5f3de7c": {
+      "type": "advanced-content",
+      "blocks": {
+        "16550805904cdbfad9-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<style>\n\t\t\n#homepromo-wrapper {\n    max-width: 1600px;\n    margin: auto;\n    margin-top:15px;\n\tpadding:0px 10px 0px 10px;\n}\n.homepromo-icon {\n\tpadding: 0px;\n\tmargin: 0px;\n\t\t\n}\n.homepromo-icon a {margin: 0px; padding: 0px;} \n.homepromo-img {\nwidth: 100%;\n\t\tpadding: 0px;\n\t\tmargin: 0px;\n\t\t\n}\n.homepromo-icon1 {\n\tfloat: left;\n\twidth: 25%;\n}\n.homepromo-icon2 {\nfloat: left;\n\twidth: 25%;\n}\n.homepromo-icon3 {\nfloat: left;\n\twidth: 25%;\n}\n\t\t.homepromo-icon4 {\nfloat: left;\n\twidth: 25%;\n}\n\t\n\t\n\t</style>\n<div id=\"homepromo-wrapper\">\n\t\t\t<div class=\"homepromo-icon1\"><a href=\"https://www.headshop.com/collections/recently-added/products/stundenglass-modul-dok-deluxe-travel-set-green-glass\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Headshop-Online-Smoke-Shop_01_16bffcfb-2482-4367-9a4b-5ac5db9152f0.jpg?v=1782507406\" alt=\"Headshop Dab Rigs Bongs Pipes Vaporizers Dab Rigs Grinders Promotion\" class=\"homepromo-img\" style=\"border-radius: 10px 0px 0px 10px;\" ></a></div>\n\t\t\t<div class=\"homepromo-icon2\"><a href=\"https://www.headshop.com/collections/dr-dabber/products/dr-dabber-switchgo-vaporizer\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Headshop-Online-Smoke-Shop_02_71c44c0a-5f14-415b-afd4-14f5e73856d5.jpg?v=1782507406\" alt=\"Headshop Dab Rigs Bongs Pipes Vaporizers Dab Rigs Grinders Promotion\" class=\"homepromo-img\" ></a></div>\n</div>\n<div id=\"homepromo-wrapper\">\n\t    \t\t<div class=\"homepromo-icon3\"><a href=\"https://www.headshop.com/collections/puffco/products/puffco-pivot-concentrate-vaporizer-750mah-sapphire\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Headshop-Online-Smoke-Shop_03_15072940-a0f7-4f94-8505-e4ba5fd84d77.jpg?v=1782507406\" alt=\"Online Smoke Shop Promotion\" class=\"homepromo-img\" style=\"border-radius: 0px 0px 0px 0px;\"></a></div>\n    \t\t<div class=\"homepromo-icon4\"><a href=\"https://www.headshop.com/collections/puffco/products/puffco-proxy-core\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Headshop-Online-Smoke-Shop-_5__04.jpg?v=1782507406\" alt=\"Headshop Promotion\" class=\"homepromo-img\" style=\"border-radius: 0px 8px 8px 0px;\" ></a></div>\n\t</div>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "16550805904cdbfad9-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "advanced_content_ULBCa3": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_MMUCG9": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"homecat-row\">\n\t<div class=\"homecat2\">\n <div class=\"homecat-image\"><a href=\"/collections/vaporizers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Vaporizers.webp?v=1746720615\" loading=\"lazy\" class=\"homecat-img lazyload\" alt=\"Vaporizers\"></a></div>\n    <div class=\"homecat-des\"><a href=\"/collections/vaporizers\" style=\"text-decoration: none;\" >\n      <h3>Vaporizers</h3>\n      Vapes for Dry Herb, Wax &amp; Oils</a></div>\n  </div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/bongs\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Bongs.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"Bongs\"></a></div>\n    <div class=\"homecat-des\" > <a href=\"/collections/bongs\" style=\"text-decoration: none;\">\n      <h3>Bongs</h3>\n      Beakers, Straight & Gravity</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/dab-rigs\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Dab_Rigs.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"Dab Rigs\"></a></div>\n    <div class=\"homecat-des\"><a href=\"/collections/dab-rigs\" style=\"text-decoration: none;\" >\n      <h3>Dab Rigs</h3>\n       Dab Rigs for Concentrates</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/electric-dab-rigs\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/E-Rigs.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Stash Gear\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/electric-dab-rigs\" style=\"text-decoration: none;\" >\n    <h3>E-Rigs</h3>\n    Electric Dab Rigs</a></div>\n</div></div>\n<div class=\"homecat-row\">\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/smoking-pipes\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Pipes_-_Vessel.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"Pipes\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/smoking-pipes\" style=\"text-decoration: none;\" >\n    <h3>Pipes</h3>\n    Spoon, Hand Pipes &amp; More</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/grinders\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Grinders.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"Grinders\"></a></div>\n  <div class=\"homecat-des\"> <a href=\"/collections/grinders\" style=\"text-decoration: none;\" >\n    <h3>Grinders</h3>\n    4 Piece, Metal, &amp; Aerospace</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/cbd\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/CBD.webp?v=1746720615\" class=\"homecat-img lazyload\" alt=\"CBD\" loading=\"lazy\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/cbd\" style=\"text-decoration: none;\">\n    <h3>CBD</h3>\n    Tinctures, Edibles, &amp; Flower</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/stash-gear\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Stash.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Stash Gear\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/stash-gear\" style=\"text-decoration: none;\" >\n    <h3>Stash Bags &amp; Boxes</h3>\n    Bags, Boxs, Jars, Storage</a></div>\n</div></div>\n\t<div class=\"homecat-row\">\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/bubblers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Bubblers.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Bubblers\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/bubblers\"  style=\"text-decoration: none;\">\n    <h3>Bubblers</h3>\n    Hammer, Sherlock, Silcone</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/wellness\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Smokeable_Flower.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Dab Torches\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/smokable-flower\"  style=\"text-decoration: none;\">\n    <h3>Smokeable Flower</h3>\n    THCA, Delta, &amp; THCP Flower</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/dab-rig-accessories\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Dab_Accessories.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Bangers\"></a></div>\n  <div class=\"homecat-des\"><a href=\"/collections/dab-rig-accessories\"  style=\"text-decoration: none;\">\n    <h3>Dab Rig Accessories</h3>\n    Bangers, Terp Slupers &amp; Pearls</a></div>\n</div>\n<div class=\"homecat2\">\n  <div class=\"homecat-image\"><a href=\"/collections/rolling-papers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Rolling_Papers.webp?v=1746720615\" class=\"homecat-img lazyload\" loading=\"lazy\" alt=\"Rolling Papers\"></a></div> \n  <div class=\"homecat-des\"><a href=\"/collections/rolling-papers\"  style=\"text-decoration: none;\">\n    <h3>Rolling Papers</h3>\n    Flavored, Pre Rolls, &amp; Blunts</a></div>\n</div></div>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_MMUCG9"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "rich_text_zN7WHJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qJ4AAV": {
+          "type": "heading",
+          "settings": {
+            "title": "Love to Vape?  We Got You...",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qJ4AAV"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "172637254239c8de17": {
+      "type": "apps",
+      "blocks": {
+        "kobu_menu_highlight_app_block_gmqw9x": {
+          "type": "shopify://apps/kobu-menu-highlight/blocks/app-block/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 5",
+            "group_title": "",
+            "menu_shape": "circle",
+            "menu_margin_top": 8,
+            "menu_margin_bottom": 8,
+            "menu_gap": 20,
+            "menu_width": 100,
+            "menu_height": 100,
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 14,
+            "menu_title_font_weight": 6,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_mode": "slider_carousel",
+            "menu_position": "center",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "badge_font_size": 14,
+            "custom_css": "",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "kobu_menu_highlight_app_block_gmqw9x"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "16550807148f76657f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending Headshop Products",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "trending",
+        "count": 10,
+        "products_per_row": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16550807766a81809f": {
+      "type": "advanced-content",
+      "blocks": {
+        "16550807767a4d279d-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"home-card-wrapper\">\n<div class=\"home-card\"><a href=\"/collections/gifts-under-50\"><img data-src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Gifts-Under-50.avif?v=1744748798\" class=\"homecard-img\"  alt=\"Gifts Under 50\"></a></div>\n\t<div class=\"home-card\"><a href=\"/collections/on-sale\"><img data-src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Clearance-Items.avif?v=1744748798\" class=\"homecard-img\"  alt=\"On Sale\"></a></div>\n\t<div class=\"home-card\"><a href=\"/collections/clearance-items\"><img data-src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Home-project-website-_1__07.jpg?v=1644520805\" class=\"homecard-img\" alt=\"Clearance Items\"></a></div>\n\t<div class=\"home-card\"><a href=\"/collections/frontpage\"><img data-src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Home-project-website-_1__05.jpg?v=1644520805\" class=\"homecard-img\" alt=\"Gifts Under 50\"></a></div>\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16550807767a4d279d-1"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "rich_text_in8LCV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YVBpDN": {
+          "type": "heading",
+          "settings": {
+            "title": "We Got All The Dab Rigs",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YVBpDN"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "apps_CnMCXA": {
+      "type": "apps",
+      "blocks": {
+        "kobu_menu_highlight_app_block_ML74GP": {
+          "type": "shopify://apps/kobu-menu-highlight/blocks/app-block/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 3",
+            "group_title": "",
+            "menu_shape": "circle",
+            "menu_margin_top": 8,
+            "menu_margin_bottom": 8,
+            "menu_gap": 20,
+            "menu_width": 100,
+            "menu_height": 100,
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 14,
+            "menu_title_font_weight": 6,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_mode": "slider_carousel",
+            "menu_position": "center",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "badge_font_size": 14,
+            "custom_css": "",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "kobu_menu_highlight_app_block_ML74GP"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "slideshow_split_Eb9EQT": {
+      "type": "slideshow-split",
+      "blocks": {
+        "slide_UMeGee": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Innovative Cooling Technology",
+            "title": "Vessel Pipe",
+            "title_size": 58,
+            "subheading": "Vessel's pipe features a genius, patent-pending double helix filter that extends airflow, ensuring a surprisingly cool touch even though it looks hot.",
+            "link": "https://www.headshop.com/collections/vessel/products/pipe-maritime-1",
+            "link_text": "",
+            "link_2": "https://www.headshop.com/collections/vessel/products/pipe-maritime-1",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify://shop_images/Vessel-Hand-Pipe.webp",
+            "indent_image": false,
+            "color_scheme": "2"
+          }
+        },
+        "slide_AtynXi": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Commanding Capacity",
+            "title": "Vessel Pipe",
+            "title_size": 58,
+            "subheading": "The pipe’s outer bowl is gram-packed, boasting a commanding appearance and a large capacity of up to 1 gram, ideal for sharing with friends or enjoying solo.",
+            "link": "https://www.headshop.com/collections/vessel/products/pipe-emerald",
+            "link_text": "",
+            "link_2": "https://www.headshop.com/collections/vessel/products/pipe-emerald",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify://shop_images/Smoking-Pipe.webp",
+            "indent_image": false,
+            "color_scheme": "2"
+          }
+        },
+        "slide_Lw3p6T": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Lightweight Durability",
+            "title": "Vessel Pipe",
+            "title_size": 58,
+            "subheading": "Artfully engineered with lightweight yet tough anodized aluminum, this pipe is designed for both easy portability and long-lasting durability.",
+            "link": "https://www.headshop.com/collections/vessel/products/pipe-black-1",
+            "link_text": "",
+            "link_2": "https://www.headshop.com/collections/vessel/products/pipe-black-1",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify://shop_images/Dry-Herb-Pipe.webp",
+            "indent_image": false,
+            "color_scheme": "2"
+          }
+        }
+      },
+      "block_order": [
+        "slide_UMeGee",
+        "slide_AtynXi",
+        "slide_Lw3p6T"
+      ],
+      "settings": {
+        "full_width": false,
+        "height": 600,
+        "height_mobile": 490,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 10
+      }
+    },
+    "rich_text_cwgGdE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iExEfN": {
+          "type": "heading",
+          "settings": {
+            "title": "#420 Blog Topics",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iExEfN"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "promo_grid_GECBik": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_MEw8jc": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Vape Culture",
+            "cta_link1": "shopify://blogs/vapes",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/Vaping.webp",
+            "video_url": "",
+            "width": "33",
+            "height": 260,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "advanced_QQCgKG": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Dabs Decoded",
+            "cta_link1": "shopify://blogs/dabbing",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/dab_concentrates.png",
+            "video_url": "",
+            "width": "33",
+            "height": 260,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "advanced_pj9rGE": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Rolling Joints",
+            "cta_link1": "shopify://blogs/smoking-joints",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/rolling-the-best-joint.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 260,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "advanced_JbNqHh": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Hitting Bongs",
+            "cta_link1": "/blogs/bongs",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/smoking-bongs.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 260,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "advanced_TfjX3M": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Blazing Blunts",
+            "cta_link1": "shopify://blogs/smoking-blunts",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/smoking-blunts_af961731-fc5c-469c-a038-c7da80831224.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 260,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "advanced_Mj9XJK": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Puffing Pipes",
+            "cta_link1": "shopify://blogs/smoking-pipes",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/smoking-pipe_a4e22868-ea2a-4662-b856-881b7444e7f1.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 260,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "advanced_MEw8jc",
+        "advanced_QQCgKG",
+        "advanced_pj9rGE",
+        "advanced_JbNqHh",
+        "advanced_TfjX3M",
+        "advanced_Mj9XJK"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 15,
+        "space_above": false,
+        "space_below": true
+      }
+    },
+    "advanced_content_94NtGq": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_rY6j99": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"home-brand lazyload\">\n\t\t<div class=\"home-brand-text\">\n<h1>The #1 Most Trusted Online Headshop & Smoke Shop</h1>\n<strong>Based in SoCal, we ship the headiest products around the world.</strong>\nCreated and curated by smokers, for smokers, Headshop.com is the #1 choice for the best online headshop and online smoke shop. Our mission at Headshop.com is to deliver to your door the latest and greatest in: <a href=\"https://www.headshop.com/collections/dab-rigs\">dab rigs</a>, <a href=\"https://www.headshop.com/collections/smoking-pipes\">pipes</a>, <a href=\"https://www.headshop.com/collections/bongs\">bongs</a>, <a href=\"https://www.headshop.com/collections/vaporizers\">vaporizers</a>, <a href=\"https://www.headshop.com/collections/rolling-papers\">rolling papers</a>, popular <a href=\"https://www.headshop.com/collections/smoking-accessories\">smoking accessories</a>, and more. Thousands of loyal customers enjoy Headshop.com’s fast, discreet shipping of amazing smoke shop products at competitive prices. Make sure to sign up for our mailing list to get deep discounts on your favorite Headshop.com and to find out about <a href=\"https://www.headshop.com/collections/on-sale\">our fire sales</a>. More good word– Headshop.com has been featured in Los Angeles Magazine, Weedmaps and Leafly as a bonafide one-stop shop for all your smoking needs. <a href=\"/pages/about-us\">Read more</a>\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_rY6j99"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "home_promo_qjjjhh",
+    "1655080590c5f3de7c",
+    "advanced_content_ULBCa3",
+    "rich_text_zN7WHJ",
+    "172637254239c8de17",
+    "16550807148f76657f",
+    "16550807766a81809f",
+    "rich_text_in8LCV",
+    "apps_CnMCXA",
+    "slideshow_split_Eb9EQT",
+    "rich_text_cwgGdE",
+    "promo_grid_GECBik",
+    "advanced_content_94NtGq"
+  ]
+}

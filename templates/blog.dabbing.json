@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "blog_show_excerpt": true,
+        "blog_image_size": "wide"
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "tags": {
+          "type": "tags",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_PNrMiy": {
+          "type": "product",
+          "settings": {
+            "featured_product": "focus-v-carta-2-portable-dab-rig-2000mah"
+          }
+        },
+        "product_UKeNR4": {
+          "type": "product",
+          "settings": {
+            "featured_product": "space-king-nectar-collector-kit-10mm"
+          }
+        },
+        "product_eXNt9t": {
+          "type": "product",
+          "settings": {
+            "featured_product": "mj-arsenal-alpine-series-apex-mini-rig"
+          }
+        },
+        "product_4X7jdf": {
+          "type": "product",
+          "settings": {
+            "featured_product": "bomb-erig-sykloud-portable-electric-dab-rig-rainbow"
+          }
+        }
+      },
+      "block_order": [
+        "tags",
+        "product_PNrMiy",
+        "product_UKeNR4",
+        "product_eXNt9t",
+        "product_4X7jdf"
+      ],
+      "settings": {}
+    },
+    "featured_collection_Gp9ewq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Top Trending Dab Rigs",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "dab-rigs",
+        "count": 5,
+        "products_per_row": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "blog_posts_RXVrzy": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Water Pipes & Bong Blogs",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "blog": "bongs",
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "featured_collection_k6wzVh": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Dabbing Accessoires",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "dab-rig-accessories",
+        "count": 5,
+        "products_per_row": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sidebar",
+    "featured_collection_Gp9ewq",
+    "blog_posts_RXVrzy",
+    "featured_collection_k6wzVh"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

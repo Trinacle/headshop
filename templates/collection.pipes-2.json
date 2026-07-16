@@ -1,0 +1,145 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "advanced_content_iychRR": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_TTM98b": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"collection-slider\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Pipes-For-Sale.jpg?v=1684209618\"  alt=\"Smoking Pipes For Sale\" ></a> </div>\n<div class=\"collection-des\">\n  <h1 class=\"collection-header\"> The Best Smoking Pipes Online</h1>\n  Headshop offers an incredible assortment of pipes for your smoking pleasure,    including <a href=\"https://www.headshop.com/collections/chillums\">chillums,</a> <a href=\"https://www.headshop.com/collections/steamroller-pipes\">steamrollers,</a> <a href=\"https://www.headshop.com/collections/spoon-pipes\">spoon pipes,</a> <a href=\"https://www.headshop.com/collections/blunt-pipes\"></a>and many more with   the trippiest of designs online. We’re sure you’ll find your new favorite pipe. </div>\n<div class=\"subcat-main\"></div>\n<div class=\"subcat-bottom\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_TTM98b"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "1744914309dfb5a13f": {
+      "type": "apps",
+      "blocks": {
+        "kobu_menu_highlight_app_block_bQqajt": {
+          "type": "shopify://apps/kobu-menu-highlight/blocks/app-block/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 1",
+            "group_title": "center_14px",
+            "menu_shape": "circle",
+            "menu_margin_top": 8,
+            "menu_margin_bottom": 8,
+            "menu_gap": 20,
+            "menu_width": 100,
+            "menu_height": 100,
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 14,
+            "menu_title_font_weight": 6,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_mode": "slider_carousel",
+            "menu_position": "center",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "badge_font_size": 14,
+            "custom_css": ".mhp-group-title {display:none;}",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "kobu_menu_highlight_app_block_bQqajt"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        },
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "product_grid",
+        "collection_description"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapse_filters": true,
+        "enable_color_swatches": true,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {}
+    },
+    "advanced_content_HHNTTW": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_r6jexE": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p><span style=\"font-weight: 400;\">Pipes, pipes, pipes, the most ancient of the smoking apparats, and they still rank #1 in popularity with smokers. Pipes have been the ubiquitous choice of herb and tobacco smokers for many centuries. They’re accessible, non-intimidating, easy to use, and come in every shape and size you can think of.</span></p>\n<p><span style=\"font-weight: 400;\">Today, we have more buying options than the ancients. If you can imagine it as a pipe, chances are, it exists. And almost just as varied as their different designs, pipes come in a slew of materials: glass, wood, and more.</span></p>\n<p><span style=\"font-weight: 400;\">Seeing as we are an online headshop, we’re kind of an authority on pipes. Follow along as we go through the main types of pipes out there today and what you can expect when you use them.</span></p>\n<h2><span style=\"font-weight: 400;\">Behold: The different types of pipes</span></h2>\n<h3><span style=\"font-weight: 400;\">Glass</span></h3>\n<p><span style=\"font-weight: 400;\">It doesn’t get more old school than a glass pipe for smoking dried flowers and herbs. Glass is great because it looks appealing and it’s easy to clean. However, choose your glass pipe carefully if you have pets with large, swinging tails or tend to break things easily.</span></p>\n<h3><span style=\"font-weight: 400;\">Pipes from other materials: Wood, acrylic, ceramic, and silicone</span></h3>\n<p><span style=\"font-weight: 400;\">Wood pipes have a certain look and feel that many smokers love; they’re natural and hold up reasonably well over time. Some people who use one-hitters prefer the acrylic material, though this isn’t the most popular in the pipe world. Then you have ceramic pipes, also not as common, that have a futuristic-yet-hipster feel. And finally, for the most durable, virtually indestructible pipes on the planet, silicone is the name of the game. </span></p>\n<h3><span style=\"font-weight: 400;\">Steamroller</span></h3>\n<p><span style=\"font-weight: 400;\">What stoner doesn’t love a steamroller? Steamrollers are kind of like mini bongs, but they have a signature cylindrical shape. These pipes deliver powerful hits of concentrated smoke and are a cult favorite with smokers. Careful with steamrollers if you are prone to breaking your pieces.</span></p>\n<h3><span style=\"font-weight: 400;\">Spoon</span></h3>\n<p><span style=\"font-weight: 400;\">Spoon pipes are most often made of glass and have a signature spoon-like bowl that dips down. There are many spoon pipe purists out there who swear by them for smoking both dried herbs and kief.</span></p>\n<h3><span style=\"font-weight: 400;\">One-hitters and dugouts</span></h3>\n<p><span style=\"font-weight: 400;\">One-hitters and dugouts are the pieces of choice for concert goers, hikers, boaters, travellers, partiers, and really anyone who wants to carry a discrete piece with them. Not having to carry large amounts of your dried flowers with you is also a benefit. One-hitters are exactly what they sound like, with a bowl that has enough room for about 1 to 2 good hits. Dugouts are the affordable, handheld accessory that holds both your one-hitter and your herbs in a convenient device.</span></p>\n<h3><span style=\"font-weight: 400;\">Blunt pipes</span></h3>\n<p><span style=\"font-weight: 400;\">A way to smoke blunts without cumbersome rolling or wasting papers? Yes please! Blunt pipes serve that exact purpose with glass or other material in the shape of a blunt. Blunt pipes are designed for compact smoking on the go.</span></p>\n<h3><span style=\"font-weight: 400;\">Chillums </span></h3>\n<p><span style=\"font-weight: 400;\">Chillums have a specific design that’s different from your traditional glass pipe. Chillums can be flat or vertical, and their design prevents herb particles from falling down into the chamber.</span></p>\n<h3><span style=\"font-weight: 400;\">Hand pipes</span></h3>\n<p><span style=\"font-weight: 400;\">Hand pipes simply refer to any pipe that you can fit in your hand (imagine that). Their compact size makes them an excellent option for discreet smoking and smoking on the go.</span></p>\n<h3><span style=\"font-weight: 400;\">Sherlock</span></h3>\n<p><span style=\"font-weight: 400;\">Take a wild guess who inspired these fun pipes! Sherlock pipes are at once whimsical and historical, making them a favorite of hipsters everywhere. Not a hipster? You can still partake and indulge yourself with historical-looking paraphernalia. </span></p>\n<h3><span style=\"font-weight: 400;\">Quartz</span></h3>\n<p><span style=\"font-weight: 400;\">Quartz pipes are one of the most timeless pieces you can get. They are durable, artful, and colorful with a natural appeal from this precious stone. A nice quartz pipe starts out in the $40 range but will last you forever if well taken care of.</span></p>\n<h3><span style=\"font-weight: 400;\">Gandalf</span></h3>\n<p><span style=\"font-weight: 400;\">Inspired by the character from Lord of the Rings, Gandalf pipes are known for their long stem and whimsical shape. Gandalf pipes feature a deep bowl and are an irresistibly fun addition to the smoking experience.</span></p>\n<h3><span style=\"font-weight: 400;\">Pipe Accessories </span></h3>\n<p><span style=\"font-weight: 400;\">When smoking herbs and flowers from a pipe, you’ll want to remember your accessory options. Pipe cleaners are tools and solutions to help keep your piece clean and in top shape. Filters and screens can help prevent dried pieces of herb and ash from reaching the mouthpiece for additional protection and filtration. Finally, stash gear refers to the place where you physically put your pipe and your stash. These provide a secure container to keep odor at bay and keep your herbs dry and safe with your favorite piece.</span></p>\n<h2><span style=\"font-weight: 400;\">How do you smoke a bowl with a pipe?</span></h2>\n<p><span style=\"font-weight: 400;\">Use a grinder, scissors, or your fingers to break up your dried flowers into tiny pieces. The goal is to get a finer texture for more even burning and a better experience. Load your bowlpack into the bowl of the pipe, while covering the carb with your finger if there is one. Place your lips on the mouthpiece and light one half of the packed bowl, while slowly inhaling. Occasionally remove and replace your finger on the carb to control smokeflow. Exhale and enjoy.</span></p>\n<h2><span style=\"font-weight: 400;\">What’s the best pipe for smoking dried herbs and flowers?</span></h2>\n<p><span style=\"font-weight: 400;\">Do you hear that? It’s the clamoring of all the voices from the Headshop team to weigh in on this one… </span></p>\n<p><span style=\"font-weight: 400;\">Really, pipes are a matter of preference. Over the years, you can experiment with using different kinds of pipes, purchasing some for yourself or reaping the benefits of a friend with cool pieces. Pipes are as varied in their shapes, sizes, and designs as they are in price, with some artful pieces by famous artists going for thousands of dollars.</span></p>\n<h2><span style=\"font-weight: 400;\">Consensus by Headshop: Top 5 Types of Pipes for Smoking Herbs</span></h2>\n<h3><span style=\"font-weight: 400;\">Best Overall Pipe- Hand/Glass</span></h3>\n<p><a href=\"https://www.headshop.com/collections/glass-pipes/products/zen-blue-etched-spoon-pipe\"><b>Zenbarm Farms Blue</b><b><br></b></a></p>\n<p><span style=\"font-weight: 400;\">Overall, you just can’t go wrong with the old-fashioned glass pipe. They are affordable, they do the trick, and they can easily be cleaned, unless you get a pipe with some crazy design that makes regular cleaning difficult. Also, we picked a hand glass pipe for the best overall for its convenient size, durability, and low price point. Hand pipes made from glass are more solid than your longer styles and don’t break as easily. You also have your range of choices in bowl size, from 2-hitters to huge spoon bowls. It was a tough decision to pick the best overall pipe, but in the end, we think this is the most tried-and-true choice.</span></p>\n<h3>\n<span style=\"font-weight: 400;\">Best On-the-Go Pipe - Dugout w/One Hitter</span><br>\n</h3>\n<p><a href=\"https://www.headshop.com/collections/dugout-pipes/products/pilotdiary-magnetic-wooden-dugout\"><b>PILOTDIARY Wooden Magnetic Dugout</b><b><br><br></b></a></p>\n<p><span style=\"font-weight: 400;\">The dugout takes the cake for on-the-go smoking. Sure, some other categories like blunt pipes were also heavily considered in this category, but nothing can match the durability and the discretion that really, only a dugout can provide. Durability and discretion are two things you need for most on-the-go smoking like concert-going, hiking, camping, a day at the beach, etc. The dugout can easily fit in your pocket, and the heavy wood or metal design usually does wonders to hide the smell of herbs. Instead of carrying your piece and your bud in two separate places, you can securely store them both for on-the-go smoking with a dugout.</span></p>\n<h3><span style=\"font-weight: 400;\">Best Pipe for People Who Break Stuff - Silicone</span></h3>\n<p><a href=\"https://www.headshop.com/collections/silicone-pipes/products/eyce-hammer\"><b>Eyce Hammer</b></a></p>\n<p><span style=\"font-weight: 400;\">True story, we originally had a tie in this category between wood and silicone. Then, we heard a story about a small dog who destroyed a very durable wood pipe. At the end of the day, you just can’t beat silicone if you break stuff easily or you have predictably unpredictable pets. Silicone pipes are virtually indestructible and will easily survive getting knocked over, stepped on, and even being chewed on. They also come in fun, psychedelic colors and patterns, so you don’t miss out on a fun design element if you want it.</span></p>\n<h3><span style=\"font-weight: 400;\">Most Fun Pipe- Gandalf</span></h3>\n<p><a href=\"https://www.headshop.com/collections/gandalf-pipes/products/stratus-glass-handpipe-wizard\"><b>Stratus ‘Wizard”</b><b><br></b></a></p>\n<p><span style=\"font-weight: 400;\">Some of us here at Headshop– who shall remain nameless– are diehard fans of Lord of the Rings. Thus, it is proclaimed that the most fun type of pipe is the Gandalf. Gandalf pipes are unmistakable in their design inspired by the wizard from Tolkein’s famous fantasy novels. Gandalf pipes are conversation starters and give you the feeling you’ve stepped inside a magical story. </span></p>\n<h3><span style=\"font-weight: 400;\">Best Pipe Accessory - Grinder</span></h3>\n<p><a href=\"https://www.headshop.com/collections/3-piece-grinders/products/grav-labs-grinder-3-piece-1-25\"><b>GRAV Labs</b><b><br></b></a></p>\n<p><span style=\"font-weight: 400;\">The surprise win for best pipe accessory is a grinder. We initially were choosing between filters, screens, and pipe cleaners, when someone brought up the fact that none of these items add to the smoking experience in a way that’s close to the grinder. Loading bowls with flowers that have been in a grinder is a more pleasant experience for the lungs and burns more easily. Plus, you get to collect all that kief (and what’s more important than that). Although other official accessories for pipes are great ideas, nothing beats keeping a grinder with your pipe to guarantee a more lifted session.</span></p>\n<h2><span style=\"font-weight: 400;\">Get the pipe you want from Headshop.com </span></h2>\n<p><span style=\"font-weight: 400;\">No matter what pipe you’re looking for, Headshop.com is your #1 online headshop with pieces to fit every preference and budget.</span></p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_r6jexE"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "advanced_content_iychRR",
+    "1744914309dfb5a13f",
+    "main-collection",
+    "recently-viewed",
+    "advanced_content_HHNTTW"
+  ]
+}

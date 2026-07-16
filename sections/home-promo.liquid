@@ -1,0 +1,350 @@
+{%- comment -%}
+  Home Promo Panel
+  - 4 editable image panels (desktop image, optional mobile image, alt, logo, logo alt, product link, logo link)
+  - Overlaid promo text: 3 no-wrap line fields, each with its own font-size + spacing slider
+  - Full parallel MOBILE controls for every size/spacing/logo setting (breakpoint 749px)
+  - Mobile layout switches to a 2-column (2x2) grid
+  - Adjustable section spacing (top/bottom), desktop + mobile
+  - Images served as WebP automatically via Shopify CDN
+  Background default #fdf6f4.
+
+  Install: Online Store > Themes > Edit code > Sections >
+  Add a new section named "home-promo", paste this whole file in.
+  Then in the customizer: Add section > "Home Promo Panel".
+{%- endcomment -%}
+
+{%- liquid
+  assign r  = section.settings.image_radius
+  assign rm = section.settings.image_radius_m
+  assign hr  = section.settings.overlay_radius
+  assign hrm = section.settings.overlay_radius_m
+  assign ratio  = section.settings.image_ratio
+  assign ratiom = section.settings.image_ratio_m
+-%}
+
+<style>
+  #homepromo-{{ section.id }} {
+    background: {{ section.settings.bg_color }};
+    padding: {{ section.settings.section_top }}px 10px {{ section.settings.section_bottom }}px 10px;
+  }
+  #homepromo-{{ section.id }} .homepromo-wrapper {
+    position: relative;
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: {{ section.settings.column_gap }}px;
+  }
+  #homepromo-{{ section.id }} .homepromo-panel {
+    position: relative;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  #homepromo-{{ section.id }} .homepromo-imglink { display: block; margin: 0; padding: 0; }
+  #homepromo-{{ section.id }} .homepromo-img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    {%- if ratio != 'auto' %}
+    aspect-ratio: {{ ratio }};
+    object-fit: cover;
+    {%- endif %}
+  }
+
+  /* Outer strip corners rounded (desktop) */
+  #homepromo-{{ section.id }} .homepromo-first .homepromo-img { border-radius: {{ r }}px 0 0 {{ r }}px; }
+  #homepromo-{{ section.id }} .homepromo-last  .homepromo-img { border-radius: 0 {{ r }}px {{ r }}px 0; }
+
+  /* Brand logo tab */
+  #homepromo-{{ section.id }} .homepromo-logo-wrap {
+    position: absolute;
+    left: 50%;
+    bottom: {{ section.settings.logo_bottom }}%;
+    transform: translateX(-50%);
+    background: {{ section.settings.logo_bg }};
+    padding: 8px 16px;
+    border-radius: {{ section.settings.logo_radius }}px;
+    width: {{ section.settings.logo_size }}%;
+    box-sizing: border-box;
+    display: block;
+  }
+  #homepromo-{{ section.id }} .homepromo-logo { width: 100%; height: auto; display: block; }
+
+  /* Promo text overlay */
+  #homepromo-{{ section.id }} .homepromo-overlay { position: absolute; top: 0; left: 0; z-index: 5; }
+  #homepromo-{{ section.id }} .homepromo-linewrap { line-height: 1; white-space: nowrap; }
+  #homepromo-{{ section.id }} .homepromo-linewrap.l1 { margin-top: {{ section.settings.line1_spacing }}px; }
+  #homepromo-{{ section.id }} .homepromo-linewrap.l2 { margin-top: {{ section.settings.line2_spacing }}px; }
+  #homepromo-{{ section.id }} .homepromo-linewrap.l3 { margin-top: {{ section.settings.line3_spacing }}px; }
+  #homepromo-{{ section.id }} .homepromo-line {
+    display: inline-block;
+    background: {{ section.settings.overlay_bg }};
+    color: {{ section.settings.overlay_text_color }};
+    /* fixed px side padding so every line's text left-aligns */
+    padding: 0.1em {{ section.settings.text_pad_x }}px;
+    border-radius: 0 0 {{ hr }}px {{ hr }}px;
+    font-weight: 800;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  #homepromo-{{ section.id }} .homepromo-line1 { font-size: {{ section.settings.line1_size }}px; }
+  #homepromo-{{ section.id }} .homepromo-line2 { font-size: {{ section.settings.line2_size }}px; }
+  #homepromo-{{ section.id }} .homepromo-line3 { font-size: {{ section.settings.line3_size }}px; letter-spacing: 0.02em; }
+  #homepromo-{{ section.id }} .homepromo-code { color: {{ section.settings.overlay_accent_color }}; }
+
+  /* ---------- MOBILE (<= 749px) ---------- */
+  @media (max-width: 749px) {
+    #homepromo-{{ section.id }} {
+      padding: {{ section.settings.section_top_m }}px 6px {{ section.settings.section_bottom_m }}px 6px;
+    }
+    /* 2-column (2x2) grid */
+    #homepromo-{{ section.id }} .homepromo-wrapper {
+      flex-wrap: wrap;
+      gap: {{ section.settings.column_gap_m }}px;
+    }
+    #homepromo-{{ section.id }} .homepromo-panel {
+      flex: 0 0 calc(50% - {{ section.settings.column_gap_m }}px / 2);
+    }
+
+    {%- if ratiom == 'auto' %}
+    #homepromo-{{ section.id }} .homepromo-img { aspect-ratio: auto; }
+    {%- else %}
+    #homepromo-{{ section.id }} .homepromo-img { aspect-ratio: {{ ratiom }}; object-fit: cover; }
+    {%- endif %}
+
+    /* Round only the 4 outer corners of the 2x2 block */
+    #homepromo-{{ section.id }} .hp-idx-1 .homepromo-img { border-radius: {{ rm }}px 0 0 0; }
+    #homepromo-{{ section.id }} .hp-idx-2 .homepromo-img { border-radius: 0 {{ rm }}px 0 0; }
+    #homepromo-{{ section.id }} .hp-idx-3 .homepromo-img { border-radius: 0 0 0 {{ rm }}px; }
+    #homepromo-{{ section.id }} .hp-idx-4 .homepromo-img { border-radius: 0 0 {{ rm }}px 0; }
+
+    #homepromo-{{ section.id }} .homepromo-logo-wrap {
+      bottom: {{ section.settings.logo_bottom_m }}%;
+      width: {{ section.settings.logo_size_m }}%;
+      border-radius: {{ section.settings.logo_radius_m }}px;
+      padding: 4px 8px;
+    }
+
+    #homepromo-{{ section.id }} .homepromo-linewrap.l1 { margin-top: {{ section.settings.line1_spacing_m }}px; }
+    #homepromo-{{ section.id }} .homepromo-linewrap.l2 { margin-top: {{ section.settings.line2_spacing_m }}px; }
+    #homepromo-{{ section.id }} .homepromo-linewrap.l3 { margin-top: {{ section.settings.line3_spacing_m }}px; }
+
+    #homepromo-{{ section.id }} .homepromo-line {
+      padding: 0.1em {{ section.settings.text_pad_x_m }}px;
+      border-radius: 0 0 {{ hrm }}px {{ hrm }}px;
+    }
+    #homepromo-{{ section.id }} .homepromo-line1 { font-size: {{ section.settings.line1_size_m }}px; }
+    #homepromo-{{ section.id }} .homepromo-line2 { font-size: {{ section.settings.line2_size_m }}px; }
+    #homepromo-{{ section.id }} .homepromo-line3 { font-size: {{ section.settings.line3_size_m }}px; }
+  }
+</style>
+
+<div id="homepromo-{{ section.id }}">
+  <div class="homepromo-wrapper">
+
+    {%- if section.settings.show_overlay -%}
+      <div class="homepromo-overlay">
+        {%- if section.settings.line1 != blank -%}
+          <div class="homepromo-linewrap l1"><span class="homepromo-line homepromo-line1">{{ section.settings.line1 }}</span></div>
+        {%- endif -%}
+        {%- if section.settings.line2 != blank -%}
+          <div class="homepromo-linewrap l2"><span class="homepromo-line homepromo-line2">{{ section.settings.line2 }}</span></div>
+        {%- endif -%}
+        {%- if section.settings.line3 != blank or section.settings.coupon_code != blank -%}
+          <div class="homepromo-linewrap l3"><span class="homepromo-line homepromo-line3">{{ section.settings.line3 }}{% if section.settings.coupon_code != blank %} <span class="homepromo-code">&ldquo;{{ section.settings.coupon_code }}&rdquo;</span>{% endif %}</span></div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- for block in section.blocks -%}
+      {%- liquid
+        assign panel_url = '#'
+        if block.settings.custom_url != blank
+          assign panel_url = block.settings.custom_url
+        elsif block.settings.product != blank
+          assign panel_url = block.settings.product.url
+        endif
+
+        assign logo_url = panel_url
+        if block.settings.logo_url != blank
+          assign logo_url = block.settings.logo_url
+        endif
+      -%}
+      <div class="homepromo-panel hp-idx-{{ forloop.index }}{% if forloop.first %} homepromo-first{% endif %}{% if forloop.last %} homepromo-last{% endif %}" {{ block.shopify_attributes }}>
+        <a class="homepromo-imglink" href="{{ panel_url }}">
+          {%- if block.settings.image != blank -%}
+            <picture>
+              {%- if block.settings.image_m != blank -%}
+                <source media="(max-width: 749px)"
+                        srcset="{{ block.settings.image_m | image_url: width: 500 }} 500w,
+                                {{ block.settings.image_m | image_url: width: 900 }} 900w"
+                        sizes="50vw">
+              {%- endif -%}
+              <img
+                src="{{ block.settings.image | image_url: width: 800 }}"
+                srcset="{{ block.settings.image | image_url: width: 400 }} 400w,
+                        {{ block.settings.image | image_url: width: 800 }} 800w"
+                sizes="25vw"
+                alt="{{ block.settings.image_alt | escape }}"
+                width="{{ block.settings.image.width }}"
+                height="{{ block.settings.image.height }}"
+                class="homepromo-img"
+                loading="lazy">
+            </picture>
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'homepromo-img' }}
+          {%- endif -%}
+        </a>
+
+        {%- if block.settings.logo != blank -%}
+          <a class="homepromo-logo-wrap" href="{{ logo_url }}">
+            <img
+              src="{{ block.settings.logo | image_url: width: 400 }}"
+              alt="{{ block.settings.logo_alt | escape }}"
+              width="{{ block.settings.logo.width }}"
+              height="{{ block.settings.logo.height }}"
+              class="homepromo-logo"
+              loading="lazy">
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Home Promo Panel",
+  "tag": "section",
+  "class": "section-home-promo",
+  "max_blocks": 4,
+  "settings": [
+    { "type": "header", "content": "Promo Text Overlay" },
+    { "type": "checkbox", "id": "show_overlay", "label": "Show promo text overlay", "default": true },
+
+    { "type": "text", "id": "line1", "label": "Line 1", "default": "420 Father's Day Gifts" },
+    { "type": "range", "id": "line1_size", "min": 12, "max": 120, "step": 2, "unit": "px", "label": "Line 1 size", "default": 58 },
+    { "type": "range", "id": "line1_spacing", "min": -60, "max": 40, "step": 2, "unit": "px", "label": "Line 1 space above", "default": 0 },
+
+    { "type": "text", "id": "line2", "label": "Line 2", "default": "10% Off" },
+    { "type": "range", "id": "line2_size", "min": 12, "max": 120, "step": 2, "unit": "px", "label": "Line 2 size", "default": 58 },
+    { "type": "range", "id": "line2_spacing", "min": -60, "max": 40, "step": 2, "unit": "px", "label": "Line 2 space above (negative = overlap)", "default": -6 },
+
+    { "type": "text", "id": "line3", "label": "Line 3 (before code)", "default": "Use Code" },
+    { "type": "text", "id": "coupon_code", "label": "Coupon code (accent color)", "default": "DAD" },
+    { "type": "range", "id": "line3_size", "min": 10, "max": 80, "step": 1, "unit": "px", "label": "Line 3 size", "default": 28 },
+    { "type": "range", "id": "line3_spacing", "min": -60, "max": 40, "step": 2, "unit": "px", "label": "Line 3 space above (negative = overlap)", "default": -6 },
+
+    { "type": "header", "content": "Layout" },
+    { "type": "range", "id": "column_gap", "min": 0, "max": 30, "step": 1, "unit": "px", "label": "Spacing between columns", "default": 6 },
+    { "type": "range", "id": "image_radius", "min": 0, "max": 30, "step": 1, "unit": "px", "label": "Outer image corner radius", "default": 10 },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Image shape (crops to uniform height)",
+      "default": "3/4",
+      "info": "Set to Auto to use each image's own dimensions (uneven heights possible).",
+      "options": [
+        { "value": "auto", "label": "Auto (no crop)" },
+        { "value": "1/1", "label": "Square 1:1" },
+        { "value": "5/4", "label": "Portrait 5:4" },
+        { "value": "4/5", "label": "Portrait 4:5" },
+        { "value": "4/3", "label": "Landscape 4:3" },
+        { "value": "3/4", "label": "Portrait 3:4" },
+        { "value": "3/2", "label": "Landscape 3:2" },
+        { "value": "2/3", "label": "Portrait 2:3" },
+        { "value": "16/9", "label": "Wide 16:9" },
+        { "value": "9/16", "label": "Tall 9:16" },
+        { "value": "21/9", "label": "Ultra Wide 21:9" },
+        { "value": "9/21", "label": "Ultra Tall 9:21" }
+      ]
+    },
+    { "type": "range", "id": "overlay_radius", "min": 0, "max": 30, "step": 1, "unit": "px", "label": "Text highlight bottom radius", "default": 10 },
+    { "type": "range", "id": "text_pad_x", "min": 0, "max": 40, "step": 1, "unit": "px", "label": "Text highlight side padding", "default": 16 },
+
+    { "type": "header", "content": "Section Spacing" },
+    { "type": "range", "id": "section_top", "min": 0, "max": 120, "step": 2, "unit": "px", "label": "Space above section", "default": 20 },
+    { "type": "range", "id": "section_bottom", "min": 0, "max": 120, "step": 2, "unit": "px", "label": "Space below section", "default": 20 },
+
+    { "type": "header", "content": "Bottom Logos" },
+    { "type": "range", "id": "logo_size", "min": 15, "max": 80, "step": 1, "unit": "%", "label": "Logo size (% of panel)", "default": 42 },
+    { "type": "range", "id": "logo_bottom", "min": 0, "max": 40, "step": 1, "unit": "%", "label": "Logo distance from bottom", "default": 4 },
+    { "type": "range", "id": "logo_radius", "min": 0, "max": 24, "step": 1, "unit": "px", "label": "Logo tab corner radius", "default": 8 },
+
+    { "type": "header", "content": "Colors" },
+    { "type": "color", "id": "bg_color", "label": "Background color", "default": "#fdf6f4" },
+    { "type": "color", "id": "overlay_bg", "label": "Text highlight color", "default": "#000000" },
+    { "type": "color", "id": "overlay_text_color", "label": "Text color", "default": "#ffffff" },
+    { "type": "color", "id": "overlay_accent_color", "label": "Coupon code color", "default": "#e0522b" },
+    { "type": "color", "id": "logo_bg", "label": "Logo tab color", "default": "#000000" },
+
+    { "type": "header", "content": "Mobile — Text sizes & spacing", "info": "These apply on screens 749px and narrower." },
+    { "type": "range", "id": "line1_size_m", "min": 8, "max": 90, "step": 1, "unit": "px", "label": "Line 1 size (mobile)", "default": 26 },
+    { "type": "range", "id": "line1_spacing_m", "min": -60, "max": 40, "step": 2, "unit": "px", "label": "Line 1 space above (mobile)", "default": 0 },
+    { "type": "range", "id": "line2_size_m", "min": 8, "max": 90, "step": 1, "unit": "px", "label": "Line 2 size (mobile)", "default": 26 },
+    { "type": "range", "id": "line2_spacing_m", "min": -60, "max": 40, "step": 2, "unit": "px", "label": "Line 2 space above (mobile)", "default": -2 },
+    { "type": "range", "id": "line3_size_m", "min": 6, "max": 60, "step": 1, "unit": "px", "label": "Line 3 size (mobile)", "default": 13 },
+    { "type": "range", "id": "line3_spacing_m", "min": -60, "max": 40, "step": 2, "unit": "px", "label": "Line 3 space above (mobile)", "default": -2 },
+    { "type": "range", "id": "text_pad_x_m", "min": 0, "max": 40, "step": 1, "unit": "px", "label": "Text highlight side padding (mobile)", "default": 8 },
+
+    { "type": "header", "content": "Mobile — Layout & Logos" },
+    { "type": "range", "id": "column_gap_m", "min": 0, "max": 30, "step": 1, "unit": "px", "label": "Spacing between columns (mobile)", "default": 4 },
+    { "type": "range", "id": "image_radius_m", "min": 0, "max": 30, "step": 1, "unit": "px", "label": "Outer image corner radius (mobile)", "default": 8 },
+    {
+      "type": "select",
+      "id": "image_ratio_m",
+      "label": "Image shape (mobile)",
+      "default": "4/5",
+      "options": [
+        { "value": "auto", "label": "Auto (no crop)" },
+        { "value": "1/1", "label": "Square 1:1" },
+        { "value": "5/4", "label": "Portrait 5:4" },
+        { "value": "4/5", "label": "Portrait 4:5" },
+        { "value": "4/3", "label": "Landscape 4:3" },
+        { "value": "3/4", "label": "Portrait 3:4" },
+        { "value": "3/2", "label": "Landscape 3:2" },
+        { "value": "2/3", "label": "Portrait 2:3" },
+        { "value": "16/9", "label": "Wide 16:9" },
+        { "value": "9/16", "label": "Tall 9:16" },
+        { "value": "21/9", "label": "Ultra Wide 21:9" },
+        { "value": "9/21", "label": "Ultra Tall 9:21" }
+      ]
+    },
+    { "type": "range", "id": "overlay_radius_m", "min": 0, "max": 30, "step": 1, "unit": "px", "label": "Text highlight bottom radius (mobile)", "default": 5 },
+    { "type": "range", "id": "logo_size_m", "min": 15, "max": 90, "step": 1, "unit": "%", "label": "Logo size (mobile, % of panel)", "default": 40 },
+    { "type": "range", "id": "logo_bottom_m", "min": 0, "max": 40, "step": 1, "unit": "%", "label": "Logo distance from bottom (mobile)", "default": 4 },
+    { "type": "range", "id": "logo_radius_m", "min": 0, "max": 24, "step": 1, "unit": "px", "label": "Logo tab corner radius (mobile)", "default": 5 },
+    { "type": "range", "id": "section_top_m", "min": 0, "max": 80, "step": 2, "unit": "px", "label": "Space above section (mobile)", "default": 12 },
+    { "type": "range", "id": "section_bottom_m", "min": 0, "max": 80, "step": 2, "unit": "px", "label": "Space below section (mobile)", "default": 12 }
+  ],
+  "blocks": [
+    {
+      "type": "panel",
+      "name": "Image Panel",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Panel image (desktop)" },
+        { "type": "image_picker", "id": "image_m", "label": "Panel image (mobile)", "info": "Optional. Falls back to the desktop image if empty." },
+        { "type": "text", "id": "image_alt", "label": "Image alt text" },
+        { "type": "image_picker", "id": "logo", "label": "Brand logo (white/transparent PNG)" },
+        { "type": "text", "id": "logo_alt", "label": "Logo alt text" },
+        { "type": "product", "id": "product", "label": "Link to product" },
+        { "type": "url", "id": "custom_url", "label": "Custom link (overrides product)", "info": "Optional. Use for a collection or page instead of a product." },
+        { "type": "url", "id": "logo_url", "label": "Logo link (optional)", "info": "If empty, the logo links to the same place as the panel image." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home Promo Panel",
+      "blocks": [
+        { "type": "panel" },
+        { "type": "panel" },
+        { "type": "panel" },
+        { "type": "panel" }
+      ]
+    }
+  ]
+}
+{% endschema %}

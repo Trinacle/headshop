@@ -1,0 +1,325 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "ab3e6b0a-9003-4f61-9f23-a069aa694f5c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16835001712879__ab3e6b0a-9003-4f61-9f23-a069aa694f5c-168955457646524ae0-0": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ",
+            "heading_size": "h2"
+          }
+        },
+        "template--16835001712879__ab3e6b0a-9003-4f61-9f23-a069aa694f5c-168955457646524ae0-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>HERE ARE SOME OF THE MOST FREQUENTLY ASKED QUESTIONS WE RECEIVE AT HEADSHOP.COM</p>"
+          }
+        },
+        "65d8f211-c3b5-4b1e-9726-987e5d58a0cc": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h5>Don’t see the answer to your question here?</h5>"
+          }
+        },
+        "03872903-1314-4f57-80ef-2723f903ebca": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/contact-us",
+            "link_text": "Get in touch"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835001712879__ab3e6b0a-9003-4f61-9f23-a069aa694f5c-168955457646524ae0-0",
+        "template--16835001712879__ab3e6b0a-9003-4f61-9f23-a069aa694f5c-168955457646524ae0-1",
+        "65d8f211-c3b5-4b1e-9726-987e5d58a0cc",
+        "03872903-1314-4f57-80ef-2723f903ebca"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq-0": {
+          "type": "rich-text",
+          "settings": {
+            "title": "General Questions",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "Who can use your website?",
+            "text": "<p>Our website is meant for chill individuals who are 18 years or older. By using our site and making a purchase, you're confirming that you're legal to do so in your neck of the woods. If we suspect you are underage, we'll have to pass on serving you.</p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "Is my personal and payment info safe with you?",
+            "text": "<p>Totally! We take your privacy seriously and use top-notch encryption to keep your deets safe and sound. We only use your info to process your order, and we promise not to share it with anyone else.</p>"
+          }
+        },
+        "38ebc49c-df7c-491b-bbb3-6320a882c03f": {
+          "type": "question",
+          "settings": {
+            "title": "How can I pay for my order?",
+            "text": "<p>We've got you covered, my friend! We accept major credit cards (Visa, Mastercard, Discover) and other secure online payment platforms like Sezzle Payments and Coinbase Commerce. Choose your favorite way to pay when you're checking out.</p>"
+          }
+        },
+        "94e2f88a-aeb6-40bf-a73c-b9daf6a3e353": {
+          "type": "question",
+          "settings": {
+            "title": "What is Sezzle, and how does it work?",
+            "text": "<p>We've partnered with Sezzle to offer you a convenient payment plan option. With Sezzle, you can split your purchase into four interest-free payments, spread out over six weeks. It's a great way to get what you want now and pay over time.</p><p> Sezzle is super easy to use! When you choose Sezzle at checkout, your order total is divided into four equal payments. You'll make your first payment at the time of purchase, and the remaining payments will be automatically deducted from your chosen payment method every two weeks. No interest, no catch—just a smooth payment experience.</p>"
+          }
+        },
+        "0eb577f5-31ec-4ee4-83a3-fb5b4ee3e115": {
+          "type": "question",
+          "settings": {
+            "title": "Are the products you offer authentic?",
+            "text": "<p>Definitely! We take pride in working with trusted suppliers and brands to ensure that all the products we offer are 100% authentic. We understand the importance of providing high-quality and genuine items to our customers, so you can shop with confidence knowing that you're getting the real deal.</p>"
+          }
+        },
+        "1836d2e8-d507-449c-ac7b-6a426ca844ee": {
+          "type": "question",
+          "settings": {
+            "title": "Why are items on your store out of stock?",
+            "text": "<p>We totally get it, it can be a bummer when you see an item marked as out of stock. Here are a few reasons why items may be temporarily unavailable:</p><ol><li><strong>Popular Demand:</strong> Our products are in high demand because we offer some of the coolest stuff out there. Sometimes, items sell out quickly due to their popularity, but don't worry—we're constantly working to restock them as soon as possible.</li><li><strong>Supplier Availability:</strong> We work with awesome suppliers from all around the country, and sometimes they may experience delays in restocking certain items. Factors like production schedules, availability of materials, or even unexpected circumstances can impact the availability of products.</li><li><strong>Quality Control:</strong> We take quality seriously, dude! If we notice any issues with a specific batch or need to ensure that the product meets our high standards, we may temporarily take it off the shelves until it's back to being top-notch.</li></ol><p>Rest assured, though, we're always hustling to restock our inventory and get those rad items back on our shelves. Keep an eye out for updates on our website or subscribe to our newsletter to be the first to know when items are back in stock.</p>"
+          }
+        },
+        "faq-3": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Order Questions",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-4": {
+          "type": "question",
+          "settings": {
+            "title": "Can I change or cancel my order?",
+            "text": "<p>Once your order is in the works, it's tough to make changes or cancellations. But don't stress! Just hit up our rad <a href=\"https://www.headshop.com/pages/contact-us\" target=\"_blank\">customer service team</a> ASAP, and we'll do our best to help you out.</p>"
+          }
+        },
+        "504fe6f3-a80b-45ac-aeda-67c76d1fe0e6": {
+          "type": "question",
+          "settings": {
+            "title": "I accidentally entered the wrong shipping address! What are my options?",
+            "text": "<p>If you realize you need to switch up your shipping address, just let us know ASAP. We can't guarantee we can make the change, but we'll do our best to help you out based on where your order is at in the process.</p>"
+          }
+        },
+        "a630f176-f599-413b-b78e-2086729d1fab": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to process my order?",
+            "text": "<p>We'll get your order packed up and ready to roll in about 3-5 business days. Our awesome suppliers take care of the packing and shipping, so you can sit back and relax. Once this is done, you'll receive a shipping notification email with your new tracking number so you can track those goods all the way to your door.</p><p>Heads up: Your order might sometimes be delayed when the suppliers are closed for holidays, inventory counts, etc. <br/><br/>If you haven't received a tracking number within 5 business days, let us know and we will help out however we can!</p><p></p><p></p>"
+          }
+        },
+        "ceb3336c-0b67-4b54-9f58-0dd03380c00e": {
+          "type": "question",
+          "settings": {
+            "title": "When can I expect my goodies to arrive?",
+            "text": "<p>Once your order is processed (can take 2-5 business days) and hits the road, it usually takes about 3-5 business days to reach your doorstep.</p><p>Just a heads up, every item you purchase from us can come from a different supplier which means different shipping couriers, speeds, etc. So for example, you might get your Puffco products freaky fast while Grav may take a little longer. Delivery times can also vary based on where you're at and any hiccups along the way.</p>"
+          }
+        },
+        "967a1676-4639-44dd-b1dd-13a181be0998": {
+          "type": "question",
+          "settings": {
+            "title": "How can I track my order?",
+            "text": "<p>We'll hook you up with a tracking number via email once your order is shipped. You'll be able to keep tabs on your package and see when it's gonna arrive and join your smoking squad.</p><p>If you opt-in for Saved By Protection (strongly recommend), you can also view your deliveries in the Route mobile app to get a real-time view of where all of your packages are. <em>This app is not required and you'll always be able to track through the shipping email we send.</em></p>"
+          }
+        },
+        "0d453ec5-9ef3-47a8-aa80-dd348aff666f": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Shipping & Tracking",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "8de32177-8234-48f8-8e6d-de2d96d1ad11": {
+          "type": "question",
+          "settings": {
+            "title": "Who's in charge of shipping my stuff?",
+            "text": "<p>Our suppliers partner with cool shipping carriers like USPS, FedEx, and UPS to make sure your package arrives in style. The specific carrier will depend on factors like where you're at, where your package is coming from, and the size/weight of your package.</p>"
+          }
+        },
+        "3e955f1f-23e8-4236-b6f1-550c7b3fed0c": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to any other countries?",
+            "text": "<p>As much as we'd love to spread the love worldwide, we currently ship within the USA only. But hey, if you're in the good ol' United States, we've got you covered! </p>"
+          }
+        },
+        "5f6ee17f-4913-4402-ad75-3b9d14322a92": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer free shipping?",
+            "text": "<p>Good news on the shipping front! If you're kickin' it within the continental U.S. and your order totals over $100, we've got your back with free shipping. That's like a cosmic gift from the universe!</p>"
+          }
+        },
+        "f17584be-dee4-4f1e-8dec-abbe5405023d": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get my order delivered super fast? Like, warp speed?",
+            "text": "<p>At the moment, we don't offer expedited shipping options. But hey, we're always looking for ways to make things faster and smoother for you. We'll keep you in the loop if we add that feature in the future.</p>"
+          }
+        },
+        "cda709bb-6d3d-4754-946f-3e018b24d7ad": {
+          "type": "question",
+          "settings": {
+            "title": "What do I do if my tracking number says it's \"Not Found?\"",
+            "text": "<p>If your tracking information shows \"Not Found,\" don't worry just yet! Sometimes, it takes a little time for the tracking information to update in the system. Give it a day or two and check again. </p><p>If the \"Not Found\" status continues or you have concerns about the tracking, reach out to our customer service team. They'll be happy to assist you in tracking down your package, contacting the shipping carrier, or providing any additional information available.</p>"
+          }
+        },
+        "996d41d6-ba28-4074-90dc-f6f7b839c4cc": {
+          "type": "question",
+          "settings": {
+            "title": "What should I do if my tracking info shows \"Label Created, not yet in system\"?",
+            "text": "<p>No worries, this just means that your package has been fulfilled by one of our suppliers but is currently waiting for the shipping courier to pick it up. We like to ask for up to 72 hours for this to update but it usually just takes overnight.</p><p>If it's been several days and your tracking number still hasn't updated, reach out to our <a href=\"https://www.headshop.com/pages/headshop.com/pages/contact-us\" target=\"_blank\">customer service team</a> and we'll do what we can to figure out what's going on!</p><p>If the \"Not Found\" status continues or you have concerns about the tracking, reach out to our customer service team. They'll be happy to assist you in tracking down your package, contacting the shipping carrier, or providing any additional information available.</p>"
+          }
+        },
+        "2528762e-c605-4356-84ce-a3b382bbc943": {
+          "type": "question",
+          "settings": {
+            "title": "My tracking number says my package is delivered, but I can't find it anywhere. Can you help me out? ",
+            "text": "<p>Oh man, sorry to hear it! Do us a huge favor and first try these tips:</p><ul><li>Check with your neighbors and take a casual stroll around your place. Sometimes those delivery folks get creative and stash packages in hidden spots to keep 'em safe from sticky fingers.</li><li>Take a quick peek at the shipping address on your order. Just to make sure it's all good and didn't take an unexpected detour to who-knows-where</li><li>We know you're stoked about getting your hands on that package, but give it at least 3 business days to pop up. Sometimes those shipping carriers jump the gun and mark it as delivered a tad too soon. Oops!</li></ul><p>If you still haven’t received it after giving our tips a go, reach out to our <a href=\"https://www.headshop.com/pages/contact-us\" target=\"_blank\">customer service team</a> so we help out! <br/><br/><em>Please note: Headshop.com is not liable for lost/stolen packages, we recommend adding Route Package Protection to your order to prevent having to file lost package claims with the shipping courier.</em></p><p></p><p></p>"
+          }
+        },
+        "bfe8d4d8-d8bb-458a-9b83-dd183c53288c": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Returns & Order Concerns",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "590265af-2e9f-4b56-9b6e-589d18ec2f12": {
+          "type": "question",
+          "settings": {
+            "title": "What if I want to return something?",
+            "text": "<p>If you're not stoked with your purchase, hit us up within 30 days of delivery. We'll work with you to make things right, whether it's a defective item or just not what you were expecting. Check out our <a href=\"https://www.headshop.com/pages/return-policy\" target=\"_blank\">Return Policy</a> page for all the deets.</p><p>To kickstart the return process, reach out to our awesome customer service crew. They'll guide you through the steps and make sure you're all set. </p><p>Once we receive your returned item and it's all good to go, we'll process your refund. You'll get your moolah back through the original payment method you used. Please allow some time for the refund to show up in your account—it can take a little while.</p>"
+          }
+        },
+        "287a6d85-2673-4c38-8deb-d10b3773b756": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return an item if I've used it and I don't like it?",
+            "text": "<p>We understand you gotta try things out, but to keep things fair for everyone, we can only accept returns for unused and unopened items. Make sure to keep it in its original condition and packaging, so we can sort it out smoothly.</p>"
+          }
+        },
+        "396a39b8-1f15-4d55-8b6e-0848db17aace": {
+          "type": "question",
+          "settings": {
+            "title": "What do I do if my package arrives and it's not what I ordered?",
+            "text": "<p>We'll help you sort it out! If you find that your package doesn't match what you ordered, reach out to our awesome <a href=\"https://www.headshop.com/pages/headshop.com/pages/contact-us\" target=\"_blank\"><strong>customer service team</strong></a>   as soon as possible. Let them know about the mix-up and provide details + photos about the items you received instead of your order. We'll work quickly to resolve the issue and make things right for you..</p><p>Rest assured, our goal is to make sure you receive the correct items you ordered and have a stellar experience with us. Mistakes can happen, but we'll do everything we can to fix them promptly.</p>"
+          }
+        },
+        "3459f9ad-65ee-4924-b837-cceef9d75cd0": {
+          "type": "question",
+          "settings": {
+            "title": "My order is missing an item, what should I do?",
+            "text": "<p>Oops, sorry about that! If an item is missing from your order, please contact our customer service team right away. We'll investigate the issue and work to get the missing item to you as quickly as possible.</p>"
+          }
+        },
+        "16281028-d29e-4604-a866-eb5544b5ff3c": {
+          "type": "question",
+          "settings": {
+            "title": "What if I end up with the wrong item?",
+            "text": "<p>If you received an incorrect item in your order, please take photos of the item you did receive and contact our customer service team so we can correct the error! We'll make it right by arranging a return and sending you the correct item as quickly as we can.</p>"
+          }
+        },
+        "ae0841a4-971a-4335-ba6a-fcccc317bfb6": {
+          "type": "question",
+          "settings": {
+            "title": "My item arrived and is damaged/shattered, what should I do?",
+            "text": "<p>Oh no! We apologize for any damage that occurred during shipping. If your package arrives damaged, please take photos of the damaged packaging and items, and <strong>contact our customer service team within 72 hours of delivery in order to qualify for a replacement.</strong> </p><p>We'll work with you to resolve the issue and ensure you receive a replacement or refund!</p>"
+          }
+        },
+        "1440f907-2e57-4594-9938-2005ec98ef0f": {
+          "type": "question",
+          "settings": {
+            "title": "How can I reach your customer service team?",
+            "text": "<p>Got questions? Need some help? No worries! You can hit us up by filling out our <a href=\"https://www.headshop.com/pages/contact-us\" target=\"_blank\">Contact Form</a>. Our awesome team is available Monday-Friday from 9am-5pm PST and we will get back to you as fast </p>"
+          }
+        },
+        "82307e3b-71a3-4f88-81a0-3f40346c009c": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Disclaimer",
+            "text": "<p><em>The products and statements on our website are like shooting stars in the night sky - they haven't been evaluated by the FDA. That means they're not designed to diagnose, cure, prevent, or treat any diseases. They're just here to bring you good vibes and a stellar smoking experience.</em></p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "38ebc49c-df7c-491b-bbb3-6320a882c03f",
+        "94e2f88a-aeb6-40bf-a73c-b9daf6a3e353",
+        "0eb577f5-31ec-4ee4-83a3-fb5b4ee3e115",
+        "1836d2e8-d507-449c-ac7b-6a426ca844ee",
+        "faq-3",
+        "faq-4",
+        "504fe6f3-a80b-45ac-aeda-67c76d1fe0e6",
+        "a630f176-f599-413b-b78e-2086729d1fab",
+        "ceb3336c-0b67-4b54-9f58-0dd03380c00e",
+        "967a1676-4639-44dd-b1dd-13a181be0998",
+        "0d453ec5-9ef3-47a8-aa80-dd348aff666f",
+        "8de32177-8234-48f8-8e6d-de2d96d1ad11",
+        "3e955f1f-23e8-4236-b6f1-550c7b3fed0c",
+        "5f6ee17f-4913-4402-ad75-3b9d14322a92",
+        "f17584be-dee4-4f1e-8dec-abbe5405023d",
+        "cda709bb-6d3d-4754-946f-3e018b24d7ad",
+        "996d41d6-ba28-4074-90dc-f6f7b839c4cc",
+        "2528762e-c605-4356-84ce-a3b382bbc943",
+        "bfe8d4d8-d8bb-458a-9b83-dd183c53288c",
+        "590265af-2e9f-4b56-9b6e-589d18ec2f12",
+        "287a6d85-2673-4c38-8deb-d10b3773b756",
+        "396a39b8-1f15-4d55-8b6e-0848db17aace",
+        "3459f9ad-65ee-4924-b837-cceef9d75cd0",
+        "16281028-d29e-4604-a866-eb5544b5ff3c",
+        "ae0841a4-971a-4335-ba6a-fcccc317bfb6",
+        "1440f907-2e57-4594-9938-2005ec98ef0f",
+        "82307e3b-71a3-4f88-81a0-3f40346c009c"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "heading_position": "left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ab3e6b0a-9003-4f61-9f23-a069aa694f5c",
+    "faq"
+  ]
+}

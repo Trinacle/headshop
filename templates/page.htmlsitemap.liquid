@@ -1,0 +1,135 @@
+<div class="page-width page-width--narrow page-content">
+  <header class="section-header">
+    <h1 class="section-header__title">
+      {{ page.title | escape }}
+    </h1>
+  </header>
+
+  <div class="rte rte--nomargin">
+<div class="row">
+    <div class="col-md-6">
+        <h2>Collections</h2>
+        <ul>
+            {% for c in collections %}
+                <li>
+                    <a href="{{ c.url }}">{{ c.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h2>Products</h2>
+        <ul>
+  
+            {% paginate collections.all.products by 1000 %}
+                {% for product in collections.all.products %}
+                    <li>
+                        <a href="{{ product.url }}">{{ product.title }}</a>
+                    </li>
+                {% endfor %}
+            {% endpaginate %}
+  
+        </ul>
+    </div>
+   <h1>Blog Posts</h1>
+  <h2>Shopping Guides</h2>
+   <ul>
+      {% assign blog_handles = "news" | split: "," %}
+ 
+         {% for handle in blog_handles %}
+ 
+         {% for article in blogs[handle].articles %}
+            <li>
+               <a href="{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+ 
+      {% endfor %}
+  </ul>
+   <h2>Vape Culture</h2>
+   <ul>
+      {% assign blog_handles = "vapes" | split: "," %}
+ 
+         {% for handle in blog_handles %}
+ 
+         {% for article in blogs[handle].articles %}
+            <li>
+               <a href="{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+ 
+      {% endfor %}
+  </ul>
+  <h2>Dabbing Decoded</h2>
+   <ul>
+      {% assign blog_handles = "dabbing" | split: "," %}
+ 
+         {% for handle in blog_handles %}
+ 
+         {% for article in blogs[handle].articles %}
+            <li>
+               <a href="{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+ 
+      {% endfor %}
+  </ul>
+   <h2>Smoking & Rolling Joints</h2>
+   <ul>
+      {% assign blog_handles = "smoking-joints" | split: "," %}
+ 
+         {% for handle in blog_handles %}
+ 
+         {% for article in blogs[handle].articles %}
+            <li>
+               <a href="{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+ 
+      {% endfor %}
+  </ul>
+  <h2>Smoking & Rolling Blunts</h2>
+   <ul>
+      {% assign blog_handles = "smoking-blunts" | split: "," %}
+ 
+         {% for handle in blog_handles %}
+ 
+         {% for article in blogs[handle].articles %}
+            <li>
+               <a href="{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+ 
+      {% endfor %}
+  </ul>
+  <h2>Smoking Pipes</h2>
+   <ul>
+      {% assign blog_handles = "smoking-pipes" | split: "," %}
+ 
+         {% for handle in blog_handles %}
+ 
+         {% for article in blogs[handle].articles %}
+            <li>
+               <a href="{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+ 
+      {% endfor %}
+  </ul>
+  <h2>Stash Boxes</h2>
+   <ul>
+      {% assign blog_handles = "stash-boxes" | split: "," %}
+ 
+         {% for handle in blog_handles %}
+ 
+         {% for article in blogs[handle].articles %}
+            <li>
+               <a href="{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+ 
+      {% endfor %}
+  </ul>
+</div>
+  </div>
+</div>

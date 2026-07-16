@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": false,
+        "collection_image_enable": false,
+        "parallax": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        },
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "product_grid",
+        "collection_description"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapse_filters": false,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    },
+    "1655083067742185be": {
+      "type": "advanced-content",
+      "blocks": {
+        "1655083067daec775f-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"cat-hero\">\n<div class=\"cat-breadcrumb\">\n<a href=\"/\" style=\"text-decoration: none;\">Products</a> > <a href=\"/collections/bubblers\" style=\"text-decoration: none;\">Bubblers</a>\n</div>\n<div class=\"cat-title\">Bubblers</div>\n<div class=\"cat-des\">Check out our great selection of bubbler pipes! Popular for their diffusion, percs, and size, as well as the smoothest of inhales, we carry various styles and materials. Bubblers are even considered their own category, as well as an essential part of any smokers collection.\n</div>\n</div>\n<div class=\"subcat-main\">\n<div class=\"subcat-inner\" align=\"center\">\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/silicone-bubblers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Silicone-Bubbler.png?v=1632499430\" alt=\"Silicone Bubblers\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/silicone-bubblers\" style=\"text-decoration: none;\">Silicone Bubblers</a></div>\n</div>\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/glass-bubblers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Glass-Bubblers.png?v=1632499430\" alt=\"Glass Bubblers\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/glass-bubblers\" style=\"text-decoration: none;\">Glass Bubblers</a></div>\n</div>\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/mini-bubblers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Mini-Bubbler.png?v=1632499430\" alt=\"Mini Bubblers\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/mini-bubblers\" style=\"text-decoration: none;\">Mini Bubblers</a></div>\n</div>\n<div class=\"subcat\">\n<div class=\"subcat-image\"><a href=\"/collections/volcano-bubblers\"><img src=\"https://cdn.shopify.com/s/files/1/0585/8462/9443/files/Volcano-Bubblers.png?v=1633360533\" alt=\"Volcano Bubblers\"></a></div>\n<div class=\"subcat-des\"><a href=\"/collections/volcano-bubblers\" style=\"text-decoration: none;\">Volcano Bubblers</a></div>\n</div>\n</div>\n</div>\n<div class=\"subcat-bottom\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1655083067daec775f-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main-collection",
+    "recently-viewed",
+    "1655083067742185be"
+  ]
+}

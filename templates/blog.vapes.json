@@ -1,0 +1,103 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide"
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "product_gCcQik": {
+          "type": "product",
+          "settings": {
+            "featured_product": "compass-rise-crimson-1"
+          }
+        },
+        "product_8XCD7m": {
+          "type": "product",
+          "settings": {
+            "featured_product": "wood-white-beechwood"
+          }
+        },
+        "product_6AwJEB": {
+          "type": "product",
+          "settings": {
+            "featured_product": "puffco-pivot-vaporizer"
+          }
+        },
+        "product_PNrMiy": {
+          "type": "product",
+          "settings": {
+            "featured_product": "storz-bickel-crafty-usb-c-updated-portable-vaporizer"
+          }
+        }
+      },
+      "block_order": [
+        "product_gCcQik",
+        "product_8XCD7m",
+        "product_6AwJEB",
+        "product_PNrMiy"
+      ],
+      "settings": {}
+    },
+    "featured_collection_Gp9ewq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending Vapes",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "vaporizers",
+        "count": 5,
+        "products_per_row": 3,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "slideshow_image_NYCfJh": {
+      "type": "slideshow-image",
+      "blocks": {
+        "image_DxD3dn": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/vessel",
+            "image": "shopify://shop_images/Vessel-Vaporizers.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_DxD3dn"
+      ],
+      "settings": {
+        "full_width": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sidebar",
+    "featured_collection_Gp9ewq",
+    "slideshow_image_NYCfJh"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}
