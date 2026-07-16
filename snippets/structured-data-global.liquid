@@ -1,0 +1,92 @@
+{% comment %}
+  Global structured data: Organization + WebSite (with SearchAction).
+
+  Adds sitelinks searchbox eligibility and proper entity understanding.
+  Rendered once in layout/theme.liquid <head>. Per-template schema
+  (Product, Article, BreadcrumbList, etc.) lives in its respective section.
+
+  References:
+  - https://developers.google.com/search/docs/appearance/structured-data/sitelinks-searchbox
+  - https://developers.google.com/search/docs/appearance/structured-data/organization
+{% endcomment %}
+
+{%- liquid
+  assign shop_url = shop.url
+  assign shop_name = shop.name | escape
+  assign search_url = shop_url | append: routes.search_url | append: '?q={search_term_string}'
+
+  assign same_as_string = ''
+  if settings.social_facebook_link != blank
+    assign same_as_string = same_as_string | append: settings.social_facebook_link | append: '||'
+  endif
+  if settings.social_twitter_link != blank
+    assign same_as_string = same_as_string | append: settings.social_twitter_link | append: '||'
+  endif
+  if settings.social_instagram_link != blank
+    assign same_as_string = same_as_string | append: settings.social_instagram_link | append: '||'
+  endif
+  if settings.social_youtube_link != blank
+    assign same_as_string = same_as_string | append: settings.social_youtube_link | append: '||'
+  endif
+  if settings.social_tiktok_link != blank
+    assign same_as_string = same_as_string | append: settings.social_tiktok_link | append: '||'
+  endif
+  if settings.social_pinterest_link != blank
+    assign same_as_string = same_as_string | append: settings.social_pinterest_link | append: '||'
+  endif
+  if settings.social_linkedin_link != blank
+    assign same_as_string = same_as_string | append: settings.social_linkedin_link | append: '||'
+  endif
+  if settings.social_snapchat_link != blank
+    assign same_as_string = same_as_string | append: settings.social_snapchat_link | append: '||'
+  endif
+  if settings.social_tumblr_link != blank
+    assign same_as_string = same_as_string | append: settings.social_tumblr_link | append: '||'
+  endif
+  if settings.social_vimeo_link != blank
+    assign same_as_string = same_as_string | append: settings.social_vimeo_link | append: '||'
+  endif
+-%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ shop_url }}/#organization",
+      "name": {{ shop_name | json }},
+      "url": "{{ shop_url }}"{% if settings.logo != blank %},
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:{{ settings.logo | image_url: width: 600 }}",
+        "width": 600,
+        "height": {{ settings.logo.aspect_ratio | times: 600 | round }}
+      }{% endif %}{% if same_as_string != '' %},
+      "sameAs": [
+        {%- assign same_as = same_as_string | split: '||' -%}
+        {%- for link in same_as -%}
+          {%- if link != '' -%}
+            {{ link | json }}{%- unless forloop.last %}, {% endunless -%}
+          {%- endif -%}
+        {%- endfor -%}
+      ]{% endif %}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ shop_url }}/#website",
+      "url": "{{ shop_url }}",
+      "name": {{ shop_name | json }},
+      "publisher": { "@id": "{{ shop_url }}/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ search_url }}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
