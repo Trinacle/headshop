@@ -251,7 +251,14 @@
     },
     "publisher": {
       "@type": "Organization",
-      {% if page_image %}
+      {% if settings.logo %}
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https:{{ settings.logo | image_url: width: 600 }}",
+          "width": 600,
+          "height": {{ settings.logo.aspect_ratio | times: 600 | round }}
+        },
+      {% elsif page_image %}
         {% assign image_size = page_image.width %}
         "logo": {
           "@type": "ImageObject",
