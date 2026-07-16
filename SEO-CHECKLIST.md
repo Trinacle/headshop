@@ -20,8 +20,8 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
       is installed — configure it to inject `AggregateRating`, or add manually.
 - [ ] 🟡 **A5. ItemList on collection pages** — `snippets/section-main-collection.liquid:97`
       emits thin `CollectionPage`. Add `ItemList` enumerating products.
-- [ ] ⚪ **A6. Article publisher logo fix** — `snippets/section-article-template.liquid:254-262`
-      uses `page_image` for publisher logo; should use shop logo.
+- [x] ✅ **A6. Article publisher logo fix** — DONE. Now uses `settings.logo`
+      (shop logo); falls back to `page_image` only if no logo set.
 - [ ] ⚪ **A7. VideoObject** — `featured-video`/`hero-video`/`promo-video` sections emit
       no video schema. Add if video content matters.
 - ✅ Product schema (Product + Offer) present via `structured_data` filter.
@@ -33,12 +33,10 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 - [x] ✅ **B1. Remove duplicate H1 tags** — DONE. 16 custom-liquid `<h1>` → `<h2>`
       across 12 templates + Pro Blogger related-products title H1 → H3 in article.json.
       Every page now has exactly one H1.
-- [ ] 🟡 **B2. Meta description fallback** — `layout/theme.liquid:20` only emits
-      `<meta name="description">` when `page_description` exists. Add fallback to
-      `product.description` / `collection.description` / `shop.description`.
-- [ ] 🟡 **B3. Image alt text** — 6 empty `image_alt` fields in template JSON;
-      several keyword-stuffed / mismatched alts in custom-liquid blocks.
-      Audit and fix all `alt=""` and stuffed alts.
+- [x] ✅ **B2. Meta description fallback** — DONE. Falls back through
+      `page_description` → product/collection/page description → `shop.description`.
+- [x] ✅ **B3. Image alt text** — DONE. Filled 4 empty `image_alt` + 2 empty
+      `logo_alt` fields in `index.json` home-promo panels. No stuffed alts found.
 - ✅ Title tag dynamic per template with pagination/tag suffixes (`snippets/page-title.liquid`).
 - ✅ Open Graph + Twitter cards complete (`snippets/social-meta-tags.liquid`).
 - ✅ No accidental `noindex`/`nofollow` anywhere in theme (only password page).
@@ -48,21 +46,24 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 - [x] ✅ **C1. Canonical hardening** — NOT NEEDED. Verified live: Shopify's
       `canonical_url` already strips `sort_by`/`filter.v.*` and preserves `?page=N`
       correctly. No theme change required.
-- [ ] 🟠 **C2. hreflang tags** — multi-market store (US/UK/Canada per `config/markets.json`)
-      but zero `<link rel="alternate" hreflang>` in theme. Add in `layout/theme.liquid`
-      via `localization.available_countries`.
-- [ ] 🟡 **C3. Verify `view=ajax` not indexable** — AJAX renderer fetches `?view=ajax`
-      (`assets/item-grid.js:335`). Confirm these aren't indexed.
+- [x] ✅ **C2. hreflang tags** — NOT a theme fix. Shopify Markets already injects
+      hreflang via `content_for_header` (x-default, en, en-CA confirmed live). UK
+      market (en-GB) tag is missing because `/en-gb/` redirects to `/` — the UK
+      market needs fixing in **Shopify admin → Settings → Markets**, not the theme.
+      Adding theme-level hreflang would duplicate Shopify's auto-injected tags.
+- [x] ✅ **C3. Verify `view=ajax` not indexable** — VERIFIED OK. `?view=ajax` returns
+      a full page but its canonical points to the clean collection URL, so it
+      self-corrects. Low SEO risk.
 - ✅ Infinite scroll is crawlable — real server-side pagination with `?page=N` links.
 - ✅ Pagination is self-canonical (not collapsed to page 1).
 - ✅ Internal links are real `<a href>` (product grid, blog, collections, search).
 
 ## D. Content rendering (blog)
 
-- [ ] 🔴 **D1. Render `{{ article.content }}` in the theme** —
-      `snippets/section-article-template.liquid` never outputs the article body; it's
-      injected by the Pro Blogger app. If the app fails, crawlers see no body text.
-      Add `{{ article.content }}` to the article template so content is always in HTML.
+- [x] ✅ **D1. Article content rendering** — VERIFIED OK (no change needed). Pro
+      Blogger server-renders the article body in visible HTML (~9,800 chars, 26 `<p>`).
+      Google can read it. Adding `{{ article.content }}` to the theme would duplicate.
+      Left as-is; revisit only if blog rankings don't recover.
 
 ## E. Speed / Core Web Vitals
 
@@ -75,11 +76,9 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
       `<script defer>`. Resolved the theme.liquid ParserBlockingScript error.
 - [x] ✅ **E4. Fix `home-promo` above-the-fold images** — DONE. First panel image+logo
       now `loading="eager" fetchpriority="high"`; rest stay lazy.
-- [ ] 🟠 **E4. Fix `home-promo` above-the-fold images** — `sections/home-promo.liquid:184-193`
-      uses `loading="lazy"` on top-of-page promo panels. Change first row to
-      `loading="eager" fetchpriority="high"` + preload primary image. (Our section.)
-- [ ] 🟡 **E5. Scope `modulepreload`** — `snippets/preload-js.liquid` preloads all ~60
-      modules on every page. Limit to modules needed for current template.
+- [x] ✅ **E5. Scope `modulepreload`** — DONE. `snippets/preload-js.liquid` now scans
+      the page's actual `<script type="module">` imports and preloads only those,
+      instead of all ~60 import-map entries.
 - [ ] 🟡 **E6. Split `components.css` (335KB)** — audit for unused section styles.
 - ✅ JS architecture is modern (ES modules, import maps, `is-land` islands).
 - ✅ Images use Shopify CDN resizing, `srcset`, `width`/`height` (low CLS).
