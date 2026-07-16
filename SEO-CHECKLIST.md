@@ -9,15 +9,12 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 
 ## A. Structured data / schema (rich results + entity understanding)
 
-- [ ] 🔴 **A1. Organization schema** — global JSON-LD in `layout/theme.liquid` with
-      logo, `sameAs` (social profiles), contactPoint, address. Currently only exists
-      as microdata on the password page (`snippets/section-password-header.liquid:49`).
-- [ ] 🔴 **A2. WebSite + SearchAction schema** — sitelinks searchbox. Add to
-      `layout/theme.liquid`. Target: `https://headshop.com/search?q={search_term_string}`.
-      Confirmed missing across all theme files.
-- [ ] 🟠 **A3. BreadcrumbList JSON-LD** — `snippets/breadcrumbs.liquid` renders visible
-      HTML breadcrumbs but emits no schema. Add `<script type="application/ld+json">`
-      with `@type: BreadcrumbList` + `ListItem` entries.
+- [x] ✅ **A1. Organization schema** — DONE. `snippets/structured-data-global.liquid`,
+      rendered in `layout/theme.liquid`. Name, url, logo, sameAs (conditional social).
+- [x] ✅ **A2. WebSite + SearchAction schema** — DONE. Same snippet. SearchAction
+      targets the search page for sitelinks searchbox eligibility.
+- [x] ✅ **A3. BreadcrumbList JSON-LD** — DONE. `snippets/breadcrumbs.liquid` now
+      emits BreadcrumbList JSON-LD alongside the visible nav for all template types.
 - [ ] 🟡 **A4. AggregateRating / Review on products** — `snippets/section-main-product.liquid:73`
       uses Shopify's `structured_data` filter (Product + Offer) but no ratings. Judge.me
       is installed — configure it to inject `AggregateRating`, or add manually.
@@ -33,13 +30,9 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 
 ## B. On-page SEO (title, headings, meta)
 
-- [ ] 🔴 **B1. Remove duplicate H1 tags** — custom-liquid blocks in template JSON
-      hardcode `<h1>` colliding with the theme's section H1. Files:
-      `templates/index.json` (2 H1s), `collection.bongs.json`, `collection.accessories.json`,
-      `collection.dabs.json`, `collection.dab-accessories.json`, `collection.vaps.json`,
-      `collection.pipes.json`, `collection.pipes-2.json`, `collection.wellness.json`,
-      `index.context.united-kingdom.json`, `page.advertise.json`, `page.suppliers.json`.
-      Fix: change hardcoded `<h1>` to `<h2>` (keep the section's H1 as the single H1).
+- [x] ✅ **B1. Remove duplicate H1 tags** — DONE. 16 custom-liquid `<h1>` → `<h2>`
+      across 12 templates + Pro Blogger related-products title H1 → H3 in article.json.
+      Every page now has exactly one H1.
 - [ ] 🟡 **B2. Meta description fallback** — `layout/theme.liquid:20` only emits
       `<meta name="description">` when `page_description` exists. Add fallback to
       `product.description` / `collection.description` / `shop.description`.
@@ -52,9 +45,9 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 
 ## C. Crawlability & canonicalization
 
-- [ ] 🟠 **C1. Canonical hardening** — `layout/theme.liquid:8` uses raw `canonical_url`.
-      Strip `?sort_by=`, `?filter.v.*`, `?view=ajax` params so filtered/sorted URLs
-      canonicalize back to the clean collection URL (prevents duplicate content).
+- [x] ✅ **C1. Canonical hardening** — NOT NEEDED. Verified live: Shopify's
+      `canonical_url` already strips `sort_by`/`filter.v.*` and preserves `?page=N`
+      correctly. No theme change required.
 - [ ] 🟠 **C2. hreflang tags** — multi-market store (US/UK/Canada per `config/markets.json`)
       but zero `<link rel="alternate" hreflang>` in theme. Add in `layout/theme.liquid`
       via `localization.available_countries`.
@@ -73,15 +66,15 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 
 ## E. Speed / Core Web Vitals
 
-- [ ] 🔴 **E1. Remove inlined render-blocking jQuery** — ~88KB inline `<script>` in
-      `<head>` (`snippets/inlineScript.liquid:8-11` → `theme.liquid:26`). Biggest
-      first-paint blocker.
-- [ ] 🟠 **E2. Retire the homegrown MutationObserver+`eval()` deferral system** —
-      `inlineScript.liquid:13-36` + `snippets/lazyScript.liquid`. Fragile, CSP-risky,
-      delays analytics 8s, redundant with native `is-land` architecture. Removing this
-      removes the jQuery dependency (E1).
-- [ ] 🟠 **E3. Defer `ajaxinate.js`** — `theme.liquid:83` loads it synchronously via
-      `script_tag` on every collection page. Use `defer`.
+- [x] ✅ **E1. Remove inlined render-blocking jQuery** — DONE. ~88KB jQuery 3.7.1
+      removed from `snippets/inlineScript.liquid`. Biggest first-paint blocker gone.
+- [x] ✅ **E2. Retire the homegrown MutationObserver+`eval()` deferral system** — DONE.
+      `snippets/lazyScript.liquid` deleted; MutationObserver removed from inlineScript.
+      Apps now load as Shopify intends (no 8s delay).
+- [x] ✅ **E3. Defer `ajaxinate.js`** — DONE. `theme.liquid` now loads it with
+      `<script defer>`. Resolved the theme.liquid ParserBlockingScript error.
+- [x] ✅ **E4. Fix `home-promo` above-the-fold images** — DONE. First panel image+logo
+      now `loading="eager" fetchpriority="high"`; rest stay lazy.
 - [ ] 🟠 **E4. Fix `home-promo` above-the-fold images** — `sections/home-promo.liquid:184-193`
       uses `loading="lazy"` on top-of-page promo panels. Change first row to
       `loading="eager" fetchpriority="high"` + preload primary image. (Our section.)
