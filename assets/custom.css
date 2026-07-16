@@ -542,4 +542,18 @@ form.cart__drawer-form div.cart__footer div.cart__item-sub {
         .section-header__title{z-index:1;}
         .collection-hero__content{z-index:1;}
       }
-  
+
+/* ===== Vertical / portrait product videos =====
+   The base theme forces video-media to 16/9 with object-fit: cover, which crops
+   vertical videos. For portrait videos we set --aspect-ratio (via inline style from
+   video-media.liquid) so the box matches the video, and switch to object-fit: contain
+   so the full frame is always visible (letterboxed) instead of cropped. */
+.video-media--portrait > video-media {
+  aspect-ratio: var(--aspect-ratio, 9 / 16);
+}
+.video-media--portrait video-media > video,
+.video-media--portrait video-media > iframe {
+  object-fit: contain !important;
+  object-position: center;
+  background: var(--color-small-image-bg, #f4f4f4);
+}

@@ -32,12 +32,23 @@
     assign external_video_host = external_video.host | default: external_video.type
     assign external_video_id = external_video.external_id | default: external_video.id
   endif
+
+  # Detect portrait video: when a natural aspect ratio is passed and < 1, the video
+  # is vertical. We set --aspect-ratio so the box matches the video (no crop) and tag
+  # it for object-fit: contain via the is-portrait class.
+  assign is_portrait = false
+  assign aspect_style = ''
+  if video_aspect_ratio != blank and video_aspect_ratio < 1
+    assign is_portrait = true
+    assign aspect_style = '--aspect-ratio: ' | append: video_aspect_ratio | append: ';'
+  endif
 %}
 
 <is-land {{ hydration }}>
   <div
-    class="video-media aspect-ratio--{{ media_crop }}"
+    class="video-media aspect-ratio--{{ media_crop }}{% if is_portrait %} video-media--portrait{% endif %}"
     data-background="{{ background }}"
+    {% if aspect_style != '' %}style="{{ aspect_style }}"{% endif %}
   >
     {%- if video != blank -%}
       {%- if autoplay -%}
