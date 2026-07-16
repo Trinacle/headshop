@@ -45,7 +45,9 @@
   {%- else -%}
     <div class="grid__item">
       <div class="collection-grid__wrapper">
-        {%- render 'item-grid-controls', context: context, enable_filters: enable_filters, enable_sort: enable_sort -%}
+        {%- unless controls_in_slot -%}
+          {%- render 'item-grid-controls', context: context, enable_filters: enable_filters, enable_sort: enable_sort -%}
+        {%- endunless -%}
         {{- slot -}}
       </div>
     </div>

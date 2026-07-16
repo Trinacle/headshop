@@ -98,56 +98,6 @@
         </div>
       </div>
     {%- endif -%}
-
-    <div class="collection-filter__item collection-filter__item--right">
-      <ul class="no-bullets inline-list inline-list--no-wrap text-right">
-        <li>
-          <button
-            type="button"
-            class="grid-view-btn{% if grid_style == 'large' %} is-active{% endif %}"
-            data-view="large"
-            title="
-              {% render 't_with_fallback', key: 'labels.large', fallback: 'Large' -%}
-            "
-          >
-            {% render 'icon', name: 'view-large' %}
-            <span class="icon__fallback-text visually-hidden">
-              {% render 't_with_fallback', key: 'labels.large', fallback: 'Large' -%}
-            </span>
-          </button>
-        </li>
-        <li>
-          <button
-            type="button"
-            class="grid-view-btn{% if grid_style == 'medium' %} is-active{% endif %}"
-            data-view="medium"
-            title="
-              {% render 't_with_fallback', key: 'labels.small', fallback: 'Small' -%}
-            "
-          >
-            {% render 'icon', name: 'view-small' %}
-            <span class="icon__fallback-text visually-hidden">
-              {% render 't_with_fallback', key: 'labels.small', fallback: 'Small' -%}
-            </span>
-          </button>
-        </li>
-        <li>
-          <button
-            type="button"
-            class="grid-view-btn{% if grid_style == 'list' %} is-active{% endif %}"
-            data-view="list"
-            title="
-              {% render 't_with_fallback', key: 'labels.list', fallback: 'List' -%}
-            "
-          >
-            {% render 'icon', name: 'view-list' %}
-            <span class="icon__fallback-text visually-hidden">
-              {% render 't_with_fallback', key: 'labels.list', fallback: 'List' -%}
-            </span>
-          </button>
-        </li>
-      </ul>
-    </div>
   </div>
 
   <div class="collection-mobile-filters medium-up--hide">

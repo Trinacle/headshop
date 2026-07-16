@@ -75,6 +75,7 @@
           {%- endpaginate -%}
         {%- when 'product_grid' -%}
           {%- assign grid_style = block.settings.grid_style -%}
+          {%- render 'item-grid-controls', context: collection, enable_filters: section.settings.enable_sidebar, enable_sort: section.settings.enable_sort -%}
           <div class="new-grid product-grid collection-grid" data-view="{{ grid_style }}" data-scroll-to>
             {{ product_items }}
           </div>
@@ -89,7 +90,8 @@
       context: collection,
       grid_style: grid_style,
       slot: collection_content,
-      paginate_by: paginate_by
+      paginate_by: paginate_by,
+      controls_in_slot: true
     -%}
   </div>
 </section-main-content>
