@@ -40,20 +40,20 @@
   </div>
   {%- if article_cards != blank -%}
     <div class="search-results-articles">
-      <h2 class="section-header__title search-results-articles__heading">Articles &amp; Pages</h2>
+      <h2 class="section-header__title search-results-articles__heading">Related Blog Posts</h2>
       <div class="new-grid product-grid collection-grid search-results-articles__grid" data-view="{{ section.settings.grid_style }}">
         {{ article_cards }}
       </div>
     </div>
   {%- endif -%}
   {%- if search_pagination.pages > 1 -%}
-    {%- render 'pagination', paginate: search_pagination -%}
+    <div class="search-infinite-scroll-pagination" data-search-pagination>
+      {%- render 'pagination', paginate: search_pagination -%}
+    </div>
   {%- endif -%}
 {%- endcapture -%}
 
 <section-main-search class="page-width page-content">
-  {%- render 'breadcrumbs' -%}
-
   <header class="section-header">
     <h1 class="section-header__title">
       {% render 't_with_fallback', key: 'labels.search', fallback: 'Search' %}
@@ -88,5 +88,53 @@
         {%- render 'item-grid', context: search, slot: search_content, paginate_by: paginate_by -%}
       </div>
     {%- endif -%}
+  {%- endif -%}
+
+  {%- if search.performed and search.results_count > 0 and search_pagination.pages > 1 -%}
+    <script>
+      (function () {
+        var productGrid = document.querySelector('.main-search__content .product-grid:not(.search-results-articles__grid)');
+        var paginationWrap = document.querySelector('[data-search-pagination]');
+        if (!productGrid || !paginationWrap) return;
+
+        var nextLink = paginationWrap.querySelector('a[href*="page="]');
+        if (!nextLink) return;
+
+        var loading = false;
+        var observer = new IntersectionObserver(function (entries) {
+          if (entries[0].isIntersecting && !loading) {
+            loadMore();
+          }
+        }, { rootMargin: '400px' });
+
+        observer.observe(paginationWrap);
+
+        function loadMore() {
+          var link = paginationWrap.querySelector('a[href*="page="]');
+          if (!link || loading) return;
+          loading = true;
+
+          fetch(link.href)
+            .then(function (res) { return res.text(); })
+            .then(function (html) {
+              var parser = new DOMParser();
+              var doc = parser.parseFromString(html, 'text/html');
+              var newProducts = doc.querySelectorAll('.main-search__content .product-grid:not(.search-results-articles__grid) > *');
+              var newPagination = doc.querySelector('[data-search-pagination]');
+
+              newProducts.forEach(function (el) { productGrid.appendChild(el); });
+
+              if (newPagination && newPagination.querySelector('a[href*="page="]')) {
+                paginationWrap.innerHTML = newPagination.innerHTML;
+                loading = false;
+              } else {
+                paginationWrap.style.display = 'none';
+                observer.disconnect();
+              }
+            })
+            .catch(function () { loading = false; });
+        }
+      })();
+    </script>
   {%- endif -%}
 </section-main-search>
