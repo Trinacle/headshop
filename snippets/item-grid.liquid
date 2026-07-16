@@ -38,7 +38,9 @@
 
     <div class="grid__item medium-up--four-fifths">
       <div class="collection-grid__wrapper">
-        {%- render 'item-grid-controls', context: context, grid_style: grid_style -%}
+        {%- unless controls_in_slot -%}
+          {%- render 'item-grid-controls', context: context, grid_style: grid_style -%}
+        {%- endunless -%}
         {{- slot -}}
       </div>
     </div>

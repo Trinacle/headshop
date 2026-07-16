@@ -162,7 +162,7 @@
               "@type": "ListItem",
               "position": {{ bc_position }},
               "name": {{ bc_parts[0] | strip | json }},
-              "item": "{{ bc_parts[1] | strip }}"
+              "item": {{ bc_parts[1] | strip | json }}
             }{%- unless forloop.last %},{% endunless -%}
           {%- endif -%}
         {%- endfor -%}

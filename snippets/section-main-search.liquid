@@ -61,7 +61,7 @@
     <p class="medium-up--hide" data-collection-count>
       {% assign info_search_result_count = 'info.search_result_count' | t: count: search.results_count %}
       {%- capture fallback_info_search_result_count -%}
-        {{ search.results_count }} result{%- if ssearch.results_count != 1 -%}s{%- endif -%}
+        {{ search.results_count }} result{%- if search.results_count != 1 -%}s{%- endif -%}
       {%- endcapture -%}
       {% render 't_with_fallback', t: info_search_result_count, fallback: fallback_info_search_result_count %}
     </p>

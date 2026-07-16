@@ -76,6 +76,9 @@
         {%- when 'product_grid' -%}
           {%- assign grid_style = block.settings.grid_style -%}
           {%- render 'item-grid-controls', context: collection, enable_filters: section.settings.enable_sidebar, enable_sort: section.settings.enable_sort -%}
+          {%- paginate collection.products by paginate_by -%}
+            <input type='hidden' name='eosh-total-pages' class='eosh-total-pages' value='{{ paginate.pages }}'>
+          {%- endpaginate -%}
           <div class="new-grid product-grid collection-grid" data-view="{{ grid_style }}" data-scroll-to>
             {{ product_items }}
           </div>
