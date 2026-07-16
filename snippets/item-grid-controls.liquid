@@ -94,6 +94,17 @@
                 {{ option.name }}
               </option>
             {%- endfor -%}
+            {%- comment -%} Add 'Latest' sort for search results (Shopify search doesn't include it by default) {%- endcomment -%}
+            {%- if context.results -%}
+              <option
+                value="created-descending"
+                {% if sort_by == 'created-descending' %}
+                  selected="selected"
+                {% endif %}
+              >
+                Latest
+              </option>
+            {%- endif -%}
           </select>
         </div>
       </div>

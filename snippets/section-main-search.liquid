@@ -13,32 +13,42 @@
 {%- liquid
   assign paginate_by = paginate_by | default: section.settings.paginate_by | default: 40
 
-  # Get search cards content
-  capture search_cards
-    if slot_search_cards != blank
-      echo slot_search_cards
-    else
-      paginate search.results by paginate_by
-        for item in search.results
-          if item.object_type == 'product'
-            render 'product-grid-item', product: item
-          else
-            render 'search-grid-item', item: item
-          endif
-        endfor
-
-        if paginate.pages > 1
-          render 'pagination', paginate: paginate
+  # Separate products from articles/pages so they display in grouped sections
+  capture product_cards
+    paginate search.results by paginate_by
+      for item in search.results
+        if item.object_type == 'product'
+          render 'product-grid-item', product: item
         endif
-      endpaginate
-    endif
+      endfor
+      assign search_pagination = paginate
+    endpaginate
+  endcapture
+
+  capture article_cards
+    for item in search.results
+      if item.object_type != 'product'
+        render 'search-grid-item', item: item
+      endif
+    endfor
   endcapture
 -%}
 
 {%- capture search_content -%}
   <div class="new-grid product-grid collection-grid" data-view="{{ section.settings.grid_style }}" data-scroll-to>
-    {{ search_cards }}
+    {{ product_cards }}
   </div>
+  {%- if article_cards != blank -%}
+    <div class="search-results-articles">
+      <h2 class="section-header__title search-results-articles__heading">Articles &amp; Pages</h2>
+      <div class="new-grid product-grid collection-grid search-results-articles__grid" data-view="{{ section.settings.grid_style }}">
+        {{ article_cards }}
+      </div>
+    </div>
+  {%- endif -%}
+  {%- if search_pagination.pages > 1 -%}
+    {%- render 'pagination', paginate: search_pagination -%}
+  {%- endif -%}
 {%- endcapture -%}
 
 <section-main-search class="page-width page-content">

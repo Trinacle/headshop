@@ -557,3 +557,14 @@ form.cart__drawer-form div.cart__footer div.cart__item-sub {
   object-position: center;
   background: var(--color-small-image-bg, #f4f4f4);
 }
+
+/* ===== Search results: grouped products / articles ===== */
+.search-results-articles {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border, #e8e8e8);
+}
+.search-results-articles__heading {
+  font-size: clamp(18px, 3vw, 28px);
+  margin-bottom: 20px;
+}
