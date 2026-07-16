@@ -190,7 +190,7 @@
                 width="{{ block.settings.image.width }}"
                 height="{{ block.settings.image.height }}"
                 class="homepromo-img"
-                loading="lazy">
+                {% if forloop.first %}loading="eager" fetchpriority="high"{% else %}loading="lazy"{% endif %}>
             </picture>
           {%- else -%}
             {{ 'image' | placeholder_svg_tag: 'homepromo-img' }}
@@ -205,7 +205,7 @@
               width="{{ block.settings.logo.width }}"
               height="{{ block.settings.logo.height }}"
               class="homepromo-logo"
-              loading="lazy">
+              {% if forloop.first %}loading="eager" fetchpriority="high"{% else %}loading="lazy"{% endif %}>
           </a>
         {%- endif -%}
       </div>

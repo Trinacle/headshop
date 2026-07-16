@@ -17,6 +17,46 @@
 
 {% if show_breadcrumbs %}
   {% unless template.name == 'index' or template.name == 'cart' %}
+    {%- comment -%} Build the breadcrumb trail as a delimited string for JSON-LD {%- endcomment -%}
+    {%- assign bc_items = '' -%}
+    {%- assign bc_home_label = 'Home' -%}
+    {%- assign bc_home_url = shop.url | append: routes.root_url -%}
+    {%- assign bc_items = bc_items | append: bc_home_label | append: '::' | append: bc_home_url | append: '||' -%}
+
+    {%- if template.name == 'product' -%}
+      {%- if collection -%}
+        {%- if show_breadcrumbs_collection_link -%}
+          {%- assign bc_items = bc_items | append: 'Collections' | append: '::' | append: shop.url | append: routes.collections_url | append: '||' -%}
+        {%- endif -%}
+        {%- if collection.handle -%}
+          {%- assign bc_items = bc_items | append: collection.title | append: '::' | append: shop.url | append: routes.collections_url | append: '/' | append: collection.handle | append: '||' -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- assign bc_items = bc_items | append: product.title | append: '::' | append: shop.url | append: product.url | append: '||' -%}
+
+    {%- elsif template.name == 'collection' and collection.handle -%}
+      {%- if show_breadcrumbs_collection_link -%}
+        {%- assign bc_items = bc_items | append: 'Collections' | append: '::' | append: shop.url | append: routes.collections_url | append: '||' -%}
+      {%- endif -%}
+      {%- assign bc_items = bc_items | append: collection.title | append: '::' | append: shop.url | append: routes.collections_url | append: '/' | append: collection.handle | append: '||' -%}
+
+    {%- elsif template.name == 'blog' -%}
+      {%- assign bc_items = bc_items | append: blog.title | append: '::' | append: shop.url | append: blog.url | append: '||' -%}
+
+    {%- elsif template.name == 'article' -%}
+      {%- assign bc_items = bc_items | append: blog.title | append: '::' | append: shop.url | append: blog.url | append: '||' -%}
+      {%- assign bc_items = bc_items | append: article.title | append: '::' | append: shop.url | append: article.url | append: '||' -%}
+
+    {%- elsif template.name == 'page' -%}
+      {%- assign bc_items = bc_items | append: page.title | append: '::' | append: shop.url | append: page.url | append: '||' -%}
+
+    {%- elsif template.name == 'search' -%}
+      {%- assign bc_items = bc_items | append: page_title | replace: '*', '' | append: '::' | append: shop.url | append: routes.search_url | append: '||' -%}
+
+    {%- else -%}
+      {%- assign bc_items = bc_items | append: page_title | append: '::' | append: canonical_url | append: '||' -%}
+    {%- endif -%}
+
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
       <a
         href="{{ routes.root_url }}"
@@ -68,7 +108,7 @@
               {% if tag_starts_with == '_' -%}
                 {%- if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif -%}
                 {%- continue -%}
-              {%- endif -%}
+              {%- endif %}
             {%- endif %}
             {% assign tag_name = tag | strip %}
             {% assign tag_text = tag_name | capitalize %}
@@ -106,5 +146,28 @@
         <span>{{ page_title }}</span>
       {% endif %}
     </nav>
+
+    {%- assign bc_list = bc_items | split: '||' -%}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {%- assign bc_position = 0 -%}
+        {%- for bc_item in bc_list -%}
+          {%- if bc_item != '' -%}
+            {%- assign bc_position = bc_position | plus: 1 -%}
+            {%- assign bc_parts = bc_item | split: '::' -%}
+            {
+              "@type": "ListItem",
+              "position": {{ bc_position }},
+              "name": {{ bc_parts[0] | strip | json }},
+              "item": "{{ bc_parts[1] | strip }}"
+            }{%- unless forloop.last %},{% endunless -%}
+          {%- endif -%}
+        {%- endfor -%}
+      ]
+    }
+    </script>
   {% endunless %}
 {% endif %}
