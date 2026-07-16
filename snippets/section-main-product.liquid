@@ -70,6 +70,31 @@
   </div>
 </section>
 
+{%- comment -%}
+  Product structured data. Uses Shopify's structured_data filter for the base
+  Product/Offer schema, then adds AggregateRating from Judge.me metafields when
+  reviews exist, so review stars appear in Google SERPs.
+
+  Google merges separate JSON-LD blocks that reference the same entity (by URL),
+  so we emit AggregateRating as a standalone node alongside the Product block.
+{%- endcomment -%}
 <script type="application/ld+json">
   {{ product | structured_data }}
 </script>
+{%- assign jdgm = product.metafields.judgeme.badge -%}
+{%- if jdgm != blank and jdgm.value.rating != blank and jdgm.value.rating != '0.0' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "url": "{{ shop.url }}{{ product.url }}",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": {{ jdgm.value.rating | json }},
+        "reviewCount": {{ jdgm.value.number_of_reviews | default: 1 | json }},
+        "bestRating": 5.0,
+        "worstRating": 1.0
+      }
+    }
+  </script>
+{%- endif -%}

@@ -15,9 +15,11 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
       targets the search page for sitelinks searchbox eligibility.
 - [x] ✅ **A3. BreadcrumbList JSON-LD** — DONE. `snippets/breadcrumbs.liquid` now
       emits BreadcrumbList JSON-LD alongside the visible nav for all template types.
-- [ ] 🟡 **A4. AggregateRating / Review on products** — `snippets/section-main-product.liquid:73`
-      uses Shopify's `structured_data` filter (Product + Offer) but no ratings. Judge.me
-      is installed — configure it to inject `AggregateRating`, or add manually.
+- [x] ✅ **A4. AggregateRating / Review on products** — DONE. Product schema now
+      appends an `AggregateRating` node from Judge.me metafields
+      (`product.metafields.judgeme.badge`) when reviews exist. Emitted as a separate
+      JSON-LD node that Google merges with the Product block by URL. Enables review
+      stars in SERPs. (If no products have reviews yet, the block is silently omitted.)
 - [x] ✅ **A5. ItemList on collection pages** — DONE. CollectionPage schema now
       includes an `ItemList` enumerating products on the current page (url + name).
 - [x] ✅ **A6. Article publisher logo fix** — DONE. Now uses `settings.logo`
