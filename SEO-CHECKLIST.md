@@ -24,8 +24,11 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
       includes an `ItemList` enumerating products on the current page (url + name).
 - [x] ✅ **A6. Article publisher logo fix** — DONE. Now uses `settings.logo`
       (shop logo); falls back to `page_image` only if no logo set.
-- [ ] ⚪ **A7. VideoObject** — `featured-video`/`hero-video`/`promo-video` sections emit
-      no video schema. Add if video content matters.
+- [ ] ⚪ **A7. VideoObject** — LOW PRIORITY. Video sections (`featured-video`,
+      `hero-video`, `promo-video`) exist only on 2 product templates
+      (`product.product-landing`, `product.puffco-plus-v3`) and there are no videos
+      on the homepage. Add VideoObject schema only if video content is actively used
+      on those templates.
 - ✅ Product schema (Product + Offer) present via `structured_data` filter.
 - ✅ FAQPage schema present (`snippets/section-faq.liquid:34-54`).
 - ✅ Article schema present (`snippets/section-article-template.liquid:226-266`).
@@ -81,7 +84,11 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 - [x] ✅ **E5. Scope `modulepreload`** — DONE. `snippets/preload-js.liquid` now scans
       the page's actual `<script type="module">` imports and preloads only those,
       instead of all ~60 import-map entries.
-- [ ] 🟡 **E6. Split `components.css` (335KB)** — audit for unused section styles.
+- [ ] 🟡 **E6. Split `components.css` (335KB)** — DEFERRED. The preload pattern
+      (`preload: true`) already makes it non-blocking. Splitting would require
+      identifying per-section CSS blocks and creating per-template stylesheets —
+      high effort with regression risk. Low marginal gain over the jQuery removal
+      and modulepreload scoping already done. Revisit if PageSpeed still flags it.
 - ✅ JS architecture is modern (ES modules, import maps, `is-land` islands).
 - ✅ Images use Shopify CDN resizing, `srcset`, `width`/`height` (low CLS).
 - ✅ Fonts use `font-display: swap` + preconnect (no FOIT).
@@ -98,22 +105,28 @@ Legend: 🔴 critical · 🟠 high · 🟡 medium · ⚪ low · ✅ verified OK
 
 ## Recommended order of attack
 
-**Phase 1 — Stop the bleeding (SEO-critical, low risk):**
-1. D1 — render article content in theme (blog indexation)
-2. B1 — fix duplicate H1s (on-page relevance)
-3. A1 + A2 — add Organization + WebSite/SearchAction schema
-4. C1 — canonical hardening (duplicate content)
+**Phase 1 — Stop the bleeding (SEO-critical):** ✅ DONE
+1. ✅ D1 — article content verified OK (Pro Blogger renders in HTML, no change needed)
+2. ✅ B1 — fixed duplicate H1s (16 H1→H2 + Pro Blogger H1→H3)
+3. ✅ A1 + A2 — Organization + WebSite/SearchAction schema added
+4. ✅ C1 — canonical verified OK (Shopify handles it)
 
-**Phase 2 — Speed wins:**
-5. E1 + E2 — remove jQuery + custom deferral system
-6. E4 — fix home-promo LCP images
-7. E3 — defer ajaxinate
+**Phase 2 — Speed wins:** ✅ DONE
+5. ✅ E1 + E2 — removed jQuery (~88KB) + custom deferral system
+6. ✅ E4 — home-promo LCP images (eager + fetchpriority)
+7. ✅ E3 — deferred ajaxinate.js
+8. ✅ E5 — scoped modulepreload to used modules only
 
-**Phase 3 — Rich results + international:**
-8. A3 — BreadcrumbList schema
-9. C2 — hreflang
-10. A4 — product ratings schema (via Judge.me config)
-11. B2, B3 — meta description fallback, alt text
+**Phase 3 — Rich results + polish:** ✅ DONE
+9. ✅ A3 — BreadcrumbList schema
+10. ✅ A4 — AggregateRating from Judge.me metafields
+11. ✅ A5 — ItemList on collection pages
+12. ✅ A6 — article publisher logo fix
+13. ✅ B2, B3 — meta description fallback + alt text fixes
+14. ✅ C2, C3 — hreflang (admin issue) + view=ajax (verified OK)
 
-**Phase 4 (separate project):**
-12. F1 — theme update to 9.1.0
+**Phase 4 (separate project, do later):**
+15. ⬜ F1 — theme update to 9.1.0 (after rankings stabilize)
+16. ⬜ E6 — split components.css (high effort, preload already mitigates)
+17. ⬜ A7 — VideoObject (only if video content is actively used)
+18. ⬜ Admin: fix UK market (`/en-gb/` redirects to `/`) in Shopify Settings → Markets
