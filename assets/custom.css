@@ -588,3 +588,25 @@ form.cart__drawer-form div.cart__footer div.cart__item-sub {
 .grid-product__reviews:empty {
   display: none;
 }
+
+/* ===== Search infinite scroll loader ===== */
+.search-infinite-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 24px 0;
+}
+.search-infinite-loader span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--color-button-primary, #d1471e);
+  animation: search-bounce 1.2s infinite ease-in-out both;
+}
+.search-infinite-loader span:nth-child(1) { animation-delay: -0.32s; }
+.search-infinite-loader span:nth-child(2) { animation-delay: -0.16s; }
+@keyframes search-bounce {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
+  40% { transform: scale(1); opacity: 1; }
+}

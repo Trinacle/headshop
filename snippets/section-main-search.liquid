@@ -13,7 +13,9 @@
 {%- liquid
   assign paginate_by = paginate_by | default: section.settings.paginate_by | default: 40
 
-  # Separate products from articles/pages so they display in grouped sections
+  # Separate products from articles/pages so they display in grouped sections.
+  # Articles are only collected/shown on the LAST page of results so they
+  # don't appear prematurely on page 1 with infinite scroll.
   capture product_cards
     paginate search.results by paginate_by
       for item in search.results
@@ -25,12 +27,18 @@
     endpaginate
   endcapture
 
+  assign show_articles = false
   capture article_cards
-    for item in search.results
-      if item.object_type != 'product'
-        render 'search-grid-item', item: item
+    paginate search.results by paginate_by
+      if search_pagination.current_page == search_pagination.pages
+        assign show_articles = true
+        for item in search.results
+          if item.object_type != 'product'
+            render 'search-grid-item', item: item
+          endif
+        endfor
       endif
-    endfor
+    endpaginate
   endcapture
 -%}
 
@@ -38,8 +46,8 @@
   <div class="new-grid product-grid collection-grid" data-view="{{ section.settings.grid_style }}" data-scroll-to>
     {{ product_cards }}
   </div>
-  {%- if article_cards != blank -%}
-    <div class="search-results-articles">
+  {%- if show_articles and article_cards != blank -%}
+    <div class="search-results-articles" data-search-articles>
       <h2 class="section-header__title search-results-articles__heading">Related Blog Posts</h2>
       <div class="new-grid product-grid collection-grid search-results-articles__grid" data-view="{{ section.settings.grid_style }}">
         {{ article_cards }}
@@ -100,6 +108,13 @@
         var nextLink = paginationWrap.querySelector('a[href*="page="]');
         if (!nextLink) return;
 
+        // Create loading indicator
+        var loader = document.createElement('div');
+        loader.className = 'search-infinite-loader';
+        loader.innerHTML = '<span></span><span></span><span></span>';
+        loader.style.display = 'none';
+        paginationWrap.parentNode.insertBefore(loader, paginationWrap);
+
         var loading = false;
         var observer = new IntersectionObserver(function (entries) {
           if (entries[0].isIntersecting && !loading) {
@@ -113,6 +128,7 @@
           var link = paginationWrap.querySelector('a[href*="page="]');
           if (!link || loading) return;
           loading = true;
+          loader.style.display = 'flex';
 
           fetch(link.href)
             .then(function (res) { return res.text(); })
@@ -121,8 +137,19 @@
               var doc = parser.parseFromString(html, 'text/html');
               var newProducts = doc.querySelectorAll('.main-search__content .product-grid:not(.search-results-articles__grid) > *');
               var newPagination = doc.querySelector('[data-search-pagination]');
+              var newArticles = doc.querySelector('[data-search-articles]');
 
               newProducts.forEach(function (el) { productGrid.appendChild(el); });
+
+              // If the fetched page included articles (last page), append them after the products
+              if (newArticles) {
+                var existingArticles = document.querySelector('[data-search-articles]');
+                if (existingArticles) {
+                  existingArticles.innerHTML = newArticles.innerHTML;
+                } else {
+                  productGrid.parentNode.appendChild(newArticles);
+                }
+              }
 
               if (newPagination && newPagination.querySelector('a[href*="page="]')) {
                 paginationWrap.innerHTML = newPagination.innerHTML;
@@ -131,8 +158,9 @@
                 paginationWrap.style.display = 'none';
                 observer.disconnect();
               }
+              loader.style.display = 'none';
             })
-            .catch(function () { loading = false; });
+            .catch(function () { loading = false; loader.style.display = 'none'; });
         }
       })();
     </script>
