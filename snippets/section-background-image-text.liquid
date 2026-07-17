@@ -48,7 +48,8 @@
       | append: section.id
     %}
     {% comment %} Full width image so don't need to adjust sizes attribute, fallback is 100vw {% endcomment %}
-    {%- render 'image-element', img: image, img_width: 2400, loading: lazyload_images, classes: classes -%}
+    {%- render 'image-element', img: image, img_width: 2400, loading: lazyload_images, classes: classes,
+              widths: '480, 720, 1080, 1600, 2000' -%}
   {%- else -%}
     {%- render 'placeholder-svg', name: 'lifestyle-1' -%}
   {%- endif -%}

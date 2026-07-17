@@ -163,7 +163,8 @@
                       class="image-wrap {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}"
                       style="height: 0; padding-bottom: {{ 100 | divided_by: block_image.aspect_ratio }}%;"
                     >
-                      {%- render 'image-element', img: block_image -%}
+                      {%- render 'image-element', img: block_image,
+              widths: '180, 360, 540, 720' -%}
                     </div>
                   {%- else -%}
                     <div class="image-wrap {% if block.settings.image_mask != 'none' %}svg-mask svg-mask--{{ block.settings.image_mask }}{% endif %}">

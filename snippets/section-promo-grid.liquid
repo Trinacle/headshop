@@ -175,7 +175,8 @@
                           img: block.settings.image,
                           loading: loading,
                           sizeVariable: block.settings.width,
-                          classes: image_classes
+                          classes: image_classes,
+              widths: '360, 540, 720, 900, 1080, 1600'
                         -%}
                       {%- else -%}
                         {%- render 'placeholder-svg', name: 'lifestyle-1' -%}
@@ -340,7 +341,8 @@
                       img: block_img,
                       loading: loading,
                       sizeVariable: block.settings.width,
-                      classes: 'image-fit'
+                      classes: 'image-fit',
+              widths: '360, 540, 720, 900, 1080, 1600'
                     -%}
                   {%- else -%}
                     {%- render 'placeholder-svg', name: 'lifestyle-1' -%}

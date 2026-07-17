@@ -80,7 +80,8 @@
               img: background_image,
               img_width: 2400,
               loading: lazyload_images,
-              classes: 'countdown__background-image'
+              classes: 'countdown__background-image',
+              widths: '400, 600, 800'
             -%}
             {% style %}
               #shopify-section-{{ section.id }} .countdown__background-image {
@@ -116,7 +117,8 @@
             {%- render 'image-element',
               img: mobile_image,
               loading: lazyload_images,
-              classes: 'countdown__mobile-image medium-up--hide'
+              classes: 'countdown__mobile-image medium-up--hide',
+              widths: '400, 600, 800'
             -%}
             {% if overlay_opacity > 0 %}
               {% assign overlay_alpha = overlay_opacity | divided_by: 100.0 %}

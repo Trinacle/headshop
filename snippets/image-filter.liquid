@@ -17,7 +17,8 @@
           {% if filter_value.active %}checked{% endif %}>
 
           <div class="image-filter__image-wrapper">
-            {%- render 'image-element', img: filter_value.image, loading: 'eager' -%}
+            {%- render 'image-element', img: filter_value.image, loading: 'eager',
+              widths: '40, 60, 80' -%}
             <span class="tag__text {% unless enable_swatch_labels %}hide{% endunless %}">
               {{ filter_value.label }}
             </span>

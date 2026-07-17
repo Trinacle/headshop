@@ -57,7 +57,8 @@
     {% if image != blank %}
       <div class="age-verification-popup__background-image-wrapper" data-background-image>
         {% comment %} Full width image so don't need to adjust sizes attribute, fallback is 100vw {% endcomment %}
-        {%- render 'image-element', img: image, img_width: 2400, classes: 'age-verification-popup__background-image' -%}
+        {%- render 'image-element', img: image, img_width: 2400, classes: 'age-verification-popup__background-image',
+              widths: '300, 400, 600' -%}
       </div>
       {% style %}
         .age-verification-popup__background-image {

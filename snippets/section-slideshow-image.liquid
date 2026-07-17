@@ -139,7 +139,8 @@
                       {%- render 'image-element',
                         img: block.settings.image,
                         loading: loading,
-                        classes: image_classes
+                        classes: image_classes,
+              widths: '480, 720, 1080, 1600, 2000, 2800'
                       -%}
                       {%- if has_mobile_image -%}
                         {% capture image_classes %}
@@ -148,7 +149,8 @@
                         {%- render 'image-element',
                           img: block.settings.image_mobile,
                           loading: loading,
-                          classes: image_classes
+                          classes: image_classes,
+              widths: '480, 720, 1080, 1600, 2000, 2800'
                         -%}
                       {%- endif -%}
                     {%- else -%}
