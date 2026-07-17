@@ -394,15 +394,6 @@
         "disabled": false,
         "settings": {}
       },
-      "12608439564960700138": {
-        "type": "shopify://apps/sezzle-widget/blocks/widget-embed/f3a53793-e118-4764-a86b-a79bfedb0d5f",
-        "disabled": false,
-        "settings": {
-          "heading": "Sezzle Widget",
-          "font_size": 13,
-          "font_family": "inherit"
-        }
-      },
       "17790009454750450185": {
         "type": "shopify://apps/nofraud-fraud-protection/blocks/nf_device/5c2706cf-d458-49c5-a6fa-4fb6b79ce2b4",
         "disabled": false,
@@ -477,6 +468,15 @@
         "type": "shopify://apps/blockify-fraud-filter/blocks/app_embed/2e3e0ba5-0e70-447a-9ec5-3bf76b5ef12e",
         "disabled": false,
         "settings": {}
+      },
+      "12608439564960700138": {
+        "type": "shopify://apps/sezzle-widget/blocks/widget-embed/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "disabled": true,
+        "settings": {
+          "heading": "Sezzle Widget",
+          "font_size": 13,
+          "font_family": "inherit"
+        }
       }
     }
   },
