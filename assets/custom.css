@@ -574,3 +574,17 @@ form.cart__drawer-form div.cart__footer div.cart__item-sub {
   font-size: clamp(18px, 3vw, 28px);
   margin-bottom: 20px;
 }
+
+/* ===== Collection grid: Judge.me review stars ===== */
+.grid-product__reviews {
+  margin: 2px 0 4px 0;
+  min-height: 18px;
+  line-height: 1;
+}
+.grid-product__reviews .jdgm-widget {
+  display: inline-block;
+}
+.grid-product__reviews.jdgm-preview-badge[data-average-rating='0.00'],
+.grid-product__reviews:empty {
+  display: none;
+}

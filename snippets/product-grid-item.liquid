@@ -341,6 +341,10 @@
             {%- if vendor_enable -%}
               <div class="grid-product__vendor">{{ product.vendor }}</div>
             {%- endif -%}
+
+            <div class="grid-product__reviews jdgm-widget jdgm-preview-badge" data-id="{{ product.id }}">
+              {{ product.metafields.judgeme.badge }}
+            </div>
           </div>
           <div class="grid-item__meta-secondary">
             <div class="grid-product__price">
