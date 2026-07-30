@@ -117,6 +117,106 @@
         "section_bottom_m": 12
       }
     },
+    "home_promo_m8qrhA": {
+      "type": "home-promo",
+      "blocks": {
+        "panel_mMQ4Gd": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/vaporizer_discreet_1.jpg",
+            "image_alt": "",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/products/penjamin-pursejamin-vaporizer?utm_source=trinacle&utm_medium=email&utm_campaign=new-gear-drop-vapes-stems-and-a-keychain-20260730",
+            "logo_url": ""
+          }
+        },
+        "panel_gdgKzn": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/vaporizer_discreet_2.jpg",
+            "image_alt": "",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/products/penjamin-lip-balm-vaporizer?utm_source=trinacle&utm_medium=email&utm_campaign=new-gear-drop-vapes-stems-and-a-keychain-20260730",
+            "logo_url": ""
+          }
+        },
+        "panel_AWNqdX": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/vaporizer_discreet_3.jpg",
+            "image_alt": "",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/products/penjamin-car-key-vaporizer?utm_source=trinacle&utm_medium=email&utm_campaign=new-gear-drop-vapes-stems-and-a-keychain-20260730",
+            "logo_url": ""
+          }
+        },
+        "panel_yz96Ja": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/vaporizer_discreet_4.jpg",
+            "image_alt": "",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/collections/discreet-vapes/products/cartisan-cohiba-vaporizer",
+            "logo_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "panel_mMQ4Gd",
+        "panel_gdgKzn",
+        "panel_AWNqdX",
+        "panel_yz96Ja"
+      ],
+      "name": "Home Promo Panel",
+      "settings": {
+        "show_overlay": true,
+        "line1": "New Discreet",
+        "line1_size": 58,
+        "line1_spacing": 0,
+        "line2": "Vapes 15% Off",
+        "line2_size": 58,
+        "line2_spacing": -6,
+        "line3": "Use Code",
+        "coupon_code": "SNEAKY",
+        "line3_size": 28,
+        "line3_spacing": -6,
+        "column_gap": 6,
+        "image_radius": 10,
+        "image_ratio": "2/3",
+        "overlay_radius": 10,
+        "text_pad_x": 16,
+        "section_top": 20,
+        "section_bottom": 20,
+        "logo_size": 42,
+        "logo_bottom": 4,
+        "logo_radius": 8,
+        "bg_color": "#fdf6f4",
+        "overlay_bg": "#000000",
+        "overlay_text_color": "#ffffff",
+        "overlay_accent_color": "#e0522b",
+        "logo_bg": "#000000",
+        "line1_size_m": 26,
+        "line1_spacing_m": 0,
+        "line2_size_m": 26,
+        "line2_spacing_m": -2,
+        "line3_size_m": 13,
+        "line3_spacing_m": -2,
+        "text_pad_x_m": 8,
+        "column_gap_m": 4,
+        "image_radius_m": 8,
+        "image_ratio_m": "2/3",
+        "overlay_radius_m": 5,
+        "logo_size_m": 40,
+        "logo_bottom_m": 4,
+        "logo_radius_m": 5,
+        "section_top_m": 12,
+        "section_bottom_m": 12
+      }
+    },
     "1655080590c5f3de7c": {
       "type": "advanced-content",
       "blocks": {
@@ -132,6 +232,7 @@
       "block_order": [
         "16550805904cdbfad9-1"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "full_width": true,
@@ -552,6 +653,7 @@
   },
   "order": [
     "home_promo_qjjjhh",
+    "home_promo_m8qrhA",
     "1655080590c5f3de7c",
     "advanced_content_ULBCa3",
     "rich_text_zN7WHJ",
