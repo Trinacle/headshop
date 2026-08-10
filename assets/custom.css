@@ -451,6 +451,25 @@ background-repeat: no-repeat;
 /* Pro Blogger */
 .proarticle {float:left;  max-width:860px; background: #FFFFFF; padding:25px; margin:0px 0px 0px 0px; }
 .proarticle a {text-decoration:underline; color:#ba4444;}
+
+/* Restore bullet points + increase line spacing in blog article content.
+   The base theme has a global ul { list-style: none; margin:0; padding:0 }
+   reset that strips all list styling. .proarticle (Pro Blogger) isn't inside
+   .rte so it doesn't get the RTE list restoration. These rules fix that. */
+.proarticle ul,
+.proarticle ol {
+  list-style: disc;
+  margin: 0 0 1.5em 0;
+  padding-left: 1.5em;
+}
+.proarticle ol { list-style: decimal; }
+.proarticle ul ul,
+.proarticle ol ol,
+.proarticle ul ol,
+.proarticle ol ul { margin-bottom: 0; }
+.proarticle li { margin-bottom: 0.5em; }
+.proarticle p { margin-bottom: 1.4em; line-height: 1.8; }
+.proarticle h2, .proarticle h3, .proarticle h4 { margin-top: 2em; margin-bottom: 0.8em; line-height: 1.4; }
 .blog-layout__sidebar{     order:0;
 flex:0 0 calc(22% - 0px);}      
       
