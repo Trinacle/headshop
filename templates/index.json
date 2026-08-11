@@ -120,73 +120,73 @@
     "home_promo_m8qrhA": {
       "type": "home-promo",
       "blocks": {
-        "panel_mMQ4Gd": {
-          "type": "panel",
-          "settings": {
-            "image": "shopify://shop_images/vaporizer_discreet_1.jpg",
-            "image_alt": "",
-            "logo_alt": "",
-            "product": "",
-            "custom_url": "https://www.headshop.com/products/penjamin-pursejamin-vaporizer?utm_source=trinacle&utm_medium=email&utm_campaign=new-gear-drop-vapes-stems-and-a-keychain-20260730",
-            "logo_url": ""
-          }
-        },
         "panel_gdgKzn": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/vaporizer_discreet_2.jpg",
+            "image": "shopify://shop_images/34ec0f1dd0f06ddbafab8272c0d54cd8_1786468623.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/products/penjamin-lip-balm-vaporizer?utm_source=trinacle&utm_medium=email&utm_campaign=new-gear-drop-vapes-stems-and-a-keychain-20260730",
+            "custom_url": "https://www.headshop.com/products/pulsar-shire-pipes-x-lotr-sauron-pipe-middle-earth-pipe-stand-bundle-5-5?utm_source=trinacle&utm_medium=email&utm_campaign=your-lotr-pipe-collection-is-calling-20260811",
+            "logo_url": ""
+          }
+        },
+        "panel_mMQ4Gd": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/56353a23b311222b98a17f25137a6dc1_1786468632_hW_1E.jpg",
+            "image_alt": "",
+            "logo_alt": "",
+            "product": "",
+            "custom_url": "https://www.headshop.com/products/pulsar-shire-pipes-x-lotr-rivendell-pipe-middle-earth-pipe-stand-bundle-12-75?utm_source=trinacle&utm_medium=email&utm_campaign=your-lotr-pipe-collection-is-calling-20260811",
             "logo_url": ""
           }
         },
         "panel_AWNqdX": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/vaporizer_discreet_3.jpg",
+            "image": "shopify://shop_images/18270bfb63290ddc6bc7e7966b6857c2_1786468632.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/products/penjamin-car-key-vaporizer?utm_source=trinacle&utm_medium=email&utm_campaign=new-gear-drop-vapes-stems-and-a-keychain-20260730",
+            "custom_url": "https://www.headshop.com/products/pulsar-shire-pipes-x-lotr-treebeard-pipe-middle-earth-pipe-stand-bundle-13?utm_source=trinacle&utm_medium=email&utm_campaign=your-lotr-pipe-collection-is-calling-20260811",
             "logo_url": ""
           }
         },
         "panel_yz96Ja": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/vaporizer_discreet_4.jpg",
+            "image": "shopify://shop_images/b708033b2822a75cde19c5c6d1240ab8_1786468854.png",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/collections/discreet-vapes/products/cartisan-cohiba-vaporizer",
+            "custom_url": "https://www.headshop.com/products/pulsar-shire-pipes-x-lotr-my-precious-pipe-middle-earth-pipe-stand-bundle-5-5?utm_source=trinacle&utm_medium=email&utm_campaign=your-lotr-pipe-collection-is-calling-20260811",
             "logo_url": ""
           }
         }
       },
       "block_order": [
-        "panel_mMQ4Gd",
         "panel_gdgKzn",
+        "panel_mMQ4Gd",
         "panel_AWNqdX",
         "panel_yz96Ja"
       ],
       "name": "Home Promo Panel",
       "settings": {
         "show_overlay": true,
-        "line1": "New Discreet",
+        "line1": "New Shire Pipes",
         "line1_size": 58,
         "line1_spacing": 0,
-        "line2": "Vapes 15% Off",
+        "line2": "Save 10% Off",
         "line2_size": 58,
         "line2_spacing": -6,
         "line3": "Use Code",
-        "coupon_code": "SNEAKY",
+        "coupon_code": "LOTR",
         "line3_size": 28,
         "line3_spacing": -6,
         "column_gap": 6,
         "image_radius": 10,
-        "image_ratio": "2/3",
+        "image_ratio": "9/16",
         "overlay_radius": 10,
         "text_pad_x": 16,
         "section_top": 20,
