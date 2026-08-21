@@ -452,13 +452,6 @@
         "disabled": false,
         "settings": {}
       },
-      "1530068250781986104": {
-        "type": "shopify://apps/fbp-fast-bundle/blocks/fast_bundle/9e87fbe2-9041-4c23-acf5-322413994cef",
-        "disabled": false,
-        "settings": {
-          "home": false
-        }
-      },
       "10312807297210203588": {
         "type": "shopify://apps/aftersell/blocks/utm-triggers/509ec35d-0632-4dfc-a105-fa799cd9d149",
         "disabled": false,
@@ -476,6 +469,21 @@
           "heading": "Sezzle Widget",
           "font_size": 13,
           "font_family": "inherit"
+        }
+      },
+      "2942349469163928282": {
+        "type": "shopify://apps/trinacle/blocks/faq-schema/01a024d1-ee1e-780b-bea1-b53d70dd86b7",
+        "disabled": false,
+        "settings": {
+          "show_visible": true,
+          "heading": "Frequently Asked Questions"
+        }
+      },
+      "6259294783905269071": {
+        "type": "shopify://apps/trinacle/blocks/custom-code/01a024d1-ee1e-780b-bea1-b53d70dd86b7",
+        "disabled": false,
+        "settings": {
+          "code": ""
         }
       }
     }
