@@ -123,44 +123,44 @@
         "panel_gdgKzn": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/34ec0f1dd0f06ddbafab8272c0d54cd8_1786468623.jpg",
+            "image": "shopify://shop_images/Sodas_in_cooler_with_ice_202608231641_1.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/products/pulsar-shire-pipes-x-lotr-sauron-pipe-middle-earth-pipe-stand-bundle-5-5?utm_source=trinacle&utm_medium=email&utm_campaign=your-lotr-pipe-collection-is-calling-20260811",
+            "custom_url": "https://www.headshop.com/products/modern-herb-co-d9-thc-blend-craft-soda-12oz-10mg-4ct-pack?utm_source=trinacle&utm_medium=email&utm_campaign=stock-up-on-thc-drinks-seltzers-save-wit-20260811",
             "logo_url": ""
           }
         },
         "panel_mMQ4Gd": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/56353a23b311222b98a17f25137a6dc1_1786468632_hW_1E.jpg",
+            "image": "shopify://shop_images/Placing_bowls_in_luxury_freezer_202608231416.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/products/pulsar-shire-pipes-x-lotr-rivendell-pipe-middle-earth-pipe-stand-bundle-12-75?utm_source=trinacle&utm_medium=email&utm_campaign=your-lotr-pipe-collection-is-calling-20260811",
+            "custom_url": "https://www.headshop.com/products/pulsar-chillr-glycerin-straight-tube-glass-water-pipe-13-14mm-f-blue?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
             "logo_url": ""
           }
         },
         "panel_AWNqdX": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/18270bfb63290ddc6bc7e7966b6857c2_1786468632.jpg",
+            "image": "shopify://shop_images/Freezing_small_smoking_pipes_202608231427.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/products/pulsar-shire-pipes-x-lotr-treebeard-pipe-middle-earth-pipe-stand-bundle-13?utm_source=trinacle&utm_medium=email&utm_campaign=your-lotr-pipe-collection-is-calling-20260811",
+            "custom_url": "https://www.headshop.com/products/eyce-glacier-spoon-pipe?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
             "logo_url": ""
           }
         },
         "panel_yz96Ja": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/b708033b2822a75cde19c5c6d1240ab8_1786468854.png",
+            "image": "shopify://shop_images/890257f49133f962d6e9a2aa828fe373_1787508254.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/products/pulsar-shire-pipes-x-lotr-my-precious-pipe-middle-earth-pipe-stand-bundle-5-5?utm_source=trinacle&utm_medium=email&utm_campaign=your-lotr-pipe-collection-is-calling-20260811",
+            "custom_url": "https://www.headshop.com/products/cooling-freeze-travel-cup-bubbler-6-14mm-f-colors-vary?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
             "logo_url": ""
           }
         }
@@ -174,14 +174,14 @@
       "name": "Home Promo Panel",
       "settings": {
         "show_overlay": true,
-        "line1": "New Shire Pipes",
+        "line1": "cold hits Everytime",
         "line1_size": 58,
         "line1_spacing": 0,
-        "line2": "Save 10% On ORder",
+        "line2": "15% off next order",
         "line2_size": 48,
         "line2_spacing": -10,
         "line3": "Use Code",
-        "coupon_code": "LOTR",
+        "coupon_code": "Chillen",
         "line3_size": 35,
         "line3_spacing": -6,
         "column_gap": 6,
