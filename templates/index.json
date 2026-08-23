@@ -9,125 +9,17 @@
  */
 {
   "sections": {
-    "home_promo_qjjjhh": {
-      "type": "home-promo",
-      "blocks": {
-        "panel_edmmTW": {
-          "type": "panel",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/remove_dope_usual_off_the_202607031313.jpg",
-            "image_alt": "Cipher Nova water hookah kit",
-            "logo": "shopify://shop_images/Cipher_logo.png",
-            "logo_alt": "Cipher",
-            "product": "",
-            "custom_url": "shopify://products/cipher-nova-water-hookah-kit",
-            "logo_url": ""
-          }
-        },
-        "panel_e33ip7": {
-          "type": "panel",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/imgi_46_588648705_18087112394054900_5505111708119400604_n.jpg",
-            "image_alt": "Dab Rite Pro e-rig",
-            "logo": "shopify://shop_images/dab-rite-logo.png",
-            "logo_alt": "Rab Rite",
-            "product": "",
-            "custom_url": "shopify://products/dab-rite-pro",
-            "logo_url": ""
-          }
-        },
-        "panel_6Qe9tD": {
-          "type": "panel",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/4th_july.png",
-            "image_alt": "4th of July sale featuring Pulsar products",
-            "logo": "shopify://shop_images/pulsar_logo.png",
-            "logo_alt": "Pulsar",
-            "product": "",
-            "custom_url": "https://www.headshop.com/collections/independence-day",
-            "logo_url": "https://www.headshop.com/collections/pulsar?sort_by=created-descending"
-          }
-        },
-        "panel_UxtdAT": {
-          "type": "panel",
-          "settings": {
-            "image": "shopify://shop_images/seshgear_mushroom_pipe_bubbler.png",
-            "image_alt": "Sesh Gear electroplated mushroom glass bubbler pipe",
-            "logo": "shopify://shop_images/sesh-gear.png",
-            "logo_alt": "Sesh Gear",
-            "product": "seshgear-electroplated-mushroom-glass-bubbler-4-75-14mm-f",
-            "custom_url": "",
-            "logo_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "panel_edmmTW",
-        "panel_e33ip7",
-        "panel_6Qe9tD",
-        "panel_UxtdAT"
-      ],
-      "disabled": true,
-      "name": "Home Promo Panel",
-      "settings": {
-        "show_overlay": true,
-        "line1": "4th of July Sale",
-        "line1_size": 74,
-        "line1_spacing": 0,
-        "line2": "Save 10% Off",
-        "line2_size": 68,
-        "line2_spacing": -6,
-        "line3": "Use Code",
-        "coupon_code": "USA",
-        "line3_size": 53,
-        "line3_spacing": -6,
-        "column_gap": 10,
-        "image_radius": 0,
-        "image_ratio": "9/16",
-        "overlay_radius": 14,
-        "text_pad_x": 16,
-        "section_top": 40,
-        "section_bottom": 40,
-        "logo_size": 45,
-        "logo_bottom": 2,
-        "logo_radius": 8,
-        "bg_color": "#fdf6f4",
-        "overlay_bg": "#000000",
-        "overlay_text_color": "#ffffff",
-        "overlay_accent_color": "#e0522b",
-        "logo_bg": "#000000",
-        "line1_size_m": 34,
-        "line1_spacing_m": 0,
-        "line2_size_m": 26,
-        "line2_spacing_m": -4,
-        "line3_size_m": 20,
-        "line3_spacing_m": 0,
-        "text_pad_x_m": 8,
-        "column_gap_m": 3,
-        "image_radius_m": 6,
-        "image_ratio_m": "9/16",
-        "overlay_radius_m": 5,
-        "logo_size_m": 71,
-        "logo_bottom_m": 4,
-        "logo_radius_m": 5,
-        "section_top_m": 12,
-        "section_bottom_m": 12
-      }
-    },
     "home_promo_m8qrhA": {
       "type": "home-promo",
       "blocks": {
-        "panel_gdgKzn": {
+        "panel_yz96Ja": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/Sodas_in_cooler_with_ice_202608231641_1.jpg",
+            "image": "shopify://shop_images/890257f49133f962d6e9a2aa828fe373_1787508254.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/products/modern-herb-co-d9-thc-blend-craft-soda-12oz-10mg-4ct-pack?utm_source=trinacle&utm_medium=email&utm_campaign=stock-up-on-thc-drinks-seltzers-save-wit-20260811",
+            "custom_url": "https://www.headshop.com/products/cooling-freeze-travel-cup-bubbler-6-14mm-f-colors-vary?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
             "logo_url": ""
           }
         },
@@ -153,23 +45,23 @@
             "logo_url": ""
           }
         },
-        "panel_yz96Ja": {
+        "panel_gdgKzn": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/890257f49133f962d6e9a2aa828fe373_1787508254.jpg",
+            "image": "shopify://shop_images/Sodas_in_cooler_with_ice_202608231641_1.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
-            "custom_url": "https://www.headshop.com/products/cooling-freeze-travel-cup-bubbler-6-14mm-f-colors-vary?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
+            "custom_url": "https://www.headshop.com/products/modern-herb-co-d9-thc-blend-craft-soda-12oz-10mg-4ct-pack?utm_source=trinacle&utm_medium=email&utm_campaign=stock-up-on-thc-drinks-seltzers-save-wit-20260811",
             "logo_url": ""
           }
         }
       },
       "block_order": [
-        "panel_gdgKzn",
+        "panel_yz96Ja",
         "panel_mMQ4Gd",
         "panel_AWNqdX",
-        "panel_yz96Ja"
+        "panel_gdgKzn"
       ],
       "name": "Home Promo Panel",
       "settings": {
@@ -652,7 +544,6 @@
     }
   },
   "order": [
-    "home_promo_qjjjhh",
     "home_promo_m8qrhA",
     "1655080590c5f3de7c",
     "advanced_content_ULBCa3",
