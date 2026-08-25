@@ -85,7 +85,7 @@
 
     {%- if product_save_amount -%}
       <span class="block-price__save product__price-savings on-sale">
-        {% assign info_save_amount = 'info.save_amount' | t: saved_amount: saved_amount %}
+        {% assign info_save_amount = 'info.save_amount' | t: saved_amount: '[[amt]]' | replace: '[[amt]]', saved_amount %}
         {%- capture fallback_info_save_amount -%}
           Save {{ saved_amount }}
         {%- endcapture -%}

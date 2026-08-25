@@ -91,7 +91,7 @@
                     {% for cart_discount in cart.cart_level_discount_applications %}
                       {%- assign savings = cart_discount.total_allocated_amount | money -%}
                       <div class="cart__discount">
-                        {% assign info_you_save_amount = 'info.you_save_amount' | t: saved_amount: savings %}
+                        {% assign info_you_save_amount = 'info.you_save_amount' | t: saved_amount: '[[amt]]' | replace: '[[amt]]', savings %}
                         {%- capture fallback_info_you_save_amount -%}
                           You save {{ savings }}
                         {%- endcapture -%}

@@ -77,7 +77,7 @@
                   {%- capture saved_amount -%}{{ 3599 | minus: 2999 | times: 100.0 | divided_by: 3599 | round }}%{%- endcapture -%}
                 {%- endif -%}
                 <span class="grid-product__price--savings">
-                  {% assign info_save_amount = 'info.save_amount' | t: saved_amount: saved_amount %}
+                  {% assign info_save_amount = 'info.save_amount' | t: saved_amount: '[[amt]]' | replace: '[[amt]]', saved_amount %}
                   {%- capture fallback_info_save_amount -%}
                     Save {{ saved_amount }}
                   {%- endcapture -%}
