@@ -103,3 +103,33 @@ Session recording (Clarity) showed errors on PDPs. 7+ apps run widgets simultane
 - `README.md` — dev workflow, deploy commands, theme-check baseline
 - `SEO-CHECKLIST.md` — full audit results, all Phase 1-3 marked complete, remaining items annotated
 - Trinacle dashboard report: app.trinacle.com/reports (Record Id 3)
+
+---
+
+## BUCKS Currency Converter (Aug 25, 2026)
+
+The app requires Settings → General → Currency formatting set to
+`<span class=money>${{amount}}</span>` in **HTML with currency** and **HTML without currency**
+(leave both **Email** fields plain — they drive order/notification emails).
+
+**Why the raw markup showed as text:** Shopify's `t` filter HTML-escapes interpolated
+variables unless the key ends in `_html`. `info.save_amount` / `info.you_save_amount` don't,
+so the "Save $X" badge printed the tags. Fixed in commit `1bb862c` across
+block-price, product-grid-item, section-search-results, section-main-cart,
+cart-ajax, onboarding-product-grid-item — the money value is now interpolated as a
+plain `[[amt]]` token and `replace`d in after translation. **Deploy this before changing
+the money format.**
+
+Checked and safe: `og:price:amount` already `strip_html`s; JSON-LD uses
+`product | structured_data` (raw numbers, SEO unaffected); `price-range.js` /
+`formatMoney` write via `innerHTML`; `labels.from_price_html` already `_html`.
+
+**Expected side effect:** Expanse disables superscript decimals when
+`shop.money_format contains 'money'`, so prices render `$65.00` instead of `$65`+superscript
+`00`. Intentional — `<sup>` inside the converted span would break the converter.
+
+**Still to verify after the format change:** PDP/cart with the 7+ price-rendering apps
+(Fast Bundle, Appstle, Sezzle, Aftersell, Judge.me) — any that build prices in JS from
+`Shopify.money_format` and inject via `textContent` will show raw tags, and that can't be
+fixed theme-side. Also confirm the converter re-runs on AJAX-injected prices (cart drawer,
+variant switch, collection infinite scroll, quick view).
