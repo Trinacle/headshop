@@ -15,6 +15,18 @@
   assign shop_name = shop.name | escape
   assign search_url = shop_url | append: routes.search_url | append: '?q={search_term_string}'
 
+  # Organization logo: the merchant's logo lives in the header SECTION block, not in
+  # theme settings, so settings.logo is blank and the logo property was being omitted
+  # entirely. Fall back to the Shopify Brand assets (Settings > Brand) so the entity
+  # carries a logo. If all three are blank the property is still omitted (no regression).
+  assign org_logo = settings.logo
+  if org_logo == blank
+    assign org_logo = shop.brand.logo
+  endif
+  if org_logo == blank
+    assign org_logo = shop.brand.square_logo
+  endif
+
   assign same_as_string = ''
   if settings.social_facebook_link != blank
     assign same_as_string = same_as_string | append: settings.social_facebook_link | append: '||'
@@ -56,12 +68,12 @@
       "@type": "Organization",
       "@id": "{{ shop_url }}/#organization",
       "name": {{ shop_name | json }},
-      "url": "{{ shop_url }}"{% if settings.logo != blank %},
+      "url": "{{ shop_url }}"{% if org_logo != blank %},
       "logo": {
         "@type": "ImageObject",
-        "url": "https:{{ settings.logo | image_url: width: 600 }}",
+        "url": "https:{{ org_logo | image_url: width: 600 }}",
         "width": 600,
-        "height": {{ settings.logo.aspect_ratio | times: 600 | round }}
+        "height": {{ org_logo.aspect_ratio | times: 600 | round }}
       }{% endif %}{% if same_as_string != '' %},
       "sameAs": [
         {%- assign same_as = same_as_string | split: '||' -%}

@@ -18,7 +18,11 @@
   assign description = 'info.placeholder_product_description' | t
 
   if product
-    assign description = product.description
+    # ~89% of the catalog ships an SEO-rewritten <h1> inside body_html, which
+    # rendered a second page-level H1 alongside the product title. Demote to <h2>
+    # here (the single render chokepoint) so the copy is kept but the duplicate
+    # H1 is not. Verified: no uppercase <H1> exists in the catalog.
+    assign description = product.description | replace: '<h1', '<h2' | replace: '</h1>', '</h2>'
   endif
 
   capture slot_button

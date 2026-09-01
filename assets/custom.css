@@ -629,3 +629,15 @@ form.cart__drawer-form div.cart__footer div.cart__item-sub {
   0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
   40% { transform: scale(1); opacity: 1; }
 }
+
+/* ── Judge.me collection-grid review stars ─────────────────────────────
+   The grid is re-rendered client-side by SearchTap (Product & Collection
+   Sort). Judge.me's loader unhides badges once at init (visibility:hidden
+   anti-FOUC), but re-inserted/lazy cards never get that pass, so their
+   badges stay invisible. Stylesheet rules apply to nodes at any time, so
+   they survive SearchTap re-insertion.
+   Scope: only initialized (.jdgm--done-setup) badges get shown; zero-review
+   badges stay hidden so we never render empty/0-star rows. Verified live on
+   /collections/pax: rated badge paints 3 lit stars + review count. */
+.grid-product__reviews.jdgm--done-setup .jdgm-prev-badge { visibility: visible !important; display: block !important; }
+.grid-product__reviews .jdgm-prev-badge[data-number-of-reviews="0"] { display: none !important; }
