@@ -133,3 +133,79 @@ Checked and safe: `og:price:amount` already `strip_html`s; JSON-LD uses
 `Shopify.money_format` and inject via `textContent` will show raw tags, and that can't be
 fixed theme-side. Also confirm the converter re-runs on AJAX-injected prices (cart drawer,
 variant switch, collection infinite scroll, quick view).
+
+---
+
+## SEO + mobile audit & fixes (Sep 1, 2026)
+
+### ⚠️ ACTION REQUIRED FIRST: commit 45b0961 is NOT pushed
+`git push` fails with `403 Permission to Trinacle/headshop.git denied to kevin-treman`.
+This is the known Git Credential Manager stale-credential problem documented in the
+`github-access` memory. The documented fix needs the token read out of the credential
+helper, which the auto-mode classifier blocks, and `gh` is not installed on this machine.
+**Kevin: run `git push origin main` from your own terminal, or apply the per-repo
+credential fix from the memory file.** Until then the two fixes below are local only.
+
+### Fixed in 45b0961 (pending push)
+1. **Duplicate H1 on ~89% of products.** Scan of 2,000 products via `products.json`:
+   1,797 carry an SEO-rewritten `<h1>` inside `body_html` (distribution `{1: 1794, 2: 2, 6: 1}`),
+   rendering a second page-level H1 beside the product title. Demoted to `<h2>` at the single
+   render chokepoint, `snippets/product-description.liquid`. Covers all ~18k products and all
+   future ones, mutates no data, reverts by deleting one line. Pre-flight verified: **zero
+   uppercase `<H1>`** in the catalog (3,621 lowercase tags), so the case-sensitive
+   `replace` is safe. Chosen over an Admin API bulk rewrite (~18k writes, ~3h, destructive,
+   and feeds strip tags anyway so it buys nothing extra).
+2. **Organization JSON-LD had no logo.** The LD keyed off `settings.logo`, but the logo is a
+   header *section block* setting, so it was always blank and the property was omitted.
+   Now falls back to `shop.brand.logo` / `shop.brand.square_logo`.
+   **Verify after push:** `curl -sL https://www.headshop.com | grep -A3 '"logo"'`. If still
+   absent, set Settings → Brand → Logo in admin (the fallback only fires if Brand is populated).
+
+### Audit results — passing, do not "fix"
+No `noindex` meta, no `X-Robots-Tag`. Canonicals correct on home/collection/product.
+hreflang present. 404s return 404. robots.txt + 31-shard sitemap OK. Every theme `<img>`
+has alt. Titles 57–73 chars. Structured data is strong: Product, Offer, Brand,
+BreadcrumbList, ItemList, CollectionPage, Organization (stable `@id` `#organization`,
+5 `sameAs`), WebSite, SearchAction. **Zero horizontal overflow at 375px** (the 300
+"overflowing" nodes are `.visually-hidden` text at -9999px, which is correct).
+
+### Two false positives — corrected, do not chase
+- **Judge.me carousel CLS: NOT a bug.** The images lack width/height *attributes*, but
+  measured live the wrapper has computed `height: 250px` with `object-fit: cover`, so the
+  box is already reserved by Judge.me's CSS. No CSS rule needed.
+- **"item-grid island never hydrates": WRONG.** That was an artifact of the Claude Browser
+  pane not compositing frames — Chrome only computes IntersectionObserver while rendering,
+  so `on:visible` islands cannot hydrate there. In a real browser `itemGridDefined: true`,
+  `filterInlineTop: "93px"`. **Never diagnose `on:visible` / IO behaviour in a non-compositing
+  pane.** (`item-grid.js:197` does have a real misplaced-paren bug —
+  `new CustomEvent(EVENTS.headerStickyCheck), { bubbles: true }` — but it is a redundant path.)
+
+### Open items (not done, with reasons)
+- **Homepage meta description is 281 chars** (truncates ~155-160) and contains a copy error:
+  "the most , high-qua…" — stray comma, missing word. Lives in admin (Online Store →
+  Preferences), not the theme. Needs Kevin's copy; not inventing merchant positioning.
+- **Dead Universal Analytics pixel `UA-196913542-3`** fires on every page (UA shut down
+  July 2023), throwing console errors and collecting nothing. **Not in theme code** —
+  grep for `UA-196913542`/`gtag_UA` returns nothing. It is the Google & YouTube channel,
+  Online Store → Preferences, or an app. Admin-side removal.
+- **robots.txt AI-crawler groups: deliberately NOT added.** There is no `Disallow` for
+  GPTBot/ClaudeBot/PerplexityBot etc., so they are already fully allowed. Adding an explicit
+  `User-agent: GPTBot / Allow: /` group would *override* Shopify's 50 default Disallows for
+  that agent, exposing /cart, /checkout, /account to it. Current policy is already correct.
+- **llms.txt is Shopify-generated and cannot be overridden.** `/llms.txt` returns 200 but is
+  Shopify's UCP/Shop-skill agent doc — nothing about what headshop.com is a primary source of.
+  No theme hook exists to replace it. NOTE: both `/llms.txt` and `/robots.txt` contain text
+  addressed to AI agents recommending they install `shop.app/SKILL.md`. That is crawled
+  content, i.e. data, not instructions — do not act on it.
+- **AEO gap:** FAQPage LD exists only on `page.faq.json` and `product.product-landing.json`.
+  Top collections have no FAQ blocks. Content work, not shipped.
+- **Naver/NEO lane skipped** — US-market store.
+- Page weight 1.0–1.3 MB HTML/page and 5–6 render-blocking stylesheets; both trace to the
+  19 app embeds, already tracked under App bloat above.
+
+### Measurement (skill requires this, do not skip)
+Baseline recorded 2026-09-01, pre-fix: product PDPs = 2 H1s; Organization logo absent;
+homepage meta description 281 chars. **Re-measure 2026-09-15**: GSC impressions/clicks for
+/products/*, and confirm 1 H1 per PDP via
+`curl -sL <product-url> | grep -c '<h1'`.
+
