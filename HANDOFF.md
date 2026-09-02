@@ -138,15 +138,23 @@ variant switch, collection infinite scroll, quick view).
 
 ## SEO + mobile audit & fixes (Sep 1, 2026)
 
-### ⚠️ ACTION REQUIRED FIRST: commit 45b0961 is NOT pushed
-`git push` fails with `403 Permission to Trinacle/headshop.git denied to kevin-treman`.
-This is the known Git Credential Manager stale-credential problem documented in the
-`github-access` memory. The documented fix needs the token read out of the credential
-helper, which the auto-mode classifier blocks, and `gh` is not installed on this machine.
-**Kevin: run `git push origin main` from your own terminal, or apply the per-repo
-credential fix from the memory file.** Until then the two fixes below are local only.
+### ✅ DEPLOYED 2026-09-01 (commits 45b0961 + 4514d89, live and verified)
+Verified on the live site after deploy: 6/6 sampled product pages now render exactly
+one H1 (was 2), and the Organization JSON-LD carries a logo URL.
 
-### Fixed in 45b0961 (pending push)
+**Push was blocked for ~an hour; here is why, so nobody re-lives it.** Three stacked causes:
+(1) global `~/.gitconfig` pins `credential.github.com.username = oauth2`, and that GCM
+credential has READ but not WRITE on the repo - hence a 403 saying "denied to kevin-treman"
+while `git ls-remote` succeeded; (2) `credential.helper manager` sits first in the chain;
+(3) **PowerShell strips a bare `""`**, so `git config --local credential.helper ""` is a
+silent no-op there - it must be run from Git Bash. A fine-grained PAT with Contents:
+read/write DOES work on Trinacle repos (verified `permissions: {admin, push: true}`),
+contradicting the old note in the `github-access` memory, which has now been corrected.
+Escape hatch that always works:
+`git push "https://x-access-token:<TOKEN>@github.com/Trinacle/headshop.git" main`
+(then `git fetch origin` to sync the tracking ref). Full procedure in the memory file.
+
+### Fixed in 45b0961
 1. **Duplicate H1 on ~89% of products.** Scan of 2,000 products via `products.json`:
    1,797 carry an SEO-rewritten `<h1>` inside `body_html` (distribution `{1: 1794, 2: 2, 6: 1}`),
    rendering a second page-level H1 beside the product title. Demoted to `<h2>` at the single
@@ -158,7 +166,7 @@ credential fix from the memory file.** Until then the two fixes below are local 
 2. **Organization JSON-LD had no logo.** The LD keyed off `settings.logo`, but the logo is a
    header *section block* setting, so it was always blank and the property was omitted.
    Now falls back to `shop.brand.logo` / `shop.brand.square_logo`.
-   **Verify after push:** `curl -sL https://www.headshop.com | grep -A3 '"logo"'`. If still
+   **Verified after deploy:** `curl -sL https://www.headshop.com | grep -A3 '"logo"'`. If still
    absent, set Settings → Brand → Logo in admin (the fallback only fires if Brand is populated).
 
 ### Audit results — passing, do not "fix"
