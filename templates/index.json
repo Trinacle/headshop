@@ -23,17 +23,6 @@
             "logo_url": ""
           }
         },
-        "panel_yz96Ja": {
-          "type": "panel",
-          "settings": {
-            "image": "shopify://shop_images/Products_on_mahogany_deck_stage_202609071804.jpg",
-            "image_alt": "",
-            "logo_alt": "",
-            "product": "cipher-arcsnap-electric-dugout",
-            "custom_url": "",
-            "logo_url": ""
-          }
-        },
         "panel_mMQ4Gd": {
           "type": "panel",
           "settings": {
@@ -42,6 +31,17 @@
             "logo_alt": "",
             "product": "pulsar-wood-on-glass-straight-tube-water-pipe-14-25-14mm-f",
             "custom_url": "https://www.headshop.com/products/pulsar-chillr-glycerin-straight-tube-glass-water-pipe-13-14mm-f-blue?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
+            "logo_url": ""
+          }
+        },
+        "panel_yz96Ja": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/Products_on_mahogany_deck_stage_202609071804.jpg",
+            "image_alt": "",
+            "logo_alt": "",
+            "product": "cipher-arcsnap-electric-dugout",
+            "custom_url": "",
             "logo_url": ""
           }
         },
@@ -59,8 +59,8 @@
       },
       "block_order": [
         "panel_AWNqdX",
-        "panel_yz96Ja",
         "panel_mMQ4Gd",
+        "panel_yz96Ja",
         "panel_gdgKzn"
       ],
       "name": "Home Promo Panel",
