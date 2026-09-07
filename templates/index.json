@@ -16,6 +16,7 @@
           "type": "panel",
           "settings": {
             "image": "shopify://shop_images/Freezing_small_smoking_pipes_202608231427.jpg",
+            "image_m": "shopify://shop_images/Product_on_patio_table_202609071807.jpg",
             "image_alt": "",
             "logo_alt": "",
             "product": "",
@@ -26,11 +27,11 @@
         "panel_yz96Ja": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/Putting_bowls_in_luxury_freezer_202608231420.jpg",
+            "image": "shopify://shop_images/Products_on_mahogany_deck_stage_202609071804.jpg",
             "image_alt": "",
             "logo_alt": "",
-            "product": "",
-            "custom_url": "https://www.headshop.com/products/grateful-dead-x-pulsar-10-year-flood-glycerin-water-pipe-kit-16-14mm-f?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
+            "product": "cipher-arcsnap-electric-dugout",
+            "custom_url": "",
             "logo_url": ""
           }
         },
