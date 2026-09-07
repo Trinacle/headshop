@@ -15,11 +15,10 @@
         "panel_AWNqdX": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/Freezing_small_smoking_pipes_202608231427.jpg",
-            "image_m": "shopify://shop_images/Product_on_patio_table_202609071807.jpg",
+            "image": "shopify://shop_images/p2.jpg",
             "image_alt": "",
             "logo_alt": "",
-            "product": "",
+            "product": "puffco-new-peak-smart-erig-1700mah-zest",
             "custom_url": "https://www.headshop.com/products/eyce-glacier-spoon-pipe?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
             "logo_url": ""
           }
@@ -67,15 +66,15 @@
       "name": "Home Promo Panel",
       "settings": {
         "show_overlay": true,
-        "line1": "cold hits Everytime",
-        "line1_size": 58,
+        "line1": "Save 20%",
+        "line1_size": 76,
         "line1_spacing": 0,
-        "line2": "15% off next order",
+        "line2": "When You Spend",
         "line2_size": 48,
         "line2_spacing": -10,
-        "line3": "Use Code",
-        "coupon_code": "Chillen",
-        "line3_size": 35,
+        "line3": "Over $100! ",
+        "coupon_code": "",
+        "line3_size": 43,
         "line3_spacing": -6,
         "column_gap": 6,
         "image_radius": 10,
