@@ -14,13 +14,6 @@
     "toolbar": {
       "type": "toolbar",
       "blocks": {
-        "announcement_eLFhUL": {
-          "type": "announcement",
-          "settings": {
-            "richtext": "<p>Save 15% Off  Use Code \"LaborDay\" ❤️🤍💙</p>",
-            "richtext_mobile": "<p>Save 15% Off  Use Code \"LaborDay\" ❤️🤍💙</p>"
-          }
-        },
         "announcement_xwnkm8": {
           "type": "announcement",
           "settings": {
@@ -30,7 +23,6 @@
         }
       },
       "block_order": [
-        "announcement_eLFhUL",
         "announcement_xwnkm8"
       ],
       "settings": {
