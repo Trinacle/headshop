@@ -140,6 +140,25 @@
   }
 </style>
 
+{%- comment -%}
+  Preload the first panel image (the LCP element on the homepage) so its fetch
+  starts as soon as the parser reaches this section, in parallel with CSS download.
+  Mirrors the srcset/sizes emitted on the first panel's <img>.
+{%- endcomment -%}
+{%- for block in section.blocks limit: 1 -%}
+  {%- if block.settings.image != blank -%}
+    <link
+      rel="preload"
+      as="image"
+      href="{{ block.settings.image | image_url: width: 800 }}"
+      imagesrcset="{{ block.settings.image | image_url: width: 400 }} 400w,
+              {{ block.settings.image | image_url: width: 800 }} 800w"
+      imagesizes="25vw"
+      fetchpriority="high"
+    >
+  {%- endif -%}
+{%- endfor -%}
+
 <div id="homepromo-{{ section.id }}">
   <div class="homepromo-wrapper">
 

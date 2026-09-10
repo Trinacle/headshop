@@ -15,6 +15,14 @@
   assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic'
 -%}
 
+{%- comment -%}
+  Preload the primary font files (header + base weights) so above-the-fold text
+  paints with the correct font as early as possible. Without preloads, the woff2
+  fetch only starts after the CSS parses, delaying the LCP text paint.
+{%- endcomment -%}
+<link rel="preload" href="{{ header_font | font_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ base_font | font_url }}" as="font" type="font/woff2" crossorigin>
+
 {%- style -%}
   {{ header_font | font_face: font_display: 'swap' }}
   {{ base_font | font_face: font_display: 'swap' }}
