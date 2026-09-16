@@ -129,7 +129,11 @@
         {%- sections 'popup-group' -%}
 
         <main class="main-content" id="MainContent">
-          {{ content_for_layout }}
+          {%- if request.page_type == 'article' -%}
+                        {{- content_for_layout | replace_first: '<img', '<img fetchpriority="high" loading="eager"' -}}
+                                  {%- else -%}
+                                              {{ content_for_layout }}
+                                                        {%- endif -%}}
         </main>
 
         {%- sections 'footer-group' -%}
