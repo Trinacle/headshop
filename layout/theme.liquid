@@ -40,8 +40,21 @@
 
     {%- render 'inlineScript' -%}
     {%- render 'font-face' -%}
-    {{ 'components.css' | asset_url | stylesheet_tag: preload: true }}
-    {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+    {%- comment -%}
+      Non-blocking CSS (preload + swap on load). Shopify's stylesheet_tag
+      preload:true parameter was NOT emitting the async pattern (verified live:
+      plain media="all" links), leaving ~350KB render-blocking CSS. This manual
+      pattern is what Shopify Dawn ships: CSS downloads in parallel with HTML
+      parsing and applies the moment it arrives, so first paint (and LCP) no
+      longer waits on CSS. Trade-off: on slow connections content may render
+      before styles land (brief unstyled paint) - acceptable vs. a blank screen,
+      and css-variables (inline) keeps colors/fonts correct during the swap.
+      noscript keeps stylesheets for no-JS visitors.
+    {%- endcomment -%}
+    <link rel="preload" href="{{ 'components.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'components.css' | asset_url }}"></noscript>
+    <link rel="preload" href="{{ 'custom.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'custom.css' | asset_url }}"></noscript>
     {%- render 'css-variables' -%}
     {{ 'overrides.css' | asset_url | stylesheet_tag }}
 
