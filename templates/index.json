@@ -15,18 +15,29 @@
         "panel_AWNqdX": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/p2.jpg",
+            "image": "shopify://shop_images/Product_on_table_with_candy_2K_20260930122205.jpg",
             "image_alt": "Eyce Glacier spoon pipe frozen glycerin cooler",
             "logo_alt": "",
-            "product": "puffco-new-peak-smart-erig-1700mah-zest",
+            "product": "pumpkin-premium-roast-toast-pipe-mug",
             "custom_url": "https://www.headshop.com/products/eyce-glacier-spoon-pipe?utm_source=trinacle&utm_medium=email&utm_campaign=glycerin-glass-deals-are-here-grab-yours-20260823",
+            "logo_url": ""
+          }
+        },
+        "panel_gdgKzn": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/Glass_hand_pipe_on_table_2K_20260930122701.jpg",
+            "image_alt": "Cloud V Electro 4 e-rig vaporizer",
+            "logo_alt": "",
+            "product": "mj-arsenal-candy-corn-pipe-halloween-limited-edition",
+            "custom_url": "",
             "logo_url": ""
           }
         },
         "panel_mMQ4Gd": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/Product_on_patio_table_202609071807.jpg",
+            "image": "shopify://shop_images/Water_pipe_with_halloween_decora__2K_20260930122247.jpg",
             "image_alt": "Pulsar ChillR glycerin straight tube water pipe",
             "logo_alt": "",
             "product": "pulsar-wood-on-glass-straight-tube-water-pipe-14-25-14mm-f",
@@ -37,21 +48,10 @@
         "panel_yz96Ja": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/Products_on_mahogany_deck_stage_202609071804.jpg",
+            "image": "shopify://shop_images/Product_on_table_at_night_2K_20260930122845.jpg",
             "image_alt": "Cipher ArcSnap electric dugout",
             "logo_alt": "",
             "product": "cipher-arcsnap-electric-dugout",
-            "custom_url": "",
-            "logo_url": ""
-          }
-        },
-        "panel_gdgKzn": {
-          "type": "panel",
-          "settings": {
-            "image": "shopify://shop_images/Products_on_mahogany_deck_stage_202609071845.jpg",
-            "image_alt": "Cloud V Electro 4 e-rig vaporizer",
-            "logo_alt": "",
-            "product": "cloud-v-electro-4-erig-6000mah",
             "custom_url": "",
             "logo_url": ""
           }
@@ -59,22 +59,22 @@
       },
       "block_order": [
         "panel_AWNqdX",
+        "panel_gdgKzn",
         "panel_mMQ4Gd",
-        "panel_yz96Ja",
-        "panel_gdgKzn"
+        "panel_yz96Ja"
       ],
       "name": "Home Promo Panel",
       "settings": {
         "show_overlay": true,
-        "line1": "Save 20%",
+        "line1": "Save 15%",
         "line1_size": 76,
         "line1_spacing": 0,
-        "line2": "When You Spend Over $100! ",
-        "line2_size": 48,
+        "line2": "On Your Next order",
+        "line2_size": 32,
         "line2_spacing": -10,
         "line3": "Use Code",
-        "coupon_code": "Secret20",
-        "line3_size": 43,
+        "coupon_code": "Spooky",
+        "line3_size": 31,
         "line3_spacing": -6,
         "column_gap": 6,
         "image_radius": 10,
