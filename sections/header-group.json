@@ -20,18 +20,10 @@
             "richtext": "<p>Free Shipping &nbsp;📦 On Orders Over $100</p>",
             "richtext_mobile": "<p>Free Shipping &nbsp;📦 On Orders Over $100</p>"
           }
-        },
-        "announcement_xwnkm8": {
-          "type": "announcement",
-          "settings": {
-            "richtext": "<p>📦 Free Shipping &nbsp;On Orders Over $100</p>",
-            "richtext_mobile": "<p>Free Shipping &nbsp;📦 On Orders Over $100</p>"
-          }
         }
       },
       "block_order": [
-        "announcement_W39rtU",
-        "announcement_xwnkm8"
+        "announcement_W39rtU"
       ],
       "settings": {
         "announcement_center": true,
