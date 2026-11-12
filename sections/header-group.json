@@ -14,24 +14,32 @@
     "toolbar": {
       "type": "toolbar",
       "blocks": {
+        "announcement_UH8cjN": {
+          "type": "announcement",
+          "settings": {
+            "richtext": "<p>BLACK Friday Sale Happening Now!</p>",
+            "richtext_mobile": "<p>BLACK Friday Sale Happening Now!</p>"
+          }
+        },
         "announcement_W39rtU": {
+          "type": "announcement",
+          "settings": {
+            "richtext": "<p>🖤 Extra 15% Off: Use Code \"BF2026\"</p>",
+            "richtext_mobile": "<p>🖤 Save Extra 15% Off: Use Code \"BF2026\"</p>"
+          }
+        },
+        "announcement_kheR6H": {
           "type": "announcement",
           "settings": {
             "richtext": "<p>Free Shipping &nbsp;📦 On Orders Over $100</p>",
             "richtext_mobile": "<p>Free Shipping &nbsp;📦 On Orders Over $100</p>"
           }
-        },
-        "announcement_UH8cjN": {
-          "type": "announcement",
-          "settings": {
-            "richtext": "<p>BLACK Friday Sale Happening Now!</p>",
-            "richtext_mobile": "<p>Free Shipping &nbsp;📦 On Orders Over $100</p>"
-          }
         }
       },
       "block_order": [
+        "announcement_UH8cjN",
         "announcement_W39rtU",
-        "announcement_UH8cjN"
+        "announcement_kheR6H"
       ],
       "settings": {
         "announcement_center": true,

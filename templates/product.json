@@ -32,6 +32,12 @@
             "color_swatches": true
           }
         },
+        "text_qxyqY6": {
+          "type": "text",
+          "settings": {
+            "text": "🖤 Extra 15% Off: Use Code \"BF2026\""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -53,6 +59,13 @@
           "settings": {
             "icon": "package",
             "text": "Free Shipping Over $100"
+          }
+        },
+        "sales_point_6b6x6X": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "ribbon",
+            "text": "Save 15% More Use Code “BF2026”"
           }
         },
         "sales_point_njETMR": {
@@ -95,10 +108,12 @@
         "title_Ur37VN",
         "judgeme_preview_badge_product_page_666b033e",
         "variant_picker",
+        "text_qxyqY6",
         "price",
         "appstle_subscription_appstle_subscription_product_page_widget_iagWJn",
         "buy_buttons",
         "sales_point",
+        "sales_point_6b6x6X",
         "sales_point_njETMR",
         "sales_point_RTrrhr",
         "sales_point3",
