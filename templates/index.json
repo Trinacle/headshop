@@ -26,10 +26,11 @@
         "panel_gdgKzn": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/Change_photo_bong_color_2K_20261024145853.jpg",
+            "image": "shopify://shop_images/Man_holding_product_with_pipe_9bc27ece_2K.jpg",
+            "image_m": "shopify://shop_images/Man_holding_product_with_pipe_9bc27ece_2K.jpg",
             "image_alt": "",
             "logo_alt": "",
-            "product": "the-big-bear-recycler",
+            "product": "pulsar-holiday-party-tree-glass-hand-pipe-5",
             "custom_url": "",
             "logo_url": ""
           }
